@@ -1,1 +1,494 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki de Ripples - Detonado, Personagens e Guia de História",
+      "description": "A Wiki de Ripples abrange atualizações de episódios, downloads oficiais, escolhas do detonado, rotas de personagens, guias de história e dicas de instalação para Android.",
+      "keywords": "Ripples, Ripples Wiki, detonado, personagens, história, download, Android, episódio",
+      "ogTitle": "Wiki de Ripples - Detonado, Personagens e Guia de História",
+      "ogDescription": "A Wiki de Ripples abrange atualizações de episódios, downloads oficiais, escolhas do detonado, rotas de personagens, guias de história e dicas de instalação para Android da visual novel de ficção científica de Jestur.",
+      "twitterTitle": "Wiki de Ripples - Detonado, Personagens e Guia de História",
+      "twitterDescription": "A Wiki de Ripples abrange atualizações de episódios, downloads oficiais, escolhas do detonado, rotas de personagens e guias de história."
+    }
+  },
+  "nav": {
+    "guide": "Guia",
+    "choices": "Escolhas",
+    "characters": "Personagens",
+    "game": "Jogo",
+    "versions": "Versões",
+    "download": "Baixar"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Baixar no itch.io",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Visual Novel de Ficção Científica Rica em História",
+    "title": "Ripples",
+    "description": "Explore Ripples, uma visual novel de ficção científica rica em história com Jack, Darci, escolhas ramificadas, múltiplas rotas e atualizações de novos episódios.",
+    "getFreeCodesCTA": "Ler Detonado",
+    "playOnSteamCTA": "Baixar no itch.io",
+    "stats": {
+      "stat1": {
+        "value": "Episódio 9",
+        "label": "Último Episódio"
+      },
+      "stat2": {
+        "value": "4,8/5",
+        "label": "Avaliação dos Usuários"
+      },
+      "stat3": {
+        "value": "4.379",
+        "label": "Total de Avaliações"
+      },
+      "stat4": {
+        "value": "10.000+",
+        "label": "Imagens"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Ripples",
+    "description": "Experimente uma visual novel de ficção científica rica em história, com escolhas ramificadas, múltiplas rotas de personagens e uma história episódica disponível para Windows, macOS, Linux e Android."
+  },
+  "tools": {
+    "title": "Ripples",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para explorar Ripples — detonados, escolhas, personagens, episódios e downloads oficiais.",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Detonado",
+        "description": "Detonado completo da história em todos os episódios e capítulos"
+      },
+      {
+        "icon": "GitBranch",
+        "title": "Guia de Escolhas",
+        "description": "Decisões ramificadas, bloqueios de rota e as melhores escolhas"
+      },
+      {
+        "icon": "Users",
+        "title": "Personagens",
+        "description": "Perfis de personagens, relacionamentos e entradas de rota"
+      },
+      {
+        "icon": "ScrollText",
+        "title": "História e Lore",
+        "description": "Cenário de ficção científica, construção de mundo e visão geral da trama principal"
+      },
+      {
+        "icon": "Clock",
+        "title": "Episódios",
+        "description": "Cronograma de lançamento dos episódios, do Episódio 1 ao Episódio 9"
+      },
+      {
+        "icon": "Image",
+        "title": "Galeria",
+        "description": "Arte conceitual, imagens promocionais e capturas de tela oficiais"
+      },
+      {
+        "icon": "Download",
+        "title": "Download",
+        "description": "Download oficial no itch.io para PC, Mac e Android"
+      },
+      {
+        "icon": "Smartphone",
+        "title": "Guia para Android",
+        "description": "Passos de instalação, armazenamento e arquivos de salvamento no Android"
+      }
+    ]
+  },
+  "modules": {
+    "ripplesWalkthrough": {
+      "title": "Detonado de Ripples",
+      "displayType": "steps",
+      "intro": "Acompanhe a história completa de Ripples desde o prólogo até o Episódio 9. Este detonado cobre o caminho principal, os momentos-chave da história e como cada capítulo se baseia no anterior.",
+      "steps": [
+        {
+          "title": "Comece pelo Prólogo",
+          "description": "O prólogo apresenta Jack e Darci e estabelece o mistério central. Leia a abertura com atenção, pois o contexto inicial molda o impacto das revelações posteriores."
+        },
+        {
+          "title": "Jogue os Episódios em Ordem",
+          "description": "Ripples conta uma história contínua ao longo dos Episódios 1 ao 9. Cada episódio começa onde o anterior terminou, então jogar na ordem de lançamento mantém o enredo coerente."
+        },
+        {
+          "title": "Preste Atenção às Decisões Importantes",
+          "description": "Várias escolhas durante a história afetam cenas e relacionamentos futuros. Preste atenção às decisões que parecem importantes, pois elas geralmente ramificam a rota."
+        },
+        {
+          "title": "Planeje Múltiplas Jogadas",
+          "description": "Como as rotas se ramificam com base nas escolhas, uma segunda ou terceira jogada revela cenas e finais diferentes. Anote quais caminhos você deseja explorar a seguir."
+        }
+      ],
+      "quickTips": [
+        "Salve o jogo antes de decisões importantes para poder revisitar resultados alternativos.",
+        "Novos episódios continuam no mesmo arquivo de salvamento, então suas escolhas são mantidas.",
+        "Se uma cena parecer desconectada, uma escolha anterior pode ter levado você por uma ramificação diferente.",
+        "O Episódio 9 é o lançamento mais recente, e os episódios anteriores estão completos e estáveis."
+      ]
+    },
+    "ripplesChoices": {
+      "title": "Guia de Escolhas de Ripples",
+      "displayType": "cards",
+      "intro": "Ripples utiliza um sistema de escolhas ramificadas onde as decisões moldam relacionamentos, desbloqueiam cenas e bloqueiam ou abrem rotas. Este guia explica como as escolhas funcionam e quais são as mais importantes.",
+      "cards": [
+        {
+          "name": "Caminhos de Decisão Ramificados",
+          "description": "Muitas escolhas dividem a história em diferentes ramificações, levando a cenas distintas, momentos de personagens e resultados mais adiante no episódio."
+        },
+        {
+          "name": "Bloqueios de Rota",
+          "description": "Algumas decisões bloqueiam você permanentemente em uma rota específica. Uma vez bloqueada, certas cenas e finais tornam-se disponíveis enquanto outros são fechados."
+        },
+        {
+          "name": "Escolhas Específicas de Personagens",
+          "description": "Escolhas direcionadas a um personagem específico constroem seu relacionamento com ele e podem desbloquear o conteúdo da rota dedicada desse personagem."
+        },
+        {
+          "name": "Consequências Através dos Episódios",
+          "description": "Decisões tomadas em episódios anteriores são mantidas, então uma escolha no Episódio 3 ainda pode afetar o que acontece nos Episódios 8 ou 9."
+        }
+      ],
+      "milestones": [
+        "Desbloqueie a primeira rota de personagem",
+        "Alcance um ponto de ramificação",
+        "Ative uma cena bloqueada",
+        "Complete uma ramificação alternativa"
+      ]
+    },
+    "ripplesCharacters": {
+      "title": "Personagens de Ripples",
+      "displayType": "cards",
+      "intro": "Ripples foca em Jack e Darci, com um elenco de apoio cujos relacionamentos mudam com base em suas escolhas. Cada personagem principal abre sua própria rota e cenas.",
+      "cards": [
+        {
+          "name": "Jack",
+          "description": "O protagonista de Ripples. A perspectiva de Jack conduz a história principal, e as escolhas do jogador moldam como Jack se relaciona com o mundo e as pessoas ao seu redor."
+        },
+        {
+          "name": "Darci",
+          "description": "A figura central na história cujo arco está intimamente ligado ao de Jack. Escolhas envolvendo Darci influenciam grandes desenvolvimentos na trama e a disponibilidade de rotas."
+        },
+        {
+          "name": "Elenco de Apoio",
+          "description": "Vários personagens secundários aparecem ao longo dos episódios, cada um com sua própria personalidade, papel no mistério de ficção científica e conteúdo de rota opcional."
+        },
+        {
+          "name": "Entradas de Rota",
+          "description": "Cada personagem principal oferece uma rota dedicada. Construir afinidade suficiente através de escolhas direcionadas abre sua rota e suas cenas e resultados únicos."
+        }
+      ]
+    },
+    "ripplesStory": {
+      "title": "História e Lore de Ripples",
+      "displayType": "cards",
+      "intro": "Ripples é uma visual novel de ficção científica rica em história, com caminhos ramificados, múltiplas rotas e um mistério central que se desenrola ao longo dos episódios. Esta seção aborda o cenário, o enredo e a construção de mundo.",
+      "cards": [
+        {
+          "name": "Cenário de Ficção Científica",
+          "description": "Ripples se passa em um mundo de ficção científica onde mistério, tecnologia e relacionamentos pessoais se entrelaçam em sua narrativa ramificada."
+        },
+        {
+          "name": "Visão Geral do Enredo Principal",
+          "description": "A história acompanha Jack e Darci enquanto eles navegam por uma série de eventos cheios de suspense, revelações e escolhas que moldam o resultado."
+        },
+        {
+          "name": "Construção de Mundo",
+          "description": "O cenário mistura a vida cotidiana com elementos de ficção científica, construindo um mundo em camadas que recompensa a atenção cuidadosa aos diálogos e detalhes do cenário."
+        },
+        {
+          "name": "Temas",
+          "description": "Temas recorrentes incluem escolha e consequência, conexão e o efeito cascata que pequenas decisões criam ao longo da história."
+        }
+      ]
+    },
+    "ripplesEpisodes": {
+      "title": "Episódios de Ripples",
+      "displayType": "timeline",
+      "intro": "Ripples é lançado em episódios, com cada novo capítulo continuando a história. O lançamento mais recente é o Episódio 9. Esta linha do tempo acompanha a progressão dos episódios.",
+      "entries": [
+        {
+          "title": "Episódio 1",
+          "type": "Estreia da Série",
+          "description": "O episódio de abertura apresenta Jack, Darci e o mistério central de ficção científica que impulsiona a história."
+        },
+        {
+          "title": "Episódios 2-5",
+          "type": "Capítulos Iniciais",
+          "description": "Estes episódios expandem o mundo, introduzem personagens coadjuvantes importantes e dão início às rotas ramificadas."
+        },
+        {
+          "title": "Episódios 6-8",
+          "type": "Meio da História",
+          "description": "O enredo se aprofunda à medida que as escolhas anteriores dão resultados, os relacionamentos se desenvolvem e o mistério central ganha mais foco."
+        },
+        {
+          "title": "Episódio 9",
+          "type": "Lançamento Mais Recente",
+          "description": "O Episódio 9 é o capítulo mais recente, lançado em 26 de abril de 2026, dando continuidade à história."
+        }
+      ]
+    },
+    "ripplesGallery": {
+      "title": "Galeria de Ripples",
+      "displayType": "cards",
+      "intro": "Uma visão selecionada do lado visual de Ripples, incluindo arte conceitual, imagens promocionais e capturas de tela oficiais que mostram o estilo de visual novel de ficção científica do jogo.",
+      "cards": [
+        {
+          "name": "Arte Conceitual",
+          "description": "Ilustrações conceituais iniciais que moldaram os personagens, ambientes e a direção visual geral de Ripples."
+        },
+        {
+          "name": "Arte Promocional",
+          "description": "Artes promocionais oficiais usadas para apresentar Ripples ao longo de seu lançamento e atualizações de episódios."
+        },
+        {
+          "name": "Capturas de Tela Oficiais",
+          "description": "Capturas de tela do jogo destacando cenas importantes, momentos de personagens e a apresentação da visual novel."
+        },
+        {
+          "name": "Retratos de Personagens",
+          "description": "Retratos de personagens e artes de expressão que dão vida a Jack, Darci e ao elenco de apoio."
+        }
+      ]
+    },
+    "ripplesDownload": {
+      "title": "Download de Ripples",
+      "displayType": "cards",
+      "intro": "Ripples está disponível oficialmente no itch.io, com versões para Windows, macOS, Linux e Android. Este guia aborda onde fazer o download, plataformas compatíveis e o que esperar.",
+      "cards": [
+        {
+          "name": "Loja Oficial do itch.io",
+          "description": "A página oficial de Ripples no itch.io fornece o download principal para todas as plataformas compatíveis. Sempre faça o download a partir da página oficial para evitar versões não oficiais."
+        },
+        {
+          "name": "Plataformas Compatíveis",
+          "description": "Ripples roda em Windows, macOS, Linux e Android. Cada plataforma tem sua própria versão disponível na página do itch.io."
+        },
+        {
+          "name": "Atualizações e Suporte no Patreon",
+          "description": "O Patreon do criador oferece uma maneira de apoiar o desenvolvimento e acompanhar as atualizações dos episódios junto com o lançamento no itch.io."
+        },
+        {
+          "name": "Versão e Atualizações",
+          "description": "Novos episódios continuam a mesma história. A página do itch.io sempre lista a versão mais recente, atualmente o Episódio 9."
+        }
+      ]
+    },
+    "ripplesAndroid": {
+      "title": "Guia de Ripples para Android",
+      "displayType": "accordion",
+      "intro": "Ripples tem uma versão oficial para Android. Este guia responde às perguntas mais comuns de instalação e jogabilidade para a versão de Android.",
+      "faqs": [
+        {
+          "question": "Como instalar o Ripples no Android?",
+          "answer": "Baixe a versão para Android na página oficial do Ripples no itch.io. No seu dispositivo, permita a instalação a partir da fonte de onde você fez o download e, em seguida, abra o arquivo para instalar."
+        },
+        {
+          "question": "De quanto espaço de armazenamento o Ripples precisa no Android?",
+          "answer": "Planeje considerando o jogo instalado mais o arquivo de download. Libere espaço com antecedência se o seu dispositivo estiver próximo do limite de armazenamento."
+        },
+        {
+          "question": "Meus saves são transferidos entre episódios no Android?",
+          "answer": "Sim. Ripples continua a mesma história ao longo dos episódios, então seu arquivo de save leva suas escolhas adiante para o próximo capítulo."
+        },
+        {
+          "question": "Quais dispositivos Android o Ripples suporta?",
+          "answer": "A versão para Android é destinada a dispositivos padrão com uma versão recente do sistema operacional. Se a versão não instalar ou não rodar, confirme se o seu dispositivo atende aos requisitos na página do itch.io."
+        },
+        {
+          "question": "O que devo fazer se a versão para Android não instalar?",
+          "answer": "Verifique se as permissões de instalação estão ativadas para a sua fonte de download, confirme se o download do arquivo foi concluído e certifique-se de ter espaço de armazenamento livre suficiente."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre o Ripples",
+    "questions": [
+      {
+        "question": "O que é o Ripples?",
+        "answer": "Ripples é uma visual novel de ficção científica rica em história criada por Jestur. Apresenta Jack e Darci, escolhas ramificadas, múltiplas rotas e uma história episódica que continua ao longo dos episódios."
+      },
+      {
+        "question": "Onde posso baixar o Ripples?",
+        "answer": "Ripples está disponível oficialmente no itch.io, com versões para Windows, macOS, Linux e Android. O criador também compartilha atualizações no Patreon."
+      },
+      {
+        "question": "Quantos episódios o Ripples tem?",
+        "answer": "Ripples é lançado em episódios. O capítulo mais recente é o Episódio 9, lançado em 26 de abril de 2026, e a história continua com atualizações futuras."
+      },
+      {
+        "question": "As escolhas importam no Ripples?",
+        "answer": "Sim. Ripples usa um sistema de escolhas ramificadas. As decisões moldam relacionamentos, desbloqueiam cenas e podem bloquear ou abrir rotas específicas de personagens."
+      },
+      {
+        "question": "O Ripples está disponível para Android?",
+        "answer": "Sim. Ripples tem uma versão oficial para Android disponível na página do itch.io, junto com as versões para Windows, macOS e Linux."
+      },
+      {
+        "question": "Quem faz o Ripples?",
+        "answer": "Ripples é criado por Jestur. A página oficial no itch.io e o Patreon são os principais canais para downloads e atualizações de episódios."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para mergulhar no Ripples?",
+    "description": "Junte-se à comunidade de Ripples no Discord para guias de escolhas, atualizações de episódios, rotas de personagens e discussões de fãs.",
+    "joinCommunity": "Entrar no Discord",
+    "joinGame": "Baixar no itch.io"
+  },
+  "footer": {
+    "title": "Wiki do Ripples",
+    "description": "Seu hub de recursos completo para guias de escolhas do Ripples, rotas de personagens, atualizações de episódios, guias de história e downloads oficiais.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Aviso Legal",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "itchio": "itch.io",
+    "patreon": "Patreon",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Ripples Wiki. Não afiliado a Jestur ou aos desenvolvedores de Ripples.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guias de Ripples",
+      "description": "Detonados completos, guias de história e dicas de progressão para Ripples em todos os episódios.",
+      "metaTitle": "Guias de Ripples - Detonado, História e Progressão",
+      "metaDescription": "Guias completos de Ripples cobrindo detonados de episódios, escolhas ramificadas, rotas de personagens e progressão da história.",
+      "categoryLabel": "GUIAS DE HISTÓRIA",
+      "whatIs": "O que são Guias?",
+      "whatIsDescription": "Guias abrangentes cobrindo detonados de episódios, progressão da história, escolhas ramificadas e rotas de personagens em toda a série Ripples.",
+      "why": "Por que ler guias?",
+      "whySteps": {
+        "step1Title": "Siga a História Principal",
+        "step1Description": "Entenda a ordem dos episódios e como cada capítulo se baseia no anterior",
+        "step2Title": "Acompanhe as Escolhas Ramificadas",
+        "step2Description": "Veja quais decisões abrem ou bloqueiam rotas",
+        "step3Title": "Planeje Suas Rotas",
+        "step3Description": "Prepare múltiplas jogadas para resultados diferentes"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
+    },
+    "download": {
+      "title": "Download de Ripples",
+      "description": "Links de download oficiais, plataformas suportadas e notas de versão para Ripples no itch.io.",
+      "metaTitle": "Download de Ripples - Versões Oficiais do itch.io",
+      "metaDescription": "Baixe Ripples oficialmente no itch.io para Windows, macOS, Linux e Android, com notas de versão e de atualização.",
+      "categoryLabel": "DOWNLOAD OFICIAL",
+      "whatIs": "Onde Baixar?",
+      "whatIsDescription": "Ripples é distribuído oficialmente no itch.io com versões para Windows, macOS, Linux e Android, além de atualizações do criador no Patreon.",
+      "why": "Por que usar o download oficial?",
+      "whySteps": {
+        "step1Title": "Seguro e Oficial",
+        "step1Description": "Sempre baixe a partir da página oficial do itch.io",
+        "step2Title": "Todas as Plataformas",
+        "step2Description": "Obtenha a versão certa para o seu dispositivo",
+        "step3Title": "Versão Mais Recente",
+        "step3Description": "A página do itch.io lista a versão atual do Episódio 9"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Download"
+    },
+    "game": {
+      "title": "Jogo Ripples",
+      "description": "Visão geral de Ripples como uma visual novel de ficção científica rica em história, seus sistemas e o que esperar.",
+      "metaTitle": "Jogo Ripples - Visão Geral da Visual Novel de Ficção Científica",
+      "metaDescription": "Saiba mais sobre Ripples, uma visual novel de ficção científica rica em história criada por Jestur, com escolhas ramificadas e uma história episódica.",
+      "categoryLabel": "---",
+      "whatIs": "VISÃO GERAL DO JOGO",
+      "whatIsDescription": "O que é Ripples?",
+      "why": "Ripples é uma visual novel de ficção científica rica em história, com escolhas ramificadas, múltiplas rotas e uma trama episódica estrelando Jack e Darci.",
+      "whySteps": {
+        "step1Title": "Por que jogar Ripples?",
+        "step1Description": "História Ramificada",
+        "step2Title": "As escolhas moldam a rota e os resultados",
+        "step2Description": "Lançamentos Episódicos",
+        "step3Title": "Acompanhe a história episódio por episódio",
+        "step3Description": "Múltiplas Rotas"
+      },
+      "featured": "Explore diferentes caminhos de personagens ao longo das jogadas",
+      "all": "Destaques e Essenciais"
+    },
+    "versions": {
+      "title": "Todos os Artigos do Jogo",
+      "description": "Episódios e Atualizações de Ripples",
+      "metaTitle": "Linha do tempo de lançamento dos episódios, notas de versão e histórico de atualizações de Ripples.",
+      "metaDescription": "Episódios e Atualizações de Ripples - Linha do Tempo de Lançamento",
+      "categoryLabel": "Acompanhe os lançamentos dos episódios de Ripples do Episódio 1 ao Episódio 9, incluindo notas de versão e histórico de atualizações.",
+      "whatIs": "ATUALIZAÇÕES DE EPISÓDIOS",
+      "whatIsDescription": "O que são Episódios?",
+      "why": "Ripples é lançado em episódios. Cada novo capítulo continua a história, com o Episódio 9 sendo o lançamento mais recente.",
+      "whySteps": {
+        "step1Title": "Por que acompanhar os episódios?",
+        "step1Description": "História Contínua",
+        "step2Title": "Cada episódio continua a mesma narrativa",
+        "step2Description": "Linha do Tempo de Lançamento",
+        "step3Title": "Veja quando cada capítulo foi lançado",
+        "step3Description": "Notas de Atualização"
+      },
+      "featured": "Acompanhe o que cada versão adiciona",
+      "all": "Destaques e Essenciais"
+    },
+    "choices": {
+      "title": "Todos os Artigos de Atualização",
+      "description": "Escolhas de Ripples",
+      "metaTitle": "Decisões ramificadas, bloqueios de rota e as melhores escolhas nos episódios de Ripples.",
+      "metaDescription": "Escolhas de Ripples - Rotas Ramificadas e Melhores Decisões",
+      "categoryLabel": "Entenda as escolhas de Ripples: decisões ramificadas, bloqueios de rota, rotas de personagens e quais decisões são mais importantes.",
+      "whatIs": "ESCOLHAS E ROTAS",
+      "whatIsDescription": "O que são Escolhas?",
+      "why": "Ripples utiliza um sistema de escolhas ramificadas onde as decisões moldam relacionamentos, desbloqueiam cenas e bloqueiam ou abrem rotas de personagens.",
+      "whySteps": {
+        "step1Title": "Por que estudar as escolhas?",
+        "step1Description": "Caminhos Ramificados",
+        "step2Title": "Veja como as decisões dividem a história",
+        "step2Description": "Bloqueios de Rota",
+        "step3Title": "Melhores Resultados",
+        "step3Description": "Encontre as escolhas que abrem as rotas que você deseja"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos sobre Escolhas"
+    },
+    "characters": {
+      "title": "Personagens de Ripples",
+      "description": "Perfis de personagens, relacionamentos e entradas de rota para o elenco de Ripples.",
+      "metaTitle": "Personagens de Ripples - Perfis, Rotas e Relacionamentos",
+      "metaDescription": "Explore os personagens de Ripples, incluindo Jack, Darci e o elenco de apoio, com perfis, relacionamentos e entradas de rota.",
+      "categoryLabel": "PERSONAGENS",
+      "whatIs": "Quem são os Personagens?",
+      "whatIsDescription": "Ripples gira em torno de Jack e Darci, apoiados por um elenco cujos relacionamentos mudam com base em suas escolhas e abrem rotas dedicadas.",
+      "why": "Por que conhecer os personagens?",
+      "whySteps": {
+        "step1Title": "Elenco Principal",
+        "step1Description": "Entenda Jack, Darci e seus papéis",
+        "step2Title": "Relacionamentos",
+        "step2Description": "Veja como as escolhas afetam cada personagem",
+        "step3Title": "Entradas de Rota",
+        "step3Description": "Descubra como desbloquear a rota de cada personagem"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Personagens"
+    }
+  }
+}
