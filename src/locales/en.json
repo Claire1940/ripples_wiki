@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Ripples Wiki - Walkthrough, Characters & Story Guide",
+      "description": "Ripples Wiki covers episode updates, official downloads, walkthrough choices, character routes, story guides, and Android install tips.",
+      "keywords": "Ripples, Ripples Wiki, walkthrough, characters, story, download, Android, episode",
+      "ogTitle": "Ripples Wiki - Walkthrough, Characters & Story Guide",
+      "ogDescription": "Ripples Wiki covers episode updates, official downloads, walkthrough choices, character routes, story guides, and Android install tips for the sci-fi visual novel by Jestur.",
+      "twitterTitle": "Ripples Wiki - Walkthrough, Characters & Story Guide",
+      "twitterDescription": "Ripples Wiki covers episode updates, official downloads, walkthrough choices, character routes, and story guides."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Story-Rich Sci-Fi Visual Novel",
+    "title": "Ripples",
+    "description": "Explore Ripples, a story-rich sci-fi visual novel featuring Jack, Darci, branching choices, multiple routes, and new episode updates.",
+    "getFreeCodesCTA": "Read Walkthrough",
+    "playOnSteamCTA": "Download on itch.io",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Episode 9",
+        "label": "Latest Episode"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "4.8/5",
+        "label": "User Rating"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "4,379",
+        "label": "Total Ratings"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "10,000+",
+        "label": "Images"
       }
     }
   },
