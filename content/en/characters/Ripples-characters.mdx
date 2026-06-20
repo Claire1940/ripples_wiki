@@ -1,0 +1,162 @@
+import { Users, Target, Heart, BookOpen, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ripples Characters: Cast Profiles and Route Guide",
+  description: "Explore the sci-fi visual novel Ripples. Learn about Jack, Darci, key character choices, route requirements, and story updates up to Episode 9.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ripples+Characters+Guide",
+  date: "2026-06-20",
+  author: "Ripples Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ripples characters** dictate how the branching sci-fi narrative unfolds across all nine episodes.
+- **Darci** remains the central heroine whose relationship points heavily influence the main story routes.
+- **Branching choices** require careful save management to experience all narrative variations.
+- **Official builds** are available on itch.io for Windows, macOS, Linux, and Android platforms.
+</Callout>
+
+<Section icon={Users} title="Ripples Characters: Main Cast Profiles">
+
+The sci-fi visual novel *Ripples* by Jestur features a compelling cast of **Ripples characters** whose lives, secrets, and relationships are deeply altered by the player's choices. Set against a backdrop of mystery and futuristic tension, the story relies on character interactions to drive the plot forward. Understanding the motivations and roles of each individual is essential for players who wish to unlock specific narrative paths and avoid dead ends.
+
+The narrative primarily revolves around Jack, the protagonist, and Darci, the central heroine. However, the supporting cast plays an equally vital role in shaping the world and introducing critical branching paths.
+
+| Character | Role | Key Attribute | First Appearance |
+|---|---|---|---|
+| **Jack** | Protagonist | Analytical, adaptable | Episode 1 |
+| **Darci** | Central Heroine | Mysterious, central to sci-fi plot | Episode 1 |
+| **Supporting Cast** | Route Enablers | Diverse, background lore providers | Various Episodes |
+
+<CardGrid cols={3}>
+  <Card title="Jack (Protagonist)">
+    As the player character, Jack's decisions form the metaphorical ripples that alter the story. His analytical nature allows him to piece together the sci-fi mysteries surrounding him.
+  </Card>
+  <Card title="Darci (Central Heroine)">
+    Darci is integral to the overarching plot. Her relationship with Jack is the emotional anchor of the game, and her route contains deep lore about the world's sci-fi elements.
+  </Card>
+  <Card title="Supporting Cast">
+    These characters flesh out the world of Ripples. Interacting with them unlocks secondary story arcs and provides context to the main narrative events.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Character Dynamics">
+Building relationships with different characters is not just about romance; it is about uncovering the truth behind the sci-fi anomalies in the game. Balancing your attention between Darci and other characters is key to experiencing a complete narrative.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Route Mechanics and Relationship Points">
+
+In *Ripples*, character routes are governed by an invisible point system. Every choice you make can either increase or decrease your affinity with specific characters. These points act as keys, unlocking exclusive dialogue options, unique scenes, and eventually, specific episode endings.
+
+To successfully navigate these routes, players must understand how choice points accumulate. The table below outlines the primary route requirements for the main characters up to the latest Episode 9 release.
+
+| Character | Key Choice Point | Relationship Points Needed | Outcome |
+|---|---|---|---|
+| **Darci** | Episode 3 Trust Choice | High (7+ Points) | Unlocks Darci's exclusive sci-fi investigation arc |
+| **Supporting Cast** | Episode 5 Assistance | Medium (4+ Points) | Unlocks secondary background lore scenes |
+| **Neutral Path** | Episode 6 Independence | Low (Under 3 Points) | Leads to the standard mystery resolution path |
+
+Every decision has a cascading effect. A seemingly minor choice in Episode 2 can prevent you from locking in Darci's route in Episode 7. Therefore, maintaining multiple save files at major decision junctions is highly recommended.
+
+| Episode | Major Choice | Impact on Darci | Impact on Supporting Cast |
+|---|---|---|---|
+| **Episode 2** | Offer assistance | +1 Point | Neutral |
+| **Episode 4** | Share the secret | +2 Points | -1 Point |
+| **Episode 6** | Investigate together | +1 Point | +1 Point |
+
+<Callout type="success" title="Maximizing Darci's Route">
+To secure the best possible outcomes with Darci, always prioritize transparent communication. Withholding information or choosing to investigate alone will invariably lower her trust points, locking you out of her advanced route options in Episode 9.
+</Callout>
+
+</Section>
+
+<Section icon={Heart} title="Step-by-Step Route Locking Guide">
+
+Securing a specific character route requires consistent decision-making across multiple episodes. Follow these steps to ensure you successfully lock in your desired character path without triggering an early game over or a neutral resolution.
+
+<Steps>
+  <Step num="1" title="Establish Early Trust">
+    During Episodes 1 to 3, focus on establishing a solid foundation of trust. Always agree to help characters when prompted and avoid dismissive dialogue choices. This ensures you meet the minimum point threshold for the mid-game branches.
+  </Step>
+  <Step num="2" title="Create Junction Saves">
+    At the start of Episode 5, create a dedicated save file. This episode serves as a major narrative junction where the story begins to split significantly based on your accumulated relationship points.
+  </Step>
+  <Step num="3" title="Commit to a Single Path">
+    In Episodes 7 and 8, avoid trying to please everyone. Splitting your choices evenly between different characters will leave you with insufficient points for any single route, default-locking you into the Neutral Path in Episode 9.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Irreversible Choices">
+Once you enter Episode 9, your route is locked. The game checks your persistent variables upon loading the episode, and no dialogue choices within Episode 9 can alter your established character route.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Story Progression and Episode Milestones">
+
+The release of Episode 9 on April 26, 2026, marked a significant milestone for *Ripples*. This update brought closure to several long-standing character arcs while setting up the final stages of the sci-fi mystery. Keeping track of your progress through each episode is vital for a seamless narrative experience.
+
+The following checklist helps players track their progress and ensure they have completed all necessary character interactions before moving forward.
+
+<Checklist
+  id="ripples-progression"
+  title="Essential Narrative Milestones:"
+  items={[
+    "Complete the Episode 3 trust sequence with Darci",
+    "Discover the hidden archive in Episode 5",
+    "Secure a high-affinity status with your chosen character by Episode 7",
+    "Unlock the exclusive Route Scene in Episode 8",
+    "Successfully transition your save file into the Episode 9 update"
+  ]}
+/>
+
+Because *Ripples* is actively in development by Jestur, save file compatibility is an important consideration. When updating the game on Windows, macOS, Linux, or Android, ensure you copy your save folder to a secure location to prevent data loss.
+
+| Episode | Release Date | Primary Narrative Focus |
+|---|---|---|
+| **Episode 7** | Late 2025 | Route division and initial sci-fi revelations |
+| **Episode 8** | Early 2026 | Deep character interactions and mystery escalation |
+| **Episode 9** | April 26, 2026 | Route climax and setup for future chapters |
+
+<Callout type="tip" title="Android Save Migration">
+If you are playing the Android version of Ripples, use a file manager to locate the game's save directory in the internal storage before updating. Copying the 'saves' folder to your desktop or cloud storage is the safest way to preserve your progress across builds.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Frequently Asked Questions">
+
+Navigating the complex narrative branches of a sci-fi visual novel can be challenging. Below are answers to the most common questions regarding the cast and route mechanics.
+
+<Callout type="info" title="Community Support">
+For real-time assistance, character discussions, and detailed fan-made flowcharts, consider joining the official Ripples Discord or visiting the r/ripples subreddit.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Can I romance multiple Ripples characters in a single playthrough?",
+    answer: "No. The game's branching logic is designed to reward commitment. Trying to balance points between multiple characters will result in a neutral route with no exclusive character endings."
+  },
+  {
+    question: "What is the consequence of failing to secure enough points for Darci?",
+    answer: "If your trust points with Darci fall below the required threshold by Episode 7, certain sci-fi lore details will remain hidden, and you will be locked into the neutral mystery route."
+  },
+  {
+    question: "How do I transfer my save files to the latest Episode 9 update?",
+    answer: "For PC users, the game automatically detects saves from previous versions if installed in the same directory. For Android users, manually backup and replace the 'saves' folder within the game's directory."
+  },
+  {
+    question: "Are there any missable characters in Ripples?",
+    answer: "Yes. Certain supporting characters will only appear or interact with Jack if specific choices are made in earlier episodes, making thorough exploration and multiple playthroughs highly rewarding."
+  }
+]} />
+
+</Section>

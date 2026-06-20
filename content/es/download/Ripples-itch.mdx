@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ripples itch: Guía de descarga, configuración en Android y guía del Episodio 9",
+  description: "Aprende cómo descargar Ripples en itch.io, instalar el APK de Android, administrar tus archivos de guardado y tomar decisiones clave en el Episodio 9.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Ripples+itch+Download+Guide",
+  date: "2026-06-20",
+  author: "Equipo de la Wiki de Ripples",
+  keywords: "Ripples, itch, descargar, Android APK, guía, Episodio 9, novela visual"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Plataforma oficial**: Descarga siempre el juego a través de la página oficial de **Ripples itch** o el Patreon del desarrollador para evitar riesgos de seguridad.
+- **Última versión**: El Episodio 9 se lanzó oficialmente el 26 de abril de 2026, introduciendo importantes expansiones en la historia y mejoras visuales.
+- **Soporte multiplataforma**: El juego es totalmente compatible con Windows, macOS, Linux y Android con una estructura de archivos de guardado compartida.
+- **Instalación en Android**: Instalar el APK oficial requiere habilitar orígenes desconocidos; se recomienda la transferencia manual de partidas guardadas entre actualizaciones.
+- **Narrativa ramificada**: Las decisiones importantes que involucran a Jack y Darci afectan significativamente las relaciones entre los personajes y el rumbo de los futuros episodios.
+</Callout>
+
+<Section icon={Map} title="Ripples itch: Descarga oficial y descripción general de la plataforma">
+
+Ripples es una novela visual de ciencia ficción inmersiva y rica en historia desarrollada por Jestur. La narrativa gira en torno al protagonista, Jack, y un personaje clave llamado Darci, sumergiendo a los jugadores en un mundo lleno de suspenso con caminos ramificados, decisiones críticas y múltiples finales narrativos. Al ser un título en desarrollo activo, el juego recibe actualizaciones episódicas periódicas que expanden el universo, introducen renderizados visuales de alta calidad y profundizan las interacciones entre los personajes.
+
+Para disfrutar del juego de forma segura y apoyar al creador, los jugadores deben acceder a la página oficial de **Ripples itch**. El uso de plataformas autorizadas garantiza que recibas archivos de juego limpios, sin alteraciones y con el contenido episódico más reciente.
+
+<Callout type="info" title="Canales oficiales de la comunidad">
+El desarrollador, Jestur, mantiene varios centros oficiales para la interacción con la comunidad, el reporte de errores y las actualizaciones de desarrollo:
+- **Página oficial de itch.io**: La tienda principal para descargar el juego en todos los sistemas operativos compatibles.
+- **Patreon**: La plataforma principal de patrocinio financiero, que ofrece acceso anticipado a los próximos episodios y blogs de desarrollo exclusivos.
+- **Discord oficial**: El centro de la comunidad vinculado directamente desde itch.io, ideal para la resolución de problemas y discusiones generales.
+- **Reddit (r/ripples)**: Un espacio comunitario impulsado por los jugadores para compartir teorías, fan art y estrategias de guías de juego.
+</Callout>
+
+El juego está desarrollado con el motor Ren'Py, lo que garantiza una alta compatibilidad en múltiples sistemas operativos de escritorio y móviles. A continuación, se presenta un resumen de las plataformas compatibles y sus respectivos requisitos:
+
+| Plataforma | SO recomendado | Formato de archivo | Almacenamiento requerido |
+| :--- | :--- | :--- | :--- |
+| Windows | Windows 10 u 11 (64 bits) | ZIP / EXE | 4.0 GB o más |
+| macOS | macOS 10.12 o más reciente | ZIP / APP | 4.0 GB o más |
+| Linux | Ubuntu 18.04+, Fedora, SteamOS | TAR.BZ2 / SH | 4.0 GB o más |
+| Android | Android 8.0 o más reciente | APK | 3.5 GB o más |
+
+</Section>
+
+<Section icon={Target} title="Instalación paso a paso y carga lateral en Android">
+
+La instalación de Ripples varía según la plataforma elegida. Mientras que los sistemas operativos de escritorio generalmente requieren una extracción simple, los dispositivos Android implican la carga lateral (sideloading) de un paquete APK. 
+
+Para garantizar un proceso de configuración sin problemas, sigue estos pasos estructurados de instalación tanto para plataformas de escritorio como móviles.
+
+<Callout type="warning" title="Evita fuentes no oficiales">
+No descargues Ripples desde sitios espejo de APK de terceros, foros de intercambio de archivos o sitios web no autorizados. Estos archivos suelen estar desactualizados, no tienen soporte y pueden contener software malicioso que comprometa la seguridad de tu dispositivo. Utiliza siempre la página oficial de **Ripples itch** o el Patreon de Jestur.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Descarga el paquete correcto">
+    Dirígete a la página oficial de itch.io o Patreon. Elige el paquete de descarga que coincida con tu sistema operativo. Los usuarios de escritorio deben descargar el archivo comprimido (ZIP o TAR), mientras que los jugadores de móviles deben descargar el archivo APK.
+  </Step>
+  <Step num="2" title="Prepara la instalación en escritorio">
+    En Windows, macOS o Linux, localiza el archivo ZIP descargado. Extrae la carpeta en un directorio dedicado de tu sistema (por ejemplo, `C:\Juegos\Ripples`). Evita extraer directamente en carpetas temporales, ya que esto puede impedir que los archivos de guardado se escriban correctamente.
+  </Step>
+  <Step num="3" title="Habilita la carga lateral en Android">
+    En tu dispositivo Android, abre los Ajustes del sistema y navega a Seguridad o Aplicaciones. Habilita la opción "Instalar aplicaciones desconocidas" o "Permitir desde esta fuente" para tu navegador web o aplicación de administración de archivos.
+  </Step>
+  <Step num="4" title="Ejecuta el instalador e inicia el juego">
+    En el escritorio, abre la carpeta extraída y haz doble clic en el archivo ejecutable (como `Ripples.exe` en Windows o `Ripples.app` en macOS). En Android, abre tu administrador de archivos, toca el archivo APK descargado y sigue las instrucciones en pantalla para completar la instalación.
+  </Step>
+</Steps>
+
+Administrar tus archivos de juego correctamente es esencial para mantener tu progreso a través de las diferentes versiones. La siguiente tabla detalla dónde almacena el motor Ren'Py tus datos de guardado en cada plataforma:
+
+| Sistema operativo | Directorio de guardado predeterminado |
+| :--- | :--- |
+| Windows | `%APPDATA%/RenPy/Ripples/` |
+| macOS | `~/Library/RenPy/Ripples/` |
+| Linux | `~/.renpy/Ripples/` |
+| Android | `/Android/data/com.jestur.ripples/files/saves/` |
+
+</Section>
+
+<Section icon={Swords} title="Rutas de personajes, trasfondo y puntos de decisión clave">
+
+El principal atractivo de Ripples radica en su intrincado diseño narrativo, centrado en gran medida en las relaciones que Jack construye con personajes clave, especialmente con Darci. Las decisiones que tomes a lo largo de cada episodio determinan la confianza del personaje, desbloquean rutas de diálogo únicas y dirigen la trama hacia diferentes ramas narrativas.
+
+Debido a que el juego utiliza un sistema de decisiones basado en variables (flags), elecciones que parecen menores en los primeros episodios pueden tener efectos en cadena en capítulos posteriores.
+
+<Callout type="tip" title="Estrategia de gestión de guardados">
+Dado que Ripples cuenta con múltiples caminos ramificados, se recomienda encarecidamente crear guardados manuales en los puntos de decisión críticos. Cambia el nombre de tus partidas guardadas o utiliza ranuras específicas para respaldar y explorar fácilmente ramas narrativas alternativas sin tener que reiniciar todo el juego.
+</Callout>
+
+Para ayudarte a navegar por las historias ramificadas de Jack y Darci, hemos recopilado un desglose de los pilares narrativos principales:
+
+<CardGrid cols={3}>
+  <Card title="Progresión de Jack">
+    - **Enfoque del protagonista**: Moldea la personalidad y las respuestas de Jack.
+    - **Alineación moral**: Equilibra las decisiones lógicas con las reacciones emocionales.
+    - **Influencia en la trama**: Dirige la investigación de Jack sobre los misterios de ciencia ficción.
+  </Card>
+  <Card title="Relación con Darci">
+    - **Construcción de confianza**: Gánate la confianza de Darci a través de decisiones de apoyo.
+    - **Escenarios únicos**: Desbloquea diálogos exclusivos centrados en el personaje.
+    - **Bloqueo de rutas**: Asegura ramas narrativas específicas en episodios posteriores.
+  </Card>
+  <Card title="Rutas ramificadas">
+    - **Historia multicamino**: Explora diferentes perspectivas del misterio principal.
+    - **Seguimiento de consecuencias**: Monitorea cómo las decisiones tempranas afectan al Episodio 9.
+    - **Valor de rejugabilidad**: Descubre detalles ocultos alterando tus elecciones.
+  </Card>
+</CardGrid>
+
+La siguiente tabla destaca los nodos de decisión clave en la narrativa y su impacto general en tu progresión:
+
+| Escena de elección | Opción A | Opción B | Consecuencia narrativa |
+| :--- | :--- | :--- | :--- |
+| Encuentro inicial | Confiar en la explicación de Darci | Cuestionar los motivos de Darci | Altera el nivel de confianza de Darci y desbloquea diálogos tempranos. |
+| El misterio de ciencia ficción | Investigar la anomalía | Asegurar el perímetro | Cambia el enfoque narrativo hacia la exploración o la seguridad. |
+| Confrontación crítica | Desescalar la situación | Tomar medidas decisivas | Determina la supervivencia de los personajes y la disponibilidad de rutas. |
+| Clímax del Episodio 9 | Aliarse con Darci | Seguir un camino independiente | Establece directamente el estado inicial para el próximo episodio. |
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión del Episodio 9 y futuras actualizaciones">
+
+Lanzado el 26 de abril de 2026, el Episodio 9 representa un hito significativo en el desarrollo de Ripples. Esta actualización introduce una gran cantidad de contenido nuevo, resolviendo varios hilos argumentales pendientes mientras presenta nuevos misterios que Jack y Darci deberán sortear.
+
+Para aprovechar al máximo la última actualización, los jugadores deben asegurarse de que sus partidas guardadas anteriores se importen correctamente y explorar todos los árboles de diálogo recién agregados.
+
+<Callout type="success" title="Mejoras del Episodio 9">
+La actualización de abril de 2026 trae varias mejoras técnicas y narrativas al juego:
+- **Mejoras visuales**: Más de 1000 escenas recién renderizadas con iluminación, modelos de personajes y entornos mejorados.
+- **Motor optimizado**: Transición a una versión actualizada de Ren'Py, lo que reduce los tiempos de carga y mejora el rendimiento en Android.
+- **Diálogo ampliado**: Rutas de conversación más profundas que reaccionan dinámicamente a las elecciones realizadas en los Episodios 1 al 8.
+</Callout>
+
+Para experimentar por completo todo lo que ofrece el Episodio 9, haz un seguimiento de tus hitos de progreso:
+
+<Checklist
+  id="episode-9-milestones"
+  title="Lista de verificación para completar el Episodio 9:"
+  items={[
+    "Importa tu archivo de guardado del Episodio 8 en el directorio correcto.",
+    "Completa el arco narrativo principal del Episodio 9.",
+    "Desbloquea las dos variaciones principales de final para el capítulo actual.",
+    "Explora las ramas de diálogo especializadas de Darci en la escena del laboratorio.",
+    "Crea una copia de seguridad limpia de tu guardado al final del Episodio 9 para usarla en el Episodio 10."
+  ]}
+/>
+
+El desarrollo de Ripples ha seguido un calendario de lanzamientos constante. La siguiente cronología ilustra la progresión de las actualizaciones principales recientes que conducen a la versión actual:
+
+| Episodio | Fecha de lanzamiento | Enfoque narrativo principal | Adiciones técnicas |
+| :--- | :--- | :--- | :--- |
+| Episodio 7 | 12 de junio de 2025 | Introducción de elementos clave de ciencia ficción | Interfaz de usuario mejorada |
+| Episodio 8 | 20 de noviembre de 2025 | Clímax de la investigación a mitad del juego | Optimización nativa para macOS |
+| Episodio 9 | 26 de abril de 2026 | Confrontaciones y resoluciones importantes de personajes | Actualización del motor Ren'Py, optimización del APK |
+
+</Section>
+
+<Section icon={Shield} title="Resolución de problemas y preguntas frecuentes">
+
+Al ser un proyecto independiente en desarrollo, los jugadores pueden encontrar ocasionalmente problemas técnicos, errores de instalación o problemas de compatibilidad con los archivos de guardado. Esta sección aborda las preguntas más comunes sobre el rendimiento del juego y la gestión de archivos.
+
+<Callout type="info" title="Consejo de soporte técnico">
+Si el juego se cierra inesperadamente al iniciarse, intenta borrar la caché en el menú de configuración de Ren'Py o elimina la carpeta temporal 'cache' dentro del directorio del juego. Esta acción no borrará tus archivos de guardado reales.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Puedo transferir mis archivos de guardado de PC a Android?",
+    answer: "Sí. Debido a que Ripples está desarrollado con el motor Ren'Py, los archivos de guardado son totalmente compatibles entre plataformas. Simplemente copia los archivos '.save' del directorio AppData de tu PC y pégalos en la carpeta 'saves' correspondiente de tu dispositivo Android."
+  },
+  {
+    question: "¿Por qué aparece el error 'Aplicación no instalada' en Android?",
+    answer: "Este error suele ocurrir si tienes instalada una versión anterior del juego con una firma diferente, o si tu dispositivo no tiene suficiente espacio de almacenamiento. Desinstala por completo la versión anterior, libera al menos 4 GB de espacio e intenta instalar el nuevo APK."
+  },
+  {
+    question: "¿Está Ripples disponible en plataformas como Steam, Epic Games o Roblox?",
+    answer: "No. Ripples es una novela visual independiente alojada exclusivamente en itch.io y Patreon. Cualquier publicación en otras plataformas no está autorizada y debe evitarse para proteger tu seguridad."
+  },
+  {
+    question: "¿Cómo puedo actualizar el juego sin perder mi progreso?",
+    answer: "En PC, extrae la nueva versión en una carpeta separada; tus partidas guardadas se almacenan en un directorio global del sistema y se cargarán automáticamente. En Android, instalar el nuevo APK sobre la aplicación existente la actualizará conservando tus partidas guardadas, aunque siempre se recomienda hacer una copia de seguridad de tus archivos de guardado de antemano."
+  }
+]} />
+
+</Section>

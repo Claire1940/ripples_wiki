@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Descarga de Ripples para PC: Guía oficial de configuración e instalación",
+  description: "Obtén la descarga oficial de Ripples para PC. Aprende a instalar el Episodio 9 de forma segura en Windows, macOS y Linux, y a gestionar tus archivos de guardado.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ripples+PC+Download+Guide",
+  date: "2026-06-20",
+  author: "Equipo de la Wiki de Ripples"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Fuente oficial**: Asegura la **descarga de Ripples para PC** exclusivamente a través de itch.io o la página de Patreon de Jestur.
+- **Última versión**: El Episodio 9, lanzado el 26 de abril de 2026, incluye importantes avances en la historia.
+- **Soporte de plataformas**: Totalmente compatible con Windows, macOS, Linux y Android.
+- **Conservación de partidas**: Mantén intacta tu carpeta de guardado de Ren'Py para transferir tus elecciones a los nuevos episodios.
+</Callout>
+
+<Section icon={Shield} title="Plataformas oficiales y descripción general del juego">
+
+Si estás buscando la **descarga oficial de Ripples para PC**, obtener tus archivos de fuentes verificadas es el paso más crítico. Creado por Jestur, *Ripples* es una novela visual de ciencia ficción con una rica narrativa que se centra en los personajes Jack y Darci. El juego presenta una trama intrincada llena de suspenso de ciencia ficción, decisiones ramificadas y múltiples rutas distintas que dan forma al resultado final. 
+
+Dado que el juego está en desarrollo activo, las actualizaciones se lanzan periódicamente. El último gran lanzamiento, el Episodio 9, se estrenó el 26 de abril de 2026, trayendo consigo importantes desarrollos en la trama y expandiendo las interacciones entre los personajes. Para garantizar una instalación segura y apoyar al creador, los jugadores solo deben obtener el juego a través de canales de distribución verificados.
+
+| Sistema operativo | Versión mínima de SO | RAM recomendada | Almacenamiento requerido |
+|---|---|---|---|
+| Windows | Windows 7 o posterior | 4 GB | 5 GB disponible |
+| macOS | macOS 10.12 o posterior | 4 GB | 5 GB disponible |
+| Linux | Ubuntu 18.04 o posterior | 4 GB | 5 GB disponible |
+
+<Callout type="warning" title="Evita sitios espejo de terceros">
+Nunca descargues archivos del juego desde sitios espejo no oficiales o redes de intercambio de archivos P2P. Estos archivos suelen estar desactualizados, no tienen soporte y pueden contener software malicioso que comprometa la seguridad de tu computadora.
+</Callout>
+
+El uso de canales oficiales como itch.io o Patreon garantiza que recibas el paquete de Ren'Py auténtico y sin modificar. También garantiza la compatibilidad con los parches oficiales y te permite transferir fácilmente tu progreso a medida que se lanza nuevo contenido.
+
+</Section>
+
+<Section icon={Map} title="Guía paso a paso para la descarga de Ripples en PC">
+
+Instalar el juego en una computadora es un proceso sencillo, pero varía ligeramente según tu sistema operativo. Dado que el juego está empaquetado como un proyecto independiente de Ren'Py, no requiere un asistente de instalación complejo. En su lugar, extraerás los archivos y ejecutarás el juego directamente.
+
+Sigue estos pasos para completar la instalación en tu computadora:
+
+<Steps>
+  <Step num="1" title="Visita la página oficial del juego">
+    Navega a la página oficial de Ripples en itch.io o al perfil de Patreon de Jestur. Estas son las únicas plataformas donde el desarrollador sube las versiones oficiales.
+  </Step>
+  <Step num="2" title="Selecciona la versión para tu sistema operativo">
+    Elige el enlace de descarga que corresponda a tu sistema operativo. Se proporcionan paquetes separados para Windows, macOS y Linux.
+  </Step>
+  <Step num="3" title="Extrae los archivos del archivo comprimido">
+    Una vez completada la descarga, localiza el archivo comprimido ZIP o TAR. Extrae el contenido en una carpeta dedicada en tu unidad local utilizando una herramienta de extracción.
+  </Step>
+  <Step num="4" title="Ejecuta el archivo ejecutable">
+    Abre la carpeta extraída y ejecuta el archivo ejecutable específico de tu plataforma para comenzar a jugar el último episodio.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Verificación de Gatekeeper en macOS">
+En macOS, es posible que encuentres una advertencia de desarrollador no identificado al iniciar la aplicación. Para omitir esto, mantén presionada la tecla Control, haz clic en el ícono de la aplicación, selecciona Abrir y confirma la acción.
+</Callout>
+
+Para los usuarios de Linux, asegúrense de otorgar permisos de ejecución al script de inicio. Pueden lograr esto abriendo una terminal en el directorio del juego y ejecutando el comando `chmod +x Ripples.sh` antes de ejecutarlo.
+
+</Section>
+
+<Section icon={Target} title="Gestión de archivos de guardado y configuración del directorio">
+
+Debido a que *Ripples* se basa en la toma de decisiones a largo plazo, mantener a salvo tus archivos de guardado es vital. El juego utiliza el motor Ren'Py, que guarda el progreso en un directorio del sistema independiente de la carpeta principal del juego. Este diseño te permite eliminar o actualizar los archivos del juego sin perder tu progreso en la historia.
+
+Al actualizar desde una versión anterior al Episodio 9, el juego debería detectar automáticamente tus partidas guardadas existentes. Sin embargo, se recomienda encarecidamente crear una copia de seguridad manual antes de realizar cualquier operación con los archivos.
+
+| Plataforma | Ruta del directorio de guardado | Tipos de archivo |
+|---|---|---|
+| Windows | %APPDATA%/RenPy/Ripples/ | .save, persistent |
+| macOS | ~/Library/RenPy/Ripples/ | .save, persistent |
+| Linux | ~/.renpy/Ripples/ | .save, persistent |
+
+<Callout type="info" title="Mantenimiento de datos persistentes">
+El archivo llamado `persistent` almacena las imágenes de la galería desbloqueadas y los logros de ruta globales. No elimines este archivo, o restablecerás tu progreso global desbloqueado.
+</Callout>
+
+Para transferir archivos de guardado entre diferentes computadoras, simplemente copia toda la carpeta `Ripples` del directorio correspondiente mencionado anteriormente y pégala en la ruta correspondiente de tu máquina de destino. Este método también funciona al transferir el progreso de una PC a un dispositivo Android.
+
+</Section>
+
+<Section icon={Swords} title="Narrativa y mecánica de elecciones del Episodio 9">
+
+La experiencia de juego de *Ripples* se centra en analizar los motivos de los personajes y tomar decisiones que influyen en la relación de Jack con Darci. A medida que la historia avanza hacia el Episodio 9, las consecuencias de tus elecciones iniciales se vuelven mucho más prominentes, bloqueando o desbloqueando caminos narrativos específicos.
+
+Comprender la estructura de estos caminos puede ayudarte a navegar por el complejo misterio de ciencia ficción de manera más efectiva:
+
+<CardGrid cols={3}>
+  <Card title="Perspectiva de Jack">
+    - Se centra en desentrañar los elementos de ciencia ficción
+    - Determina la dirección principal de la investigación
+    - Influye en cómo reacciona Jack ante anomalías inesperadas
+  </Card>
+  <Card title="Ruta de confianza de Darci">
+    - Construida sobre una comunicación transparente
+    - Desbloquea escenas exclusivas del trasfondo de la historia
+    - Requiere un apoyo constante durante eventos críticos
+  </Card>
+  <Card title="Variables de ramificación">
+    - Realiza un seguimiento de elecciones sutiles en todos los episodios
+    - Afecta el diálogo de los personajes en el Episodio 9
+    - Determina la disponibilidad de finales específicos
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Desbloquear escenas ocultas">
+Mantener un enfoque equilibrado en el que priorices la honestidad con Darci generalmente conduce a las revelaciones de la historia más completas en el último episodio.
+</Callout>
+
+La línea de tiempo narrativa muestra cómo ha evolucionado el proyecto a lo largo de su ciclo de desarrollo. Cada episodio introduce caminos ramificados más complejos, por lo que tomar decisiones con cuidado es esencial.
+
+| Episodio | Fecha de lanzamiento | Enfoque narrativo clave |
+|---|---|---|
+| Episodio 7 | Finales de 2025 | Introducción de caminos ramificados importantes |
+| Episodio 8 | Principios de 2026 | Profundización en el misterio central de ciencia ficción |
+| Episodio 9 | Abril de 2026 | Desarrollos cruciales en las rutas de los personajes |
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de descarga y consejos de optimización">
+
+Antes de iniciar el Episodio 9, debes asegurarte de que tu computadora esté completamente optimizada para ejecutar el juego sin problemas. Aunque las novelas visuales no son muy exigentes con el hardware, ciertos ajustes pueden mejorar las transiciones de imágenes y la calidad de reproducción de audio.
+
+Usa esta lista de verificación para preparar tu sistema para la mejor experiencia posible:
+
+<Checklist
+  id="pc-setup-checklist"
+  title="Lista de verificación previa al lanzamiento:"
+  items={[
+    "Verifica que tienes al menos 5 GB de espacio de almacenamiento local libre.",
+    "Realiza una copia de seguridad de tus archivos de guardado existentes desde la carpeta AppData.",
+    "Actualiza los controladores de tu tarjeta gráfica para admitir el renderizado OpenGL.",
+    "Cierra aplicaciones pesadas en segundo plano para evitar tartamudeos en el audio.",
+    "Configura las opciones de la ventana del juego para que coincidan con la resolución nativa de tu escritorio."
+  ]}
+/>
+
+<Callout type="tip" title="Ajustes del renderizador de Ren'Py">
+Si experimentas retrasos (lag) durante las transiciones de pantalla, presiona Shift+G mientras estás en el juego para abrir el menú de selección del renderizador. Cambiar de OpenGL a Software o DirectX puede resolver problemas de rendimiento en hardware más antiguo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Resolución de problemas y preguntas frecuentes">
+
+Incluso con un lanzamiento estable como el Episodio 9, ocasionalmente puedes encontrarte con obstáculos técnicos. La mayoría de los problemas están relacionados con la corrupción de archivos durante la extracción o bloqueos de permisos por parte del software de seguridad del sistema operativo.
+
+<Callout type="info" title="Errores comunes de inicio (Crashes)">
+Si el juego se cierra inesperadamente inmediatamente al iniciarse, generalmente se debe a una descarga incompleta. Volver a descargar el archivo ZIP de itch.io y extraerlo en una carpeta nueva suele resolver el problema.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar de forma segura la descarga de Ripples para PC?",
+    answer: "Los únicos lugares autorizados y seguros para descargar el juego son la página oficial de Ripples en itch.io y el Patreon de Jestur. Evita cualquier otro sitio web de terceros."
+  },
+  {
+    question: "¿Cómo actualizo el juego al Episodio 9 sin perder mi progreso?",
+    answer: "Simplemente descarga la última versión para PC, extráela en una carpeta nueva y ejecuta el ejecutable. Tus archivos de guardado se almacenan en un directorio del sistema independiente y se cargarán automáticamente."
+  },
+  {
+    question: "¿Qué debo hacer si mi antivirus marca el ejecutable del juego?",
+    answer: "Debido a que el juego se distribuye como un archivo ZIP independiente, algunos programas antivirus pueden marcarlo como un falso positivo. Siempre que lo hayas descargado de itch.io o Patreon, es seguro agregar una excepción para la carpeta del juego."
+  },
+  {
+    question: "¿Puedo transferir mis partidas guardadas de PC a la versión de Android de Ripples?",
+    answer: "Sí. Puedes copiar los archivos de guardado desde el directorio Ren'Py de tu computadora y pegarlos en el directorio de almacenamiento de Android correspondiente utilizando un administrador de archivos móvil."
+  }
+]} />
+
+</Section>

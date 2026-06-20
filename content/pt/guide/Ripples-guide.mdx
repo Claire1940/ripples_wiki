@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Ripples: Detonado, Escolhas e Estratégias de Rotas",
+  description: "Um guia enciclopédico de Ripples cobrindo as atualizações do Episódio 9, consequências de escolhas, rotas de personagem para Darci e etapas de instalação no Android.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/06b6d4?text=Ripples+Walkthrough+Guide",
+  date: "2026-06-20",
+  author: "Equipe da Wiki de Ripples"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Este guia de Ripples ajuda os jogadores a navegar pelas complexas escolhas ramificadas e rotas de personagens na visual novel de ficção científica.
+- **Personagens Principais**: Foque em construir confiança entre o protagonista, Jack, e a personagem central, Darci.
+- **Versão Mais Recente**: O Episódio 9, lançado em 26 de abril de 2026, introduz resoluções narrativas críticas e novos caminhos ramificados.
+- **Suporte de Plataforma**: Disponível oficialmente para Windows, macOS, Linux e Android através dos canais oficiais do desenvolvedor.
+- **Sem Sistema de Códigos**: Ao contrário de MMOs ou experiências do Roblox, este jogo não apresenta códigos promocionais ativos ou sistemas de resgate de recompensas.
+</Callout>
+
+<Section icon={Map} title="Visão Geral do Jogo e Base Narrativa">
+
+Ripples é uma visual novel de ficção científica rica em história desenvolvida por Jestur. O jogo acompanha a jornada de Jack, o protagonista principal, enquanto ele navega por uma teia complexa de mistérios de ficção científica, relacionamentos interpessoais e linhas temporais ramificadas. Uma figura central em sua jornada é Darci, cuja relação com Jack forma o núcleo emocional e narrativo da experiência. A história avança por meio de atualizações episódicas, sendo o Episódio 9 o lançamento mais recente até 26 de abril de 2026.
+
+Como uma narrativa baseada em escolhas, cada decisão que os jogadores tomam pode criar \"ondas\" (ripples) que alteram episódios futuros, bloqueiam ou desbloqueiam rotas de personagens específicas e levam a múltiplos finais distintos. Este guia enciclopédico fornece uma análise estrutural das mecânicas do jogo, caminhos de personagens e configuração técnica.
+
+| Parâmetro | Detalhes |
+| --- | --- |
+| Desenvolvedor | Jestur |
+| Gênero | Visual Novel de Ficção Científica |
+| Personagens Principais | Jack, Darci |
+| Episódio Mais Recente | Episódio 9 (Lançado em 26 de abril de 2026) |
+| Plataformas Suportadas | Windows, macOS, Linux, Android |
+| Distribuição Oficial | itch.io, Patreon |
+
+<Callout type="success" title="Política de Download Oficial">
+Sempre baixe Ripples de fontes oficiais, como a página do criador no itch.io ou Patreon. Evite sites de terceiros, que podem distribuir arquivos desatualizados, pacotes corrompidos ou APKs modificados que comprometem seus dados salvos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perfis de Personagens e Requisitos de Rota">
+
+Desbloquear rotas de personagens específicas em Ripples exige uma combinação de escolhas de diálogo, decisões de investigação e acúmulo de pontos de relacionamento. A narrativa enfatiza fortemente a conexão entre Jack e Darci, mas os jogadores devem equilibrar suas interações com cuidado para evitar becos sem saída ou caminhos neutros indesejados.
+
+Compreender as motivações dos personagens é fundamental para tomar as decisões corretas durante momentos críticos da narrativa. Abaixo está uma visão geral das principais dinâmicas de personagens e condições de rota.
+
+<CardGrid cols={3}>
+  <Card title="Jack (Protagonista)">
+    - **Papel**: Personagem principal cuja perspectiva conduz a história.
+    - **Foco**: Investigar anomalias de ficção científica e gerenciar relacionamentos.
+    - **Traço Principal**: Personalidade analítica e dependente de escolhas.
+  </Card>
+  <Card title="Darci (Rota Central)">
+    - **Papel**: Companheira central com uma profunda conexão narrativa com Jack.
+    - **Foco**: Construir confiança por meio de diálogos empáticos e de apoio.
+    - **Traço Principal**: Passado misterioso, altamente reativa à lealdade de Jack.
+  </Card>
+  <Card title="Elenco de Apoio">
+    - **Papel**: Personagens secundários que influenciam o universo de fundo.
+    - **Foco**: Desbloquear a construção de mundo auxiliar e cenas secundárias.
+    - **Traço Principal**: Fornecem contexto ao mistério geral de ficção científica.
+  </Card>
+</CardGrid>
+
+| Personagem | Influência Principal | Requisito para Desbloquear Rota | Foco Principal |
+| --- | --- | --- | --- |
+| Jack | Autodeterminação | Escolhas equilibradas, atributos de investigação altos | Desvendar o mistério central de ficção científica |
+| Darci | Confiança e Empatia | Pontos altos de relacionamento, lealdade consistente | Vínculo pessoal profundo, ramificações de história exclusivas |
+| Elenco de Apoio | Cooperação | Diálogo equilibrado, interações não hostis | Desbloquear o universo de fundo, finais secundários |
+
+<Callout type="tip" title="Estratégia de Gerenciamento de Saves">
+Como as rotas se dividem dinamicamente ao longo dos episódios, mantenha arquivos de salvamento manual no início de cada episódio. Isso permite que você volte facilmente e explore interações alternativas com os personagens sem precisar reiniciar o jogo inteiro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guia de Ripples: Mecânicas de Escolha e Estratégias de Detonado">
+
+As decisões em Ripples raramente são simples. O jogo utiliza um sistema de rastreamento invisível que monitora as pontuações de relacionamento, o progresso da investigação e o alinhamento moral. Uma escolha feita em um episódio inicial pode não mostrar todo o seu impacto até vários episódios depois, tornando essencial uma abordagem metódica para o detonado.
+
+Para navegar com sucesso pelos caminhos ramificados do Episódio 9 e capítulos anteriores, siga esta abordagem estruturada para a tomada de decisões.
+
+<Steps>
+  <Step num="1" title="Analise as Pistas de Diálogo">
+    Preste muita atenção às reações dos personagens e às descrições do ambiente. Mudanças sutis na postura ou no tom de um personagem geralmente sinalizam a escolha preferida para a rota dele.
+  </Step>
+  <Step num="2" title="Crie Saves de Referência">
+    Antes de entrar em qualquer cena importante de diálogo ou escolher um caminho de investigação, crie um slot de salvamento dedicado. Nomeie esses saves de acordo com o episódio e o contexto da cena.
+  </Step>
+  <Step num="3" title="Acompanhe as Consequências Narrativas">
+    Observe como os personagens tratam Jack nas cenas seguintes. Se um personagem se tornar distante, isso indica que uma escolha em uma cena anterior afetou negativamente sua variável de confiança.
+  </Step>
+  <Step num="4" title="Equilibre Lógica e Empatia">
+    As escolhas de investigação de ficção científica geralmente exigem pensamento lógico, enquanto as rotas de personagens exigem alta empatia. Saiba quando priorizar o mistério em detrimento dos relacionamentos pessoais.
+  </Step>
+</Steps>
+
+| Episódio | Decisão Crítica | Impacto da Opção A | Impacto da Opção B |
+| --- | --- | --- | --- |
+| Episódio 7 | Foco da Investigação | Aumenta o conhecimento do universo, leve distanciamento de Darci | Fortalece o vínculo com Darci, perde uma pista secundária de fundo |
+| Episódio 8 | Confronto de Confiança | Estabelece transparência absoluta, fixa na rota da Darci | Mantém segredos, abre caminho neutro, limita a progressão romântica |
+| Episódio 9 | Ramificação Narrativa | Inicia a fase de resolução, alto risco de bloqueio de caminho | Adia as escolhas finais, permite mais exploração |
+
+<Callout type="warning" title="Ponto de Não Retorno">
+Certas decisões no Episódio 8 e no Episódio 9 funcionam como bloqueios permanentes. Uma vez escolhido um caminho narrativo específico, você não poderá mudar para uma rota de personagem alternativa sem recarregar um arquivo de salvamento anterior a esse ponto de decisão.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Instalação no Android e Otimização Técnica">
+
+Ripples é totalmente compatível com plataformas móveis, permitindo que os usuários de Android experimentem a visual novel de ficção científica completa em qualquer lugar. No entanto, como o jogo apresenta recursos de alta qualidade e uma ampla variedade de ramificações, a instalação adequada e o gerenciamento de arquivos são necessários para garantir uma experiência de jogo fluida.
+
+O jogo é distribuído como um arquivo APK diretamente por meio de plataformas oficiais. Abaixo está o processo passo a passo para instalar e gerenciar seus arquivos de salvamento no Android.
+
+<Checklist
+  id="android-setup"
+  title="Lista de Verificação Pré-Instalação para Android"
+  items={[
+    "Verifique se há pelo menos 4 GB de espaço de armazenamento livre no seu dispositivo.",
+    "Ative 'Instalar de Fontes Desconhecidas' nas configurações de segurança do seu Android.",
+    "Baixe o APK oficial e intacto diretamente da página do Jestur no itch.io.",
+    "Faça backup dos seus arquivos de salvamento existentes se estiver atualizando a partir de um episódio anterior.",
+    "Certifique-se de que seu dispositivo esteja executando o Android 8.0 ou superior para um desempenho ideal."
+  ]}
+/>
+
+| Plataforma | Sistema Operacional Recomendado | Espaço de Armazenamento Necessário | Dica de Desempenho |
+| --- | --- | --- | --- |
+| Windows | Windows 10 ou 11 (64 bits) | 4 GB | Mantenha os drivers de vídeo atualizados |
+| macOS | macOS 11 ou mais recente | 4 GB | Conceda as permissões de execução de aplicativo necessárias |
+| Android | Android 9.0 ou superior | 4 GB | Feche aplicativos em segundo plano para liberar memória RAM |
+| Linux | Ubuntu 20.04 ou compatível | 4 GB | Certifique-se de definir as permissões de execução corretas |
+
+<Callout type="info" title="Compatibilidade de Saves Multiplataforma">
+Os arquivos de salvamento de Ripples são geralmente compatíveis entre plataformas. Você pode copiar manualmente seus arquivos de salvamento do diretório do PC para a pasta correspondente no Android (`Android/data/com.jestur.ripples/files`) usando um gerenciador de arquivos padrão para continuar seu progresso no celular.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cronograma de Lançamento e Histórico de Episódios">
+
+O desenvolvimento de Ripples é uma jornada contínua e episódica. Cada atualização expande a narrativa, introduz novas escolhas, refina as interações dos personagens e resolve ganchos de capítulos anteriores. Acompanhar o histórico de lançamentos ajuda os jogadores a entender a progressão da história e a antecipar conteúdos futuros.
+
+O desenvolvedor, Jestur, comunica ativamente atualizações, relatórios de progresso e conteúdos de bastidores por meio do Patreon e da comunidade oficial no Discord.
+
+| Episódio | Data de Lançamento | Foco Narrativo Principal | Principais Recursos Adicionados |
+| --- | --- | --- | --- |
+| Episódio 7 | Meados de 2025 | Aprofundamento do mistério de ficção científica, divisões iniciais de rota | Galeria expandida, elementos de interface de usuário aprimorados |
+| Episódio 8 | Final de 2025 | Confrontos de alto risco, testes críticos de confiança | Rastreamento avançado de variáveis, novas faixas de música |
+| Episódio 9 | 26 de abril de 2026 | Consolidação de rotas, resolução de principais pontos da trama | Versão Android otimizada, transições de cena aprimoradas |
+
+<Callout type="success" title="Apoiando o Desenvolvedor">
+Se você gosta do jogo, considere apoiar Jestur no Patreon. Os níveis de patrono geralmente concedem acesso antecipado aos próximos episódios, atualizações exclusivas de desenvolvimento e participação direta em enquetes da comunidade sobre o rumo do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Onde posso baixar Ripples com segurança?",
+    answer: "As únicas plataformas seguras e oficiais para baixar Ripples são a página do criador no itch.io e o Patreon. Baixar de fontes não oficiais traz riscos de malware e arquivos corrompidos."
+  },
+  {
+    question: "Existem códigos promocionais ou cheats ativos para Ripples?",
+    answer: "Não, Ripples é uma visual novel tradicional e não apresenta sistema de resgate de códigos, códigos ativos ou cupons no jogo. A progressão é totalmente baseada em suas escolhas."
+  },
+  {
+    question: "Como transfiro meus arquivos de salvamento do PC para o Android?",
+    answer: "Localize sua pasta de salvamento no PC, copie os arquivos e cole-os no diretório 'files' correspondente dentro da pasta 'com.jestur.ripples' no armazenamento do seu dispositivo Android."
+  },
+  {
+    question: "A Darci é a única personagem com quem se pode ter um romance no jogo?",
+    answer: "Embora Darci seja a personagem central com a rota mais desenvolvida, suas escolhas ao longo dos episódios determinam a natureza das relações de Jack com todo o elenco."
+  }
+]} />
+
+<Callout type="info" title="Hubs da Comunidade">
+Para discussões mais aprofundadas, detalhamento de escolhas e teorias da comunidade, junte-se ao servidor oficial no Discord linkado na página do itch.io ou visite a comunidade r/ripples no Reddit.
+</Callout>
+
+</Section>

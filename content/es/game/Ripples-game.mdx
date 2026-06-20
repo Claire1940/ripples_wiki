@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Juego Ripples: Guía de elecciones y recorrido del Episodio 9",
+  description: "Explora la guía oficial del juego Ripples. Conoce las consecuencias de las elecciones clave, las rutas de personaje para Darci y consejos de configuración para Android en el Episodio 9.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/38bdf8?text=Ripples+Game+Walkthrough",
+  date: "2026-06-20",
+  author: "Equipo de la Wiki de Ripples"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Narrativa central**: El **juego Ripples** es una novela visual de ciencia ficción donde las elecciones importan, siguiendo a Jack y Darci a través de una historia de suspense con rutas ramificadas.
+- **Último lanzamiento**: El Episodio 9 se lanzó el 26 de abril de 2026, introduciendo resoluciones narrativas vitales y nuevas rutas ramificadas.
+- **Plataformas oficiales**: Soportado oficialmente en dispositivos Windows, macOS, Linux y Android.
+- **Enfoque clave**: Tomar decisiones informadas es fundamental, ya que las elecciones bloquean o desbloquean directamente rutas de personajes y finales específicos.
+- **Recurso apto para todo público (SFW)**: Esta guía ofrece una descripción enciclopédica para todas las edades sobre las mecánicas del juego, la historia y la configuración técnica.
+</Callout>
+
+<Section icon={Sparkles} title="Descripción general del juego Ripples y plataformas oficiales">
+
+El **juego Ripples**, creado por el desarrollador independiente Jestur, es una novela visual de ciencia ficción rica en historia. La narrativa se centra en el protagonista, Jack, y sus interacciones con Darci, ambientadas en un trasfondo de misterio y suspense de ciencia ficción. Los jugadores navegan por la historia tomando decisiones críticas que alteran las relaciones de los personajes, desbloquean escenas únicas y conducen a múltiples finales distintos.
+
+Dado que el juego depende en gran medida de su estructura narrativa, mantener un historial de guardado limpio es esencial para explorar todas las rutas disponibles. El desarrollador actualiza activamente el proyecto mediante lanzamientos episódicos, siendo el Episodio 9 la actualización importante más reciente.
+
+| Atributo | Detalles |
+| --- | --- |
+| Desarrollador | Jestur |
+| Género | Novela visual de ciencia ficción, Misterio |
+| Versión actual | Episodio 9 (Lanzado el 26 de abril de 2026) |
+| Plataformas | Windows, macOS, Linux, Android |
+| Distribución | itch.io, Patreon |
+| Recursos artísticos | Más de 10.000 imágenes de alta calidad |
+
+Para garantizar una experiencia segura, los jugadores solo deben obtener los archivos del juego a través de los canales de distribución oficiales.
+
+<Callout type="success" title="Canales de distribución oficiales">
+Descarga siempre el juego directamente del creador. Puedes acceder al lanzamiento oficial en la [página de itch.io de Ripples](https://jestur.itch.io/) o apoyar el desarrollo continuo de futuros episodios a través del [Patreon de Jestur](https://www.patreon.com/jestur). Evita los sitios espejo de terceros para proteger tu dispositivo de archivos modificados o inseguros.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Recorrido del Episodio 9 y elecciones clave">
+
+Navegar por las rutas ramificadas del **juego Ripples** requiere una comprensión clara de cómo las decisiones tempranas influyen en los escenarios avanzados del juego. El Episodio 9 introduce varios escenarios de alto riesgo donde Jack debe tomar decisiones fundamentales sobre su confianza en Darci y cómo maneja la información confidencial.
+
+La estructura de la novela visual utiliza variables condicionales (flags). Cuando tomas una decisión, el juego registra una variable específica que determina qué árboles de diálogo y escenas de fondo se muestran en los capítulos siguientes.
+
+| Episodio | Escenario clave | Opción de elección | Impacto narrativo |
+| --- | --- | --- | --- |
+| Episodio 7 | Investigación | Confiar en Darci | Fortalece la relación, desbloquea escenas de investigación conjunta |
+| Episodio 7 | Investigación | Guardar secretos | Aumenta la sospecha, bloquea la ruta cooperativa de Darci |
+| Episodio 8 | Confrontación | Intervenir | Evita lesiones menores, altera la reputación local |
+| Episodio 8 | Confrontación | Esperar y ver | Desbloquea diálogos alternativos, revela motivos de personajes secundarios |
+| Episodio 9 | Resolución | Compartir datos | Conduce a la rama del final cooperativo de ciencia ficción |
+| Episodio 9 | Resolución | Encriptar archivos | Asegura la ruta en solitario de Jack, cambia los parámetros de la escena final |
+
+Para experimentar todo el contenido, se recomienda a los jugadores utilizar múltiples ranuras de guardado antes de los puntos de decisión importantes.
+
+<Callout type="warning" title="Compatibilidad de archivos de guardado">
+Al actualizar del Episodio 8 al Episodio 9, asegúrate de colocar tus archivos de guardado anteriores en el directorio correcto. Los cambios estructurales importantes en los nuevos episodios a veces pueden causar pequeños fallos en los diálogos si se cargan archivos de guardado antiguos o dañados.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rutas de personajes y mecánicas de relación">
+
+El núcleo emocional y temático del **juego Ripples** radica en las interacciones entre sus personajes. La relación de Jack con Darci sirve como el ancla narrativa principal, pero los personajes secundarios también influyen en cómo se desarrolla el misterio de ciencia ficción.
+
+El juego realiza un seguimiento de puntos de relación ocultos basados en tus elecciones conversacionales. Acumular estos puntos es necesario para superar ciertos puntos de control narrativos.
+
+<CardGrid cols={3}>
+  <Card title="Jack (Protagonista)">
+    - **Rol**: Personaje jugable principal
+    - **Enfoque clave**: Resolver el misterio central de ciencia ficción mientras equilibra las alianzas personales
+    - **Impacto de elección principal**: Determina la dirección ética de la historia
+  </Card>
+  <Card title="Darci">
+    - **Rol**: Compañera principal y enfoque narrativo clave
+    - **Enfoque clave**: Sus niveles de confianza dictan la disponibilidad de rutas cooperativas
+    - **Impacto de elección principal**: Desbloquea finales de ramas importantes en el Episodio 9
+  </Card>
+  <Card title="Personajes secundarios">
+    - **Rol**: Proporcionan contexto, trasfondo (lore) y perspectivas alternativas
+    - **Enfoque clave**: Ofrecen pistas críticas durante las fases de investigación
+    - **Impacto de elección principal**: Pueden alterar detalles de fondo y elementos de la construcción del mundo
+  </Card>
+</CardGrid>
+
+Para asegurar con éxito la ruta de Darci, los jugadores deben elegir constantemente opciones cooperativas durante los puntos críticos de la trama.
+
+| Ruta objetivo | Variable requerida | Punto de elección crítico | Resultado esperado |
+| --- | --- | --- | --- |
+| Ruta de Darci | Puntaje de confianza >= 5 | Escena del laboratorio del Episodio 7 | Desbloquea diálogos exclusivos de cooperación |
+| Ruta en solitario | Puntaje de confianza < 5 | Escena de la oficina del Episodio 8 | Jack actúa de forma independiente, lo que lleva a finales centrados en la supervivencia |
+| Ruta de misterio | Datos compartidos | Escena de la terminal del Episodio 9 | Revela un trasfondo más profundo sobre la anomalía de ciencia ficción |
+
+<Callout type="tip" title="Cómo verificar el estado de la ruta">
+Presta mucha atención a las reacciones de los personajes durante las conversaciones clave. Si un personaje parece distante o indeciso, generalmente indica que tus elecciones anteriores han dirigido la historia hacia una ruta neutral o en solitario.
+```
+Verificación de puntaje de relación:
+[Elección: Apoyar a Darci] -> +1 Confianza
+[Elección: Trabajar solo] -> Ruta neutral / en solitario activada
+```
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guía de instalación en Android y configuración técnica">
+
+La versión móvil del **juego Ripples** permite a los jugadores disfrutar de la novela visual en dispositivos Android. Dado que el juego se distribuye como un archivo APK a través de itch.io, los jugadores deben instalar y configurar manualmente la aplicación en sus dispositivos.
+
+Sigue estos pasos estructurados para instalar el juego de forma segura y gestionar tus archivos de guardado sin perder el progreso.
+
+<Steps>
+  <Step num="1" title="Descarga el APK oficial">
+    Visita la página oficial de itch.io usando el navegador web de tu dispositivo Android. Descarga el archivo APK oficial de Android del Episodio 9. Evita descargarlo desde foros no autorizados o sitios de intercambio de archivos de terceros.
+  </Step>
+  <Step num="2" title="Habilita fuentes desconocidas">
+    Abre el menú de configuración de tu dispositivo Android. Dirígete a Seguridad o Aplicaciones, y habilita la opción para instalar aplicaciones desde "Fuentes desconocidas". Este permiso es necesario para instalar aplicaciones fuera de la tienda de aplicaciones estándar.
+  </Step>
+  <Step num="3" title="Instala la aplicación">
+    Localiza el archivo APK descargado usando una aplicación de administración de archivos. Toca el archivo y selecciona "Instalar". Espera a que se complete el proceso de instalación, lo cual puede tardar unos momentos debido al gran volumen de imágenes de alta resolución.
+  </Step>
+  <Step num="4" title="Transfiere archivos de guardado (Opcional)">
+    Si estás actualizando desde un episodio anterior, localiza tus archivos de guardado previos. Cópialos de la carpeta del juego antiguo y pégalos en el directorio de guardado recién creado para el Episodio 9 para continuar tu progreso.
+  </Step>
+</Steps>
+
+| Plataforma | Versión mínima de SO | Almacenamiento recomendado | Formato de archivo |
+| --- | --- | --- | --- |
+| Android | Android 8.0 (Oreo) | 3 GB de espacio libre | APK |
+| Windows | Windows 7 o superior | 4 GB de espacio libre | ZIP / EXE |
+| macOS | macOS 10.12 o superior | 4 GB de espacio libre | APP / DMG |
+| Linux | Ubuntu 18.04 o equivalente | 4 GB de espacio libre | Tarball / Ejecutable |
+
+<Callout type="info" title="Ubicaciones de guardado predeterminadas">
+En Android, los archivos de guardado generalmente se almacenan en el directorio de almacenamiento interno bajo `Android/data/com.jestur.ripples/files/saves`. Para los usuarios de Windows, las partidas guardadas se encuentran en la carpeta `game/saves` dentro del directorio principal o dentro de la carpeta local `AppData/Roaming`.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de la historia e historial de lanzamientos">
+
+Hacer un seguimiento de tu progreso en el **juego Ripples** garantiza que no te pierdas escenas ocultas o perspectivas de personajes alternativas. La estructura episódica significa que cada actualización expande la construcción del mundo, agregando capas al misterio general de ciencia ficción.
+
+A continuación, se presenta una lista de verificación de los hitos esenciales a lograr al final del Episodio 9.
+
+<Checklist
+  id="ripples-milestones"
+  title="Lista de verificación de finalización del Episodio 9:"
+  items={[
+    "Completa todos los capítulos narrativos desde el Episodio 1 hasta el Episodio 9",
+    "Desbloquea la ruta de confianza de Darci seleccionando opciones de diálogo cooperativas",
+    "Descubre los secretos detrás de la anomalía central de ciencia ficción en el Episodio 8",
+    "Realiza una copia de seguridad y migra con éxito tus archivos de guardado a la última versión",
+    "Explora las rutas alternativas en solitario para ver los diferentes resultados de los personajes"
+  ]}
+/>
+
+La línea de tiempo de desarrollo destaca las actualizaciones constantes proporcionadas por Jestur, garantizando una experiencia pulida para los jugadores que siguen el proyecto a lo largo del tiempo.
+
+| Versión de lanzamiento | Fecha de lanzamiento | Adiciones importantes |
+| --- | --- | --- |
+| Episodio 7 | Mediados de 2025 | Introdujo la secuencia de investigación del laboratorio y las primeras elecciones de confianza de Darci |
+| Episodio 8 | A finales de 2025 | Añadió escenas de confrontación en la oficina de alto riesgo e indicadores de rutas ramificadas |
+| Episodio 9 | 26 de abril de 2026 | Ofreció importantes resoluciones narrativas, optimizó la versión de Android y añadió nuevo arte |
+
+<Callout type="success" title="Comunidad y soporte">
+Para discutir teorías, compartir estrategias de juego o reportar errores técnicos, únete al servidor de [Discord oficial](https://discord.com/) enlazado en la página de itch.io del juego, o participa en las discusiones de la comunidad de Reddit en [r/ripples](https://www.reddit.com/r/ripples/).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo descargar el juego oficial Ripples de forma segura?",
+    answer: "Solo debes descargar el juego Ripples desde la página oficial de itch.io alojada por el desarrollador, Jestur. Esto garantiza que recibas archivos limpios y seguros para Windows, macOS, Linux y Android."
+  },
+  {
+    question: "¿Cómo actualizo el juego al Episodio 9 sin perder mi progreso de guardado?",
+    answer: "Para mantener tu progreso, no elimines la carpeta del juego antiguo de inmediato. Instala la nueva versión del Episodio 9 y copia tus archivos de guardado del directorio 'saves' antiguo a la nueva carpeta 'saves' del Episodio 9."
+  },
+  {
+    question: "¿Existen códigos promocionales o códigos de trucos oficiales para el juego Ripples?",
+    answer: "No, el juego Ripples es una novela visual basada en la narrativa y no cuenta con un sistema de códigos promocionales o de canje en el juego. El progreso se basa completamente en las elecciones de la historia."
+  },
+  {
+    question: "¿Qué debo hacer si la versión de Android falla durante la instalación?",
+    answer: "Asegúrate de que tu dispositivo tenga al menos 3 GB de espacio de almacenamiento libre y de haber habilitado 'Instalar desde fuentes desconocidas' en la configuración de seguridad. Limpiar la caché del navegador antes de descargar el APK también puede ayudar."
+  }
+]} />
+
+<Callout type="tip" title="Apoya al desarrollador">
+Si disfrutas de la historia y deseas ayudar a acelerar el lanzamiento del Episodio 10, considera apoyar a Jestur en Patreon. Los patrocinadores a menudo reciben acceso anticipado a actualizaciones de desarrollo, arte conceptual e información detrás de escena.
+</Callout>
+
+</Section>

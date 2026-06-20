@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ripples 0.9.22: Walkthrough, Choices & Installation Guide",
+  description: "Explore the latest Ripples 0.9.22 update with our step-by-step installation guide, choice walkthroughs, character routes, and platform tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0b1329/38bdf8?text=Ripples+0.9.22+Guide",
+  date: "2026-06-20",
+  author: "Ripples Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ripples 0.9.22** delivers essential platform optimizations, bug fixes, and compatibility enhancements for the ongoing sci-fi visual novel.
+- **Official downloads** are hosted exclusively on verified platforms like itch.io and Patreon for Windows, macOS, Linux, and Android.
+- **Narrative paths** depend on critical decisions made during interactions between the main protagonist, Jack, and companion Darci.
+- **Android setup** requires manual package installation and careful directory management to protect existing save files.
+</Callout>
+
+<Section icon={Map} title="Ripples 0.9.22 Version Overview">
+
+Ripples 0.9.22 represents a crucial stability and compatibility update for the acclaimed sci-fi visual novel developed by Jestur. Following the major release of Episode 9, this technical update focuses on refining engine performance, addressing memory management, and resolving platform-specific bugs across desktop and mobile systems. As an episodic, choice-driven narrative, maintaining stable execution is vital for preserving player choices and dialogue flags across multiple story acts.
+
+The development of Ripples continues to expand the deep, futuristic universe centered on the interactions between Jack and Darci. This version ensures that players experience smooth transitions, optimized asset loading, and reliable save state migrations as they navigate the branching storylines.
+
+| Platform | Official Source | File Format | Recommended Action |
+|---|---|---|---|
+| Windows | itch.io / Patreon | .ZIP Archive | Extract to dedicated folder and run executable |
+| macOS | itch.io / Patreon | .ZIP / .APP | Extract and configure security permissions |
+| Linux | itch.io / Patreon | .TAR.GZ | Extract and run via terminal command |
+| Android | itch.io / Patreon | .APK Installer | Enable unknown sources and run package |
+
+<CardGrid cols={3}>
+  <Card title="Desktop Stability">
+    - **Native execution** on Windows, macOS, and Linux platforms.
+    - Full-resolution image assets and uncompressed audio.
+    - Seamless keyboard and mouse navigation controls.
+  </Card>
+  <Card title="Mobile Optimization">
+    - **Engine adjustments** for touch-screen interfaces.
+    - Compressed asset packages to reduce storage overhead.
+    - Improved battery consumption and thermal performance.
+  </Card>
+  <Card title="Supporter Access">
+    - **Developmental builds** available through Patreon.
+    - Direct support channels for troubleshooting.
+    - Behind-the-scenes progress updates from Jestur.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Avoid Unofficial Sources">
+Always download game files from official itch.io or Patreon pages. Unofficial mirrors, repackages, or modified APKs pose security risks and may contain corrupted save state systems that break story flag progression.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Installation Guide">
+
+Proper installation of Ripples 0.9.22 ensures that game assets load correctly and existing story progress is preserved. Because the game is distributed as a standalone package rather than through automated platforms, players must manage files manually. This is particularly important for Android users and desktop players migrating saves from previous episodes.
+
+The game is built on the Ren'Py engine, which stores user configuration and save files in platform-specific directory paths. Understanding these locations prevents accidental data loss during version upgrades.
+
+<Steps>
+  <Step num="1" title="Download the Package">
+    Visit the official itch.io page or Jestur's Patreon. Select the appropriate archive file matching your operating system. Ensure the download completes fully before attempting to open the package.
+  </Step>
+  <Step num="2" title="Prepare the Directory">
+    For desktop systems, create a clean directory away from system folders to avoid permission issues. For Android devices, ensure at least 6 GB of free internal storage space is available before starting.
+  </Step>
+  <Step num="3" title="Extract or Install">
+    On Windows, extract the .ZIP archive using standard extraction software. On Android, locate the downloaded .APK file using a file manager and tap to initiate the package installer.
+  </Step>
+  <Step num="4" title="Configure Security Permissions">
+    On macOS, you may need to bypass Gatekeeper by right-clicking the application and selecting Open. On Android, allow installation from Unknown Sources in your security settings if prompted.
+  </Step>
+  <Step num="5" title="Verify Save State Migration">
+    Launch the game. The engine should automatically detect existing save files from previous directory locations. Verify your progress by loading a recent save point from the main menu.
+  </Step>
+</Steps>
+
+| System Requirement | Minimum Specification | Recommended Specification |
+|---|---|---|
+| Processor | Dual-Core 2.0 GHz | Quad-Core 2.5 GHz or higher |
+| Memory | 4 GB RAM | 8 GB RAM |
+| Graphics | DirectX 9 Compatible | DirectX 11 / OpenGL ES 3.0 |
+| Storage | 6 GB available space | 10 GB available space (SSD preferred) |
+| OS | Windows 7 / Android 5.0 | Windows 10/11 / Android 11.0+ |
+
+<Callout type="tip" title="Backup Your Saves">
+Before upgrading to version 0.9.22, manually backup your save directory. On Windows, saves are typically found in the AppData/Roaming/RenPy folder, while on Android they reside in the internal storage Android/data directory.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Walkthrough & Decision Mechanics">
+
+The core gameplay of Ripples revolves around dialogue decisions that alter relationships, unlock specific scenes, and steer the sci-fi narrative toward multiple distinct endings. The interaction history between Jack and Darci forms the emotional and structural backbone of the story. Decisions made in early episodes continue to influence character reactions and choices in the latest chapters.
+
+The narrative engine tracks decisions using hidden variables. Some choices yield immediate feedback, while others quietly lock or unlock story branches several chapters later.
+
+| Narrative Phase | Critical Decision Point | Immediate Consequence | Long-Term Route Impact |
+|---|---|---|---|
+| Early Investigation | Investigate the anomaly alone | Increases self-reliance flags | Unlocks independent deduction paths |
+| Early Investigation | Partner with Darci | Boosts trust and rapport with Darci | Essential requirement for Darci's main route |
+| Mid-Story Encounter | Share confidential database | Gains immediate faction approval | Restricts access to alternative alliances |
+| Mid-Story Encounter | Retain database access | Maintains neutral status | Preserves multiple ending possibilities |
+| Late Episode Conflict | Support Darci's plan | Solidifies partnership status | Triggers high-trust narrative branches |
+| Late Episode Conflict | Propose alternative strategy | Tests team cohesion | Leads to diverse tactical outcomes |
+
+<Callout type="info" title="Dialogue Flag Management">
+Ripples does not feature a traditional game-over state. Instead, choosing sub-optimal options alters the tone of character relationships and changes how future events unfold, encouraging multiple playthroughs.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Character Routes & Progression Milestones">
+
+Unlocking the full depth of the Ripples narrative requires exploring different character routes. Each route offers a unique perspective on the central sci-fi mystery, detailing world-building elements that remain hidden on alternative paths. Focusing on specific character interactions is the primary method for directing the story flow.
+
+Jack's role as the central perspective allows players to define his personality through actions, ranging from highly analytical and reserved to collaborative and empathetic.
+
+| Character | Primary Focus | Key Interaction Strategy | Route Availability |
+|---|---|---|---|
+| Darci | Trust and cooperation | Prioritize collaborative choices and open dialogue | Available and highly developed |
+| Jack | Analytical and independent | Focus on objective data collection and self-reliance | Core perspective path |
+| Supporting Cast | Auxiliary lore and context | Complete optional conversations in common areas | Enhances background understanding |
+
+<Checklist
+  id="route-milestones"
+  title="Route Completion Milestones:"
+  items={[
+    "Establish baseline trust with Darci during initial investigations",
+    "Collect all environmental clues during exploration sequences",
+    "Maintain consistent dialogue choices aligned with your chosen route",
+    "Successfully transfer save files across episode installations",
+    "Explore alternative decision paths using multiple save slots"
+  ]}
+/>
+
+<Callout type="success" title="Exploration Encouraged">
+Use the skip read text feature built into the Ren'Py engine to quickly navigate previously viewed dialogue. This allows you to efficiently explore alternative choice branches without repeating identical segments.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Support & FAQ">
+
+Technical issues during installation or update migrations can usually be resolved by verifying file structures or resetting configuration caches. The active community on Reddit and the official Discord server provide regular assistance for players encountering unique system configurations.
+
+For direct updates, bug reporting, and community feedback, players can access the developer's official channels.
+
+<FAQ items={[
+  {
+    question: "Can I transfer my progress from older versions to Ripples 0.9.22?",
+    answer: "Yes. The Ren'Py engine stores save data in a centralized directory. When you install Ripples 0.9.22, it automatically scans your system for existing save states, allowing you to resume your progress seamlessly."
+  },
+  {
+    question: "How do I resolve the 'App Not Installed' error on Android devices?",
+    answer: "This error is typically caused by signature conflicts with previous versions or insufficient storage space. To resolve this, backup your save directory, uninstall the older version of the game, free up at least 6 GB of space, and install the new APK."
+  },
+  {
+    question: "Is Ripples 0.9.22 a complete game or an episodic release?",
+    answer: "Ripples is an ongoing, episodic sci-fi visual novel developed by Jestur. Version 0.9.22 is a technical patch released following Episode 9, focusing on performance, compatibility, and bug fixes rather than adding new story content."
+  },
+  {
+    question: "What should I do if the game freezes or displays a black screen on startup?",
+    answer: "On desktop, ensure your graphics drivers are updated and try running the game in compatibility mode. On Android, clear the application cache in your system settings or reinstall the APK package."
+  }
+]} />
+
+<Callout type="tip" title="Community Engagement">
+Join the official r/ripples subreddit or the community Discord to discuss story theories, share choice guides, and receive immediate technical support from fellow players and moderators.
+</Callout>
+
+</Section>

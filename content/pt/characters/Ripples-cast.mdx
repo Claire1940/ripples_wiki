@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Elenco de Ripples: Perfis de Personagens e Guia de Rotas",
+  description: "Explore o elenco de Ripples, incluindo Jack e Darci. Saiba como as escolhas ramificadas impactam as rotas dos personagens nesta visual novel de ficção científica de Jestur.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/162238/fff?text=Ripples+Cast+Guide",
+  date: "2026-06-20",
+  author: "Equipe da Wiki de Ripples"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Elenco de Ripples**: A narrativa gira em torno de Jack, Darci e um elenco de apoio dinâmico cujos destinos são determinados pelas escolhas do jogador.
+- **Caminhos ramificados**: As seleções de diálogo impactam diretamente os valores de relacionamento, bloqueando ou desbloqueando rotas específicas de personagens.
+- **Atualizações episódicas**: Acompanhe a evolução do elenco através do lançamento mais recente do Episódio 9, lançado em 26 de abril de 2026.
+- **Plataformas oficiais**: Baixe as versões seguras mais recentes para Windows, macOS, Linux e Android através das páginas oficiais no itch.io e Patreon.
+</Callout>
+
+<Section icon={Map} title="Conheça o Elenco de Ripples: Papéis Narrativos e Dinâmica de Grupo">
+
+Ao explorar o **elenco de Ripples**, os jogadores encontrarão um grupo de personagens cuidadosamente construído navegando por um tenso mistério de ficção científica. Desenvolvido por Jestur, *Ripples* é uma visual novel episódica que depende muito da interação entre os personagens, da construção de confiança e de caminhos narrativos ramificados. Ao contrário das histórias lineares tradicionais, os relacionamentos que você constrói com os membros do elenco ditam diretamente a direção do enredo, a disponibilidade de cenas específicas e a resolução final da história.
+
+No centro desta narrativa está Jack, o protagonista cuja perspectiva os jogadores assumem. As decisões de Jack moldam não apenas seu próprio destino, mas também a sobrevivência e o bem-estar emocional daqueles ao seu redor. Sua companheira principal, Darci, serve como uma âncora crucial para o enredo. Seu passado misterioso e personalidade complexa a tornam uma das figuras mais intrigantes do jogo. Além da dupla principal, uma variedade de personagens de apoio introduz motivações conflitantes, agendas ocultas e rotas exclusivas que os jogadores podem explorar ao longo dos nove episódios atuais do jogo.
+
+| Personagem | Papel | Traços Principais | Primeira Aparição |
+| :--- | :--- | :--- | :--- |
+| **Jack** | Protagonista | Analítico, adaptável, motivado pelo mistério | Episódio 1 |
+| **Darci** | Companheira Principal | Engenhosa, reservada, central para a trama de ficção científica | Episódio 1 |
+| **Elenco de Apoio** | Aliados Principais | Motivações diversas, influenciam rotas ramificadas | Vários Episódios |
+
+<Callout type="info" title="Nota Enciclopédica">
+As interações entre os personagens em Ripples são projetadas para imitar uma construção de confiança realista, o que significa que as escolhas no início do jogo têm efeitos duradouros sobre como o elenco percebe Jack.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perfis Detalhados de Personagens e Mecânicas de Rota">
+
+Para navegar com sucesso pelos caminhos ramificados de *Ripples*, os jogadores devem compreender as motivações e mecânicas subjacentes que regem cada membro principal do elenco. Construir relacionamentos não se resume a escolher as opções de diálogo mais amigáveis; requer uma compreensão dos valores, medos e objetivos pessoais de cada personagem.
+
+A caracterização de Jack é altamente maleável, permitindo que os jogadores o retratem como cauteloso, assertivo ou profundamente empático. Essa flexibilidade influencia diretamente a forma como os outros membros do elenco reagem à sua liderança. Darci, por outro lado, exige uma abordagem mais calculada. Ela é naturalmente cética, e ganhar sua confiança envolve demonstrar consistência, respeitar seus limites e compartilhar informações cruciais em vez de guardar segredos.
+
+<CardGrid cols={3}>
+  <Card title="Jack (Protagonista)">
+    - **Perspectiva Principal**: Os jogadores vivenciam o mistério de ficção científica através dos olhos de Jack.
+    - **Tomador de Decisão**: Suas escolhas ditam a sobrevivência e a confiança de todo o grupo.
+    - **Adaptabilidade**: Pode ser jogado de forma cautelosa, assertiva ou altamente cooperativa.
+  </Card>
+  <Card title="Darci (Rota Principal)">
+    - **Figura Central**: Seu passado está profundamente ligado ao enredo geral de ficção científica.
+    - **Sistema de Confiança**: Exige escolhas consistentes e de apoio para desbloquear sua rota exclusiva.
+    - **Habilidades**: Altamente engenhosa, oferecendo assistência crucial durante eventos críticos.
+  </Card>
+  <Card title="Elenco Secundário">
+    - **Influenciadores de Rota**: Oferecem perspectivas alternativas sobre o mistério central.
+    - **Papéis Ramificados**: Podem agir como aliados próximos ou contrastes narrativos, dependendo das escolhas.
+    - **Diálogos Dinâmicos**: Oferecem interações únicas que detalham a história do jogo.
+  </Card>
+</CardGrid>
+
+Desbloquear rotas específicas de personagens exige que os jogadores monitorem variáveis invisíveis de relacionamento. Essas variáveis são ajustadas durante escolhas importantes de diálogo e momentos cruciais da narrativa. Se um jogador não atingir o limite de confiança necessário para um personagem específico até um determinado episódio, a rota desse personagem será bloqueada, forçando a história a seguir por um caminho alternativo.
+
+| Personagem | Status da Rota | Dificuldade da Rota | Impacto das Escolhas |
+| :--- | :--- | :--- | :--- |
+| **Jack** | Perspectiva Principal | Linha de Base | Dita a direção geral da história |
+| **Darci** | Totalmente Disponível | Moderada | Alto; exige escolhas específicas de diálogo |
+| **Aliados de Apoio** | Rotas Parciais | Variável | Moderado; afeta variações de cenas |
+
+<Callout type="tip" title="Dica de Mestre">
+Mantenha vários arquivos de salvamento em pontos de decisão importantes. Isso permite que você explore diferentes facetas do elenco de Ripples sem precisar reiniciar o jogo inteiro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas de Escolha e Desbloqueio de Rotas">
+
+A jogabilidade principal de *Ripples* gira em torno da tomada de decisões. Cada escolha, desde respostas conversacionais simples até grandes decisões tomadas em frações de segundo durante cenários de alta tensão, alimenta a lógica ramificada do jogo. Para ajudar os jogadores a navegar com sucesso por esses caminhos e garantir os resultados desejados com os personagens, descrevemos as etapas essenciais para estabelecer uma base sólida com o elenco principal.
+
+Gerenciar relacionamentos com o **elenco de Ripples** exige um equilíbrio entre transparência e cautela estratégica. Embora ser totalmente honesto com personagens como Darci seja geralmente benefico, há momentos em que proteger a coesão do grupo exige mediar conflitos com uma abordagem neutra e objetiva.
+
+<Steps>
+  <Step num="1" title="Estabelecer Confiança Inicial">
+    Selecione opções de diálogo cooperativas com Darci nos episódios iniciais para construir uma base estável de confiança. Evite respostas desdenhosas ou excessivamente céticas.
+  </Step>
+  <Step num="2" title="Investigar Pistas Importantes">
+    Preste muita atenção às pistas ambientais de ficção científica. Compartilhar suas descobertas com Darci, em vez de guardá-las em segredo, fortalece a parceria de vocês.
+  </Step>
+  <Step num="3" title="Apoiar Decisões Críticas">
+    Durante momentos cruciais da narrativa, apoie os planos de Darci. Isso garante a rota dela e libera árvores de diálogo exclusivas nos capítulos seguintes.
+  </Step>
+  <Step num="4" title="Manter o Alinhamento da Rota">
+    Continue equilibrando as escolhas até o Episódio 9 para garantir que a rota dela permaneça ativa e leve aos caminhos de final específicos dela.
+  </Step>
+</Steps>
+
+Para ilustrar como as decisões iniciais ecoam pela narrativa, considere as seguintes escolhas críticas do início do jogo e seu impacto direto na afinidade dos personagens.
+
+| Episódio | Ponto de Escolha | Opção Preferencial | Resultado |
+| :--- | :--- | :--- | :--- |
+| **Episódio 1** | Abordagem no encontro inicial | Cooperativo e calmo | Aumenta a confiança inicial com Darci |
+| **Episódio 2** | Investigando a anomalia | Compartilhar descobertas abertamente | Desbloqueia diálogos detalhados sobre a história |
+| **Episódio 4** | Resolvendo disputa de grupo | Mediar de forma neutra | Preserva os valores gerais de relacionamento do elenco |
+
+<Callout type="warning" title="Aviso Crítico">
+Deixar de apoiar membros importantes do elenco durante momentos decisivos pode bloquear permanentemente o acesso às suas ramificações narrativas específicas pelo restante do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Evolução dos Personagens Episódio por Episódio">
+
+À medida que *Ripples* avança, os personagens passam por um desenvolvimento significativo. Os elementos de ficção científica do enredo introduzem ambientes de alta tensão que testam os laços entre Jack, Darci e o restante do grupo. Com o lançamento do Episódio 9 em 26 de abril de 2026, muitos desses relacionamentos atingiram pontos de virada críticos.
+
+Nos episódios iniciais (Episódios 1 ao 3), o foco é principalmente apresentar o elenco principal e estabelecer as regras básicas do mundo. Os episódios intermediários (Episódios 4 ao 6) expandem o escopo da história, introduzindo pressões externas e conflitos internos que forçam os personagens a reavaliar suas alianças. Quando os jogadores chegam aos episódios finais (Episódios 7 ao 9), as consequências das escolhas do início do jogo se concretizam totalmente, levando a interações de personagens amplamente diferentes com base nos caminhos escolhidos.
+
+| Episódio | Foco no Personagem | Grande Mudança Narrativa |
+| :--- | :--- | :--- |
+| **Episódios 1-3** | Jack e Darci | Introdução à anomalia de ficção científica central e construção de confiança básica |
+| **Episódios 4-6** | Elenco de Apoio | Expansão da dinâmica de grupo e introdução de motivações conflitantes |
+| **Episódios 7-9** | Dupla Principal | Consequências de escolhas de alto risco e eventos de bloqueio de rota que levam ao Episódio 9 |
+
+Para garantir que você está no caminho certo para vivenciar toda a profundidade da escrita dos personagens, use esta lista prática de marcos importantes.
+
+<Checklist
+  id="character-milestones"
+  title="Principais Marcos de Rota para Acompanhar:"
+  items={[
+    "Estabelecer o nível máximo de confiança com Darci até o Episódio 3",
+    "Descobrir todas as pistas ocultas de ficção científica no ambiente",
+    "Mediar com sucesso a disputa do grupo no Episódio 5",
+    "Garantir sua rota preferida antes de entrar no Episódio 9"
+  ]}
+/>
+
+<Callout type="success" title="Atualização do Episódio 9">
+Com o lançamento do Episódio 9 em 26 de abril de 2026, vários arcos de personagens atingiram pontos de virada cruciais, tornando o gerenciamento de rotas mais crítico do que nunca.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Navegar pelos relacionamentos complexos e caminhos ramificados em *Ripples* pode ser desafiador. Abaixo estão as respostas para algumas das perguntas mais comuns sobre os personagens, rotas e mecânicas de escolha do jogo.
+
+<FAQ items={[
+  {
+    question: "Quem são os membros principais do elenco de Ripples?",
+    answer: "Os personagens principais são Jack, o protagonista cuja perspectiva você controla, e Darci, sua companheira principal. O elenco de apoio inclui vários aliados e figuras misteriosas que influenciam a narrativa ramificada de ficção científica."
+  },
+  {
+    question: "Posso desbloquear todas as rotas de personagens em uma única jogada?",
+    answer: "Não. Como as escolhas têm consequências mutuamente exclusivas, você precisará jogar o jogo várias vezes ou utilizar vários slots de salvamento para vivenciar cada rota."
+  },
+  {
+    question: "Como a confiança afeta o elenco de Ripples no Episódio 9?",
+    answer: "No Episódio 9, os valores de confiança acumulados nos capítulos anteriores determinam quais personagens permanecem leais a Jack e quais caminhos ficam acessíveis."
+  },
+  {
+    question: "Existe um guia oficial para as escolhas de personagens?",
+    answer: "Embora não haja um guia oficial de escolhas feito pelo criador, Jestur, a comunidade mantém guias passo a passo nos espaços oficiais do Discord e Reddit."
+  }
+]} />
+
+<Callout type="info" title="Recursos da Comunidade">
+Para discussões em tempo real, artes de personagens e guias criados pela comunidade, confira o Discord e o Subreddit oficiais de Ripples.
+</Callout>
+
+</Section>

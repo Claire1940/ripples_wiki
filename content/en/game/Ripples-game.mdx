@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ripples Game: Episode 9 Walkthrough & Choice Guide",
+  description: "Explore the official Ripples game walkthrough. Learn key choice consequences, character routes for Darci, and Android setup tips for Episode 9.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/38bdf8?text=Ripples+Game+Walkthrough",
+  date: "2026-06-20",
+  author: "Ripples Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Narrative**: The **Ripples game** is a choices-matter sci-fi visual novel following Jack and Darci through a suspenseful, branching storyline.
+- **Latest Release**: Episode 9 launched on April 26, 2026, introducing vital narrative resolutions and new branching paths.
+- **Official Platforms**: Officially supported on Windows, macOS, Linux, and Android devices.
+- **Key Focus**: Making informed decisions is critical, as choices directly lock or unlock specific character routes and endings.
+- **SFW Resource**: This guide provides an all-ages, encyclopedic overview of the game's mechanics, storyline, and technical setup.
+</Callout>
+
+<Section icon={Sparkles} title="Ripples Game Overview & Official Platforms">
+
+The **Ripples game**, created by independent developer Jestur, is a story-rich sci-fi visual novel. The narrative centers on the protagonist, Jack, and his interactions with Darci, set against a backdrop of sci-fi mystery and suspense. Players navigate the story by making critical decisions that alter character relationships, unlock unique scenes, and lead to multiple distinct endings.
+
+Because the game relies heavily on its narrative structure, maintaining a clean save history is essential for exploring all available paths. The developer actively updates the project through episodic releases, with Episode 9 being the most recent major update.
+
+| Attribute | Details |
+| --- | --- |
+| Developer | Jestur |
+| Genre | Sci-Fi Visual Novel, Mystery |
+| Current Version | Episode 9 (Released April 26, 2026) |
+| Platforms | Windows, macOS, Linux, Android |
+| Distribution | itch.io, Patreon |
+| Art Assets | Over 10,000 high-quality images |
+
+To ensure a safe and secure experience, players should only obtain the game files from official distribution channels. 
+
+<Callout type="success" title="Official Distribution Channels">
+Always download the game directly from the creator. You can access the official release on the [Ripples itch.io page](https://jestur.itch.io/) or support the ongoing development of future episodes via the [Jestur Patreon](https://www.patreon.com/jestur). Avoid third-party mirror sites to protect your device from modified or unsafe files.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Episode 9 Walkthrough & Key Choices">
+
+Navigating the branching pathways of the **Ripples game** requires a clear understanding of how early decisions influence late-game scenarios. Episode 9 introduces several high-stakes scenarios where Jack must make pivotal choices regarding his trust in Darci and how he handles confidential information.
+
+The visual novel structure utilizes conditional flags. When you make a decision, the game registers a specific variable that determines which dialogue trees and background scenes render in subsequent chapters.
+
+| Episode | Key Scenario | Choice Option | Narrative Impact |
+| --- | --- | --- | --- |
+| Episode 7 | Investigation | Trust Darci | Strengthens relationship, unlocks joint investigation scenes |
+| Episode 7 | Investigation | Keep Secrets | Increases suspicion, locks out Darci's cooperative route |
+| Episode 8 | Confrontation | Intervene | Prevents minor injuries, alters local reputation |
+| Episode 8 | Confrontation | Wait and See | Unlocks alternative dialogue, reveals secondary character motives |
+| Episode 9 | Resolution | Share Data | Leads to the cooperative sci-fi ending branch |
+| Episode 9 | Resolution | Encrypt Files | Secures Jack's solo path, changes final scene parameters |
+
+To experience all content, players are encouraged to utilize multiple save slots before major decision points.
+
+<Callout type="warning" title="Save File Compatibility">
+When updating from Episode 8 to Episode 9, ensure your previous save files are placed in the correct directory. Major structural changes in new episodes can sometimes cause minor dialogue glitches if older, corrupted save files are loaded.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Character Routes & Relationship Mechanics">
+
+The emotional and thematic core of the **Ripples game** lies in its character interactions. Jack's relationship with Darci serves as the primary narrative anchor, but secondary characters also shape how the sci-fi mystery unfolds.
+
+The game tracks hidden relationship points based on your conversational choices. Accumulating these points is necessary to bypass specific narrative checkpoints.
+
+<CardGrid cols={3}>
+  <Card title="Jack (Protagonist)">
+    - **Role**: Main playable character
+    - **Key Focus**: Solving the central sci-fi mystery while balancing personal alliances
+    - **Primary Choice Impact**: Determines the ethical direction of the story
+  </Card>
+  <Card title="Darci">
+    - **Role**: Primary companion and key narrative focus
+    - **Key Focus**: Her trust levels dictate the availability of cooperative routes
+    - **Primary Choice Impact**: Unlocks major branch endings in Episode 9
+  </Card>
+  <Card title="Supporting Cast">
+    - **Role**: Provide context, lore, and alternative perspectives
+    - **Key Focus**: Offer critical clues during investigation phases
+    - **Primary Choice Impact**: Can alter background details and world-building elements
+  </Card>
+</CardGrid>
+
+To successfully lock in Darci's route, players must consistently choose cooperative options during critical plot points.
+
+| Route Target | Required Flag | Critical Choice Point | Expected Outcome |
+| --- | --- | --- | --- |
+| Darci Route | Trust Score >= 5 | Episode 7 Lab Scene | Unlocks exclusive partnership dialogues |
+| Solo Route | Trust Score < 5 | Episode 8 Office Scene | Jack acts independently, leading to survival-focused endings |
+| Mystery Route | Data Shared | Episode 9 Terminal Scene | Reveals deeper lore regarding the sci-fi anomaly |
+
+<Callout type="tip" title="Checking Route Status">
+Pay close attention to character reactions during key conversations. If a character appears distant or hesitant, it usually indicates that your previous choices have steered the story toward a neutral or solo route.
+```
+Relationship Score Check:
+[Choice: Support Darci] -> +1 Trust
+[Choice: Work Alone] -> Neutral / Solo Path Enabled
+```
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Android Installation & Technical Setup Guide">
+
+The mobile version of the **Ripples game** allows players to enjoy the visual novel on Android devices. Because the game is distributed as an APK file via itch.io, players must manually install and configure the application on their devices.
+
+Follow these structured steps to install the game safely and manage your save files without losing progress.
+
+<Steps>
+  <Step num="1" title="Download the Official APK">
+    Visit the official itch.io page using your Android device's web browser. Download the official Episode 9 Android APK file. Avoid downloading from unauthorized forums or third-party file-sharing sites.
+  </Step>
+  <Step num="2" title="Enable Unknown Sources">
+    Open your Android device's settings menu. Navigate to Security or Applications, and enable the option to install apps from "Unknown Sources." This permission is required to install applications outside of the standard app store.
+  </Step>
+  <Step num="3" title="Install the Application">
+    Locate the downloaded APK file using a file manager app. Tap the file and select "Install." Wait for the installation process to complete, which may take a few moments due to the large volume of high-resolution images.
+  </Step>
+  <Step num="4" title="Transfer Save Files (Optional)">
+    If you are upgrading from an older episode, locate your previous save files. Copy them from the old game folder and paste them into the newly created Episode 9 save directory to continue your progress.
+  </Step>
+</Steps>
+
+| Platform | Minimum OS Version | Recommended Storage | File Format |
+| --- | --- | --- | --- |
+| Android | Android 8.0 (Oreo) | 3 GB free space | APK |
+| Windows | Windows 7 or higher | 4 GB free space | ZIP / EXE |
+| macOS | macOS 10.12 or higher | 4 GB free space | APP / DMG |
+| Linux | Ubuntu 18.04 or equivalent | 4 GB free space | Tarball / Executable |
+
+<Callout type="info" title="Default Save Locations">
+On Android, save files are typically stored in the internal storage directory under `Android/data/com.jestur.ripples/files/saves`. For Windows users, saves are located in the `game/saves` folder within the main directory or inside the `AppData/Roaming` local folder.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Story Milestones & Release History">
+
+Tracking your progress through the **Ripples game** ensures you do not miss hidden scenes or alternative character perspectives. The episodic structure means that each update expands the world-building, adding layers to the overarching sci-fi mystery.
+
+Below is a checklist of essential milestones to achieve by the end of Episode 9.
+
+<Checklist
+  id="ripples-milestones"
+  title="Episode 9 Completion Checklist:"
+  items={[
+    "Complete all narrative chapters from Episode 1 through Episode 9",
+    "Unlock Darci's trust route by selecting cooperative dialogue choices",
+    "Discover the secrets behind the central sci-fi anomaly in Episode 8",
+    "Successfully backup and migrate your save files to the latest version",
+    "Explore the alternative solo pathways to view different character outcomes"
+  ]}
+/>
+
+The development timeline highlights the consistent updates provided by Jestur, ensuring a polished experience for players who follow the project over time.
+
+| Release Version | Launch Date | Major Additions |
+| --- | --- | --- |
+| Episode 7 | Mid 2025 | Introduced the lab investigation sequence and early Darci trust choices |
+| Episode 8 | Late 2025 | Added high-stakes office confrontation scenes and branching path indicators |
+| Episode 9 | April 26, 2026 | Delivered major narrative resolutions, optimized Android build, added new art |
+
+<Callout type="success" title="Community & Support">
+To discuss theories, share walkthrough strategies, or report technical bugs, join the [Official Discord](https://discord.com/) server linked on the game's itch.io page, or participate in discussions on the [r/ripples](https://www.reddit.com/r/ripples/) Reddit community.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where can I download the official Ripples game safely?",
+    answer: "You should only download the Ripples game from the official itch.io page hosted by the developer, Jestur. This ensures you receive clean, safe files for Windows, macOS, Linux, and Android."
+  },
+  {
+    question: "How do I update the game to Episode 9 without losing my save progress?",
+    answer: "To keep your progress, do not delete your old game folder immediately. Install the new Episode 9 version, and copy your save files from the old 'saves' directory into the new Episode 9 'saves' folder."
+  },
+  {
+    question: "Are there official promo codes or cheat codes for the Ripples game?",
+    answer: "No, the Ripples game is a narrative-driven visual novel and does not feature an in-game promo code or redemption system. Progression is entirely based on story choices."
+  },
+  {
+    question: "What should I do if the Android version crashes during installation?",
+    answer: "Ensure your device has at least 3 GB of free storage space and that you have enabled 'Install from Unknown Sources' in your security settings. Clearing your browser cache before downloading the APK can also help."
+  }
+]} />
+
+<Callout type="tip" title="Support the Developer">
+If you enjoy the storyline and want to help accelerate the release of Episode 10, consider supporting Jestur on Patreon. Patrons often receive early access to development updates, concept art, and behind-the-scenes insights.
+</Callout>
+
+</Section>

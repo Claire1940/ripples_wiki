@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Última versión de Ripples: Guía de descarga y rutas del Episodio 9",
+  description: "Obtén las instrucciones de descarga de la última versión de Ripples (Episodio 9), los pasos de instalación, las elecciones de rutas de personajes para Jack y Darci, y los registros de actualización.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/38bdf8?text=Ripples+Latest+Version",
+  date: "2026-06-20",
+  author: "Equipo de la Wiki de Ripples"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Última versión de Ripples**: El Episodio 9 es el lanzamiento activo actual, publicado el 26 de abril de 2026 por el creador Jestur.
+- **Plataformas oficiales**: Asegura tu descarga exclusivamente a través de itch.io o Patreon para garantizar archivos de juego limpios, verificados y seguros.
+- **Rutas ramificadas**: La narrativa se centra en Jack y Darci, donde las elecciones críticas dan forma a la trama de ciencia ficción y suspenso, así como a las relaciones de los personajes.
+- **Sistemas compatibles**: Juega sin problemas en Windows, macOS, Linux y Android con total compatibilidad de archivos de guardado entre actualizaciones.
+</Callout>
+
+<Section icon={Sparkles} title="Resumen de la última versión de Ripples">
+
+Con el lanzamiento de la última versión de Ripples, los jugadores pueden sumergirse más profundamente en la intrincada narrativa de ciencia ficción creada por Jestur. El Episodio 9, lanzado el 26 de abril de 2026, continúa la compleja historia de Jack y Darci, presentando nuevas rutas ramificadas, árboles de diálogo y consecuencias narrativas. Como una novela visual rica en historia, cada actualización se construye sobre las elecciones anteriores, lo que hace que la gestión de archivos de guardado y el seguimiento de versiones sean esenciales para una experiencia fluida.
+
+El juego está desarrollado utilizando el motor Ren'Py, lo que garantiza una alta compatibilidad en múltiples sistemas operativos de escritorio y móviles. Los jugadores que realicen la transición desde versiones anteriores encontrarán importantes actualizaciones de optimización junto con el nuevo contenido de la historia.
+
+| Versión | Fecha de lanzamiento | Enfoque de contenido principal | Versión del motor |
+| :--- | :--- | :--- | :--- |
+| **Episodio 9** | 26 de abril de 2026 | Expansión de la ruta de Darci, clímax del misterio de ciencia ficción, pulido de la interfaz de usuario | Ren'Py 8.2+ |
+| **Episodio 8** | A finales de 2025 | Desarrollo de la historia de fondo de Jack, renovación del sistema de elecciones ramificadas | Ren'Py 8.1 |
+| **Episodio 7** | A mediados de 2025 | Introducción de elementos clave de suspenso, compilación inicial para Android | Ren'Py 8.1 |
+
+<Callout type="info" title="Estado del desarrollo">
+Ripples se encuentra actualmente en desarrollo activo. El creador, Jestur, publica con frecuencia informes de progreso, arte conceptual y acceso anticipado a las versiones en Patreon, mientras que las versiones públicas se alojan en itch.io.
+</Callout>
+
+La estructura narrativa del juego depende en gran medida de las elecciones acumulativas. En el último episodio, los desarrolladores han optimizado el sistema de seguimiento de variables internas, lo que reduce la probabilidad de errores de script al cargar archivos de guardado antiguos. Sin embargo, se siguen recomendando instalaciones limpias para saltos de versión importantes.
+
+</Section>
+
+<Section icon={Shield} title="Pasos oficiales de descarga e instalación">
+
+Para mantener la seguridad de tu dispositivo y garantizar la integridad de tus archivos de guardado, obtén siempre la última versión de Ripples a través de los canales de distribución oficiales. El creador aloja los archivos en itch.io para los lanzamientos públicos, mientras que los patrocinadores de Patreon reciben compilaciones de acceso anticipado. Evita descargar archivos de servidores espejo de terceros, sitios de alojamiento de APK no verificados o foros externos para compartir archivos, ya que estos archivos pueden estar modificados o contener software malicioso.
+
+| Plataforma | Formato de archivo | Tamaño de archivo promedio | Método de instalación |
+| :--- | :--- | :--- | :--- |
+| **Windows** | Archivo ZIP | 1.8 GB | Extraer y ejecutar el ejecutable |
+| **macOS** | DMG / ZIP | 1.9 GB | Arrastrar a Aplicaciones, omitir Gatekeeper |
+| **Linux** | TAR.GZ | 1.8 GB | Extraer y ejecutar el script de shell |
+| **Android** | APK | 1.2 GB | Instalación directa del paquete |
+
+<Steps>
+  <Step num="1" title="Visita el portal oficial">
+    Navega a la página oficial de itch.io de Ripples por Jestur o accede a los enlaces de descarga proporcionados a través de tu portal de membresía de Patreon.
+  </Step>
+  <Step num="2" title="Selecciona la compilación de tu plataforma">
+    Elige el paquete adecuado para tu sistema operativo. Asegúrate de tener al menos 3 GB de espacio de almacenamiento libre para acomodar tanto el archivo descargado como los recursos extraídos del juego.
+  </Step>
+  <Step num="3" title="Extraer e inicializar">
+    Para las versiones de escritorio, extrae el directorio comprimido en una carpeta dedicada. No ejecutes el juego directamente desde el archivo ZIP, ya que esto evitará que los archivos de guardado se escriban correctamente.
+  </Step>
+  <Step num="4" title="Configurar permisos">
+    En macOS y Android, es posible que debas otorgar permisos de ejecución. Para Android, habilita la instalación desde orígenes desconocidos en la configuración de seguridad antes de iniciar el instalador.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Seguridad de los archivos de guardado">
+Antes de instalar una nueva versión sobre una compilación anterior, realiza una copia de seguridad manual de tu directorio de guardado. En Windows, las partidas guardadas se almacenan normalmente en el directorio AppData/Roaming dentro de la carpeta local de RenPy.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Elecciones ramificadas y rutas de personajes">
+
+La jugabilidad principal del juego gira en torno a la toma de decisiones. Las elecciones que tomes como Jack influirán en su relación con Darci y dictarán qué camino narrativo sigue el misterio de ciencia ficción. La última versión introduce comprobaciones complejas de múltiples variables, lo que significa que las decisiones tomadas en los primeros episodios bloquearán o desbloquearán activamente opciones de diálogo en el Episodio 9.
+
+<CardGrid cols={3}>
+  <Card title="Perspectiva de Jack">
+    Se centra en la investigación analítica de los fenómenos de ciencia ficción. Esta ruta prioriza la lógica, la exploración del entorno y la toma de decisiones cautelosa.
+  </Card>
+  <Card title="Conexión de Darci">
+    Enfatiza la construcción de confianza y la resonancia emocional con Darci. Las elecciones en este camino desbloquean un trasfondo más profundo del personaje y secuencias de rompecabezas cooperativos únicos.
+  </Card>
+  <Card title="La ruta del suspenso">
+    Un camino de alto riesgo donde Jack toma medidas audaces para descubrir la verdad detrás del misterio central, lo que lleva a ramificaciones inestables de la historia y finales abruptos.
+  </Card>
+</CardGrid>
+
+Para ayudarte a navegar por los puntos de decisión críticos en el último lanzamiento, consulta la tabla de guía de ramificaciones a continuación. Estas elecciones representan coyunturas cruciales que dictan la alineación de los personajes y la trayectoria narrativa.
+
+| Episodio | Contexto de la escena | Elección del jugador | Consecuencia narrativa directa |
+| :--- | :--- | :--- | :--- |
+| **Episodio 9** | El encuentro en el laboratorio | Confiar en el plan de Darci | Aumenta la variable de confianza; desbloquea una escena de escape colaborativa |
+| **Episodio 9** | El encuentro en el laboratorio | Proceder de forma independiente | Disminuye la confianza; Jack debe resolver la red de seguridad solo |
+| **Episodio 8** | Registro del apartamento | Investigar la caja fuerte | Desbloquea datos ocultos de la unidad encriptada útiles en el Episodio 9 |
+| **Episodio 8** | Registro del apartamento | Salir de inmediato | Evita sospechas pero bloquea el acceso a los archivos de historia de fondo |
+
+<Callout type="tip" title="Estrategia de gestión de guardados">
+Utiliza el robusto sistema de ranuras de guardado del motor Ren'Py. Crea un punto de guardado maestro al comienzo de cada episodio y usa ranuras separadas para elecciones experimentales para evitar tener que volver a jugar toda la historia desde el principio.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuración y optimización de la versión de Android">
+
+La versión para Android del juego permite a los jugadores experimentar la novela visual en dispositivos móviles. Debido a los recursos de alta resolución y los extensos archivos de script, es necesaria una optimización adecuada para evitar bloqueos, especialmente en dispositivos con RAM limitada.
+
+<Checklist
+  id="android-preinstall"
+  title="Lista de verificación previa a la instalación en Android:"
+  items={[
+    "Verificar que haya al menos 2.5 GB de almacenamiento interno disponible",
+    "Habilitar la instalación desde orígenes desconocidos en la seguridad del sistema",
+    "Asegurarse de que el dispositivo tenga al menos 3 GB de memoria RAM",
+    "Cerrar las aplicaciones en segundo plano para liberar memoria antes de iniciar"
+  ]}
+/>
+
+Al actualizar al último paquete de Android, los jugadores suelen encontrarse con problemas al migrar las partidas guardadas. La siguiente tabla describe los obstáculos técnicos más comunes y los pasos correspondientes para resolverlos.
+
+| Problema | Causa raíz | Solución recomendada |
+| :--- | :--- | :--- |
+| **Aplicación no instalada** | Conflicto de firma con la versión anterior | Desinstalar la compilación anterior y luego instalar el nuevo APK |
+| **Pantalla negra al iniciar** | Memoria insuficiente o recursos dañados | Borrar la caché de la aplicación y reiniciar el dispositivo |
+| **Falta de archivos de guardado** | Cambios en el directorio de almacenamiento de acceso restringido (scoped storage) | Copiar manualmente los archivos de guardado a la nueva estructura de directorios |
+| **Desincronización de audio** | Conflicto de aceleración de hardware | Alternar los ajustes de rendimiento en el menú del juego |
+
+<Callout type="success" title="Migración manual de guardados">
+Para transferir manualmente las partidas guardadas en Android, usa un administrador de archivos para ubicar el directorio de guardado. Copia el contenido de `/Android/data/com.jestur.ripples/files/saves` a una carpeta de respaldo segura antes de realizar una instalación limpia de una nueva actualización.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recursos de la comunidad y preguntas frecuentes">
+
+La comunidad que rodea al juego es muy activa y ofrece recursos como guías detalladas hechas por fans, tablas de relaciones de personajes y soporte técnico para la resolución de problemas. Participar en estas plataformas puede mejorar enormemente tu experiencia de juego y ayudarte a resolver acertijos narrativos difíciles.
+
+- **Discord oficial**: El centro principal para discusiones en tiempo real, informes de errores e interacción directa con Jestur.
+- **Comunidad de Reddit (r/ripples)**: Una plataforma para compartir teorías de fans, arte y guías de rutas detalladas.
+- **Portal de Patreon**: El mejor lugar para apoyar financieramente el proyecto y obtener acceso a compilaciones de desarrollo temprano y contenido detrás de escena.
+
+<FAQ items={[
+  {
+    question: "¿Cómo actualizo a la última versión de Ripples sin perder mi progreso?",
+    answer: "Para actualizar de forma segura, descarga el último lanzamiento y sobrescribe el directorio del juego existente (en PC) o instala el nuevo APK sobre el existente (en Android). Tus archivos de guardado se almacenan en un directorio de perfil de usuario separado, el cual no se ve afectado durante las actualizaciones estándar. Sin embargo, siempre se recomiendan copias de seguridad manuales de la carpeta de guardado."
+  },
+  {
+    question: "¿Hay alguna diferencia de contenido entre las versiones de PC y Android?",
+    answer: "No, el contenido de la historia, los diálogos de los personajes, las rutas y las elecciones son idénticos en todas las plataformas compatibles. Las únicas diferencias radican en el diseño de la interfaz de usuario, los controles de pantalla táctil y la configuración de compresión de recursos optimizada para el rendimiento móvil."
+  },
+  {
+    question: "¿Puedo saltar directamente al Episodio 9 sin jugar los episodios anteriores?",
+    answer: "Aunque técnicamente el juego te permite comenzar desde episodios más nuevos con elecciones predeterminadas ya seleccionadas, se desaconseja totalmente. Ripples es una experiencia impulsada por la narrativa donde el desarrollo de los personajes y la continuidad de la trama dependen en gran medida de las decisiones específicas que tomes a lo largo del viaje."
+  },
+  {
+    question: "¿Qué debo hacer si el juego se bloquea durante las transiciones en la última versión?",
+    answer: "Los bloqueos durante las transiciones de escena suelen deberse a limitaciones de memoria o cargas de recursos dañados. Intenta reducir el tamaño de la caché de imágenes en el menú de preferencias, actualizar los controladores de tu tarjeta gráfica (en PC) o borrar la caché de la aplicación (en Android)."
+  }
+]} />
+
+<Callout type="info" title="Participación comunitaria">
+Al participar en el servidor de Discord o en la comunidad de Reddit, recuerda usar etiquetas de spoiler al discutir puntos críticos de la trama en el Episodio 9, ya que muchos miembros de la comunidad prefieren experimentar los desarrollos de la historia de primera mano.
+</Callout>
+
+</Section>

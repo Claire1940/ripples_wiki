@@ -1,0 +1,173 @@
+import { Map, Shield, Target, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fecha de lanzamiento de Ripples: Cronología de episodios y guía de actualización",
+  description: "Sigue la cronología de la fecha de lanzamiento de Ripples, incluyendo las actualizaciones del Episodio 9, la disponibilidad en plataformas y los futuros hitos de desarrollo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ripples+Release+Date+Timeline",
+  date: "2026-06-20",
+  author: "Equipo de la Wiki de Ripples"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Fecha de lanzamiento de Ripples**: La última actualización importante, el Episodio 9, se lanzó oficialmente el 26 de abril de 2026.
+- **Modelo de desarrollo**: El creador Jestur lanza el juego de forma episódica en itch.io y Patreon.
+- **Plataformas compatibles**: Totalmente compatible con dispositivos Windows, macOS, Linux y Android.
+- **Descarga segura**: Los jugadores solo deben acceder a las versiones oficiales a través de itch.io y Patreon para evitar riesgos de seguridad.
+</Callout>
+
+<Section icon={Map} title="Fecha de lanzamiento de Ripples e historial de episodios">
+
+El desarrollo de *Ripples*, una novela visual de ciencia ficción con una rica narrativa creada por Jestur, sigue una estructura de lanzamiento episódica. Este modelo permite al desarrollador expandir continuamente la historia, refinar las rutas de los personajes e introducir recursos visuales de alta calidad. Cada episodio añade nuevas opciones de ramificación y profundiza el misterio que rodea a los personajes principales, Jack y Darci. 
+
+Debido a que las novelas visuales de esta complejidad requieren una amplia labor de escritura, programación y renderizado, los cronogramas de lanzamiento están sujetos a los hitos de desarrollo. El proyecto permanece en desarrollo activo, y la comunidad sigue de cerca cada logro.
+
+| Episodio | Fecha de lanzamiento | Estado |
+|--- |--- |--- |
+| Episodio 1 | Octubre de 2022 | Disponible |
+| Episodio 2 | Enero de 2023 | Disponible |
+| Episodio 3 | Mayo de 2023 | Disponible |
+| Episodio 4 | Septiembre de 2023 | Disponible |
+| Episodio 5 | Enero de 2024 | Disponible |
+| Episodio 6 | Junio de 2024 | Disponible |
+| Episodio 7 | Noviembre de 2024 | Disponible |
+| Episodio 8 | Agosto de 2025 | Disponible |
+| Episodio 9 | 26 de abril de 2026 | Último lanzamiento |
+
+<Callout type="success" title="Estado actual">
+El Episodio 9 es la actualización de contenido más reciente, que introduce importantes acontecimientos en la trama y amplía las consecuencias de las elecciones previas del jugador.
+</Callout>
+
+El intervalo entre los lanzamientos de cada episodio suele ser de varios meses. Este plazo garantiza que las rutas ramificadas, los árboles de diálogo y las miles de imágenes únicas estén pulidos antes de su distribución pública.
+
+</Section>
+
+<Section icon={Shield} title="Compatibilidad de plataformas y requisitos">
+
+*Ripples* está diseñado para ser altamente accesible en múltiples sistemas operativos de escritorio y móviles. El juego funciona con el motor Ren'Py, que proporciona un rendimiento estable y compatibilidad para guardar partidas entre diferentes plataformas.
+
+<CardGrid cols={3}>
+  <Card title="Sistemas de escritorio">
+    - Compatibilidad con **Windows**
+    - Soporte nativo para **macOS**
+    - Paquetes de distribución para **Linux**
+  </Card>
+  <Card title="Sistemas móviles">
+    - Soporte para APK de **Android**
+    - Controles táctiles optimizados
+    - Interfaz de usuario adaptada
+  </Card>
+  <Card title="Portabilidad de guardado">
+    - Archivos de guardado multiplataforma
+    - Soporte de transferencia manual
+    - Actualizaciones estables del motor
+  </Card>
+</CardGrid>
+
+Para garantizar un rendimiento fluido, especialmente al renderizar escenas en alta definición, los jugadores deben verificar que sus sistemas cumplan con las especificaciones recomendadas.
+
+| Plataforma | Formato de archivo | Complejidad de instalación |
+|--- |--- |--- |
+| Windows | .ZIP / Ejecutable | Baja (Extraer y ejecutar) |
+| macOS | .APP / DMG | Media (Omitir Gatekeeper) |
+| Linux | .SH / Tarball | Media (Ejecución en terminal) |
+| Android | .APK | Media (Permitir fuentes desconocidas) |
+
+| Versión | Tamaño estimado | Recomendación de almacenamiento |
+|--- |--- |--- |
+| PC (Windows/macOS/Linux) | 4.5 GB | 6.0 GB de espacio libre |
+| Android móvil | 3.2 GB | 5.0 GB de espacio libre |
+
+<Callout type="warning" title="Advertencia sobre fuentes oficiales">
+Descarga siempre los archivos de instalación directamente de fuentes oficiales como itch.io o Patreon. Los espejos de terceros no oficiales pueden distribuir archivos modificados o desactualizados que pueden comprometer la seguridad del dispositivo o corromper los datos de guardado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo descargar y actualizar">
+
+La transición entre episodios requiere prácticas de instalación adecuadas para evitar la pérdida de las elecciones del jugador. Dado que *Ripples* depende de las decisiones tomadas en los primeros capítulos para determinar los resultados del final del juego, preservar tus archivos de guardado es fundamental.
+
+<Steps>
+  <Step num="1" title="Visita las páginas oficiales de distribución">
+    Navega a la página oficial de itch.io para Ripples o accede a la página de Patreon del creador. Los patrocinadores de Patreon a menudo reciben acceso anticipado a las próximas versiones antes de que se lancen al público en general en itch.io.
+  </Step>
+  <Step num="2" title="Selecciona la versión correcta">
+    Descarga el paquete específico diseñado para tu sistema operativo. Asegúrate de tener suficiente espacio de almacenamiento, ya que el tamaño de los archivos aumenta con cada nuevo episodio.
+  </Step>
+  <Step num="3" title="Extrae e instala los archivos del juego">
+    Para plataformas de PC, extrae la carpeta comprimida descargada en un directorio dedicado. No ejecutes el juego directamente desde una carpeta comprimida, ya que esto evita que los archivos de guardado se escriban correctamente. Para Android, habilita la instalación desde fuentes desconocidas en la configuración de tu dispositivo antes de abrir el APK.
+  </Step>
+  <Step num="4" title="Verifica la migración de los archivos de guardado">
+    El motor del juego detecta automáticamente las carpetas de guardado existentes en el directorio predeterminado del sistema. Inicia el nuevo episodio y comprueba el menú de carga para confirmar que tu progreso de los episodios anteriores se ha transferido correctamente.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Recomendación de copia de seguridad manual">
+Antes de instalar la actualización de un nuevo episodio, copia manualmente tu directorio de guardado en una carpeta de respaldo segura. En Windows, los datos de guardado se encuentran normalmente en el directorio AppData/Roaming/RenPy bajo el nombre único de la carpeta del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión de la historia y objetivos del jugador">
+
+En *Ripples*, la narrativa se centra en Jack y Darci dentro de un detallado entorno de ciencia ficción. Las elecciones realizadas durante las secuencias clave de diálogo alteran las relaciones entre los personajes y desbloquean rutas narrativas específicas. Mantenerse organizado a lo largo de múltiples partidas ayuda a explorar todo el contenido disponible.
+
+| Personaje | Rol narrativo | Disponibilidad de ruta |
+|--- |--- |--- |
+| Jack | Protagonista principal | Historia principal |
+| Darci | Compañera clave | Ruta ramificada |
+
+Para experimentar todo el alcance de la narrativa, se recomienda a los jugadores mantener múltiples estados de guardado en los puntos de ramificación críticos.
+
+<Checklist
+  id="story-goals"
+  title="Hitos recomendados para la partida:"
+  items={[
+    "Completar la historia principal hasta el Episodio 9",
+    "Desbloquear todas las rutas ramificadas para Darci",
+    "Establecer guardados de respaldo en los puntos de decisión importantes",
+    "Revisar los registros de cambios oficiales para ver las escenas añadidas recientemente"
+  ]}
+/>
+
+<Callout type="info" title="Decisiones ramificadas">
+Algunas elecciones en los primeros episodios pueden parecer menores, pero pueden bloquear o desbloquear ramas enteras de diálogo en lanzamientos posteriores. Experimentar con diferentes rutas de decisión es clave para descubrir todo el trasfondo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+Las siguientes preguntas cubren detalles esenciales sobre el cronograma de lanzamiento del juego, el soporte de plataformas y los procedimientos de actualización.
+
+<FAQ items={[
+  {
+    question: "¿Cuándo es la próxima fecha de lanzamiento de Ripples?",
+    answer: "El creador, Jestur, publica actualizaciones periódicamente en Patreon e itch.io. El Episodio 9 se lanzó el 26 de abril de 2026. Las fechas de los futuros episodios se anuncian en los canales sociales oficiales del desarrollador y en la página de Patreon a medida que se alcanzan los hitos de desarrollo."
+  },
+  {
+    question: "¿Puedo transferir mis partidas guardadas de PC a la versión de Android?",
+    answer: "Sí. Debido a que el juego utiliza el motor Ren'Py, los archivos de guardado son compatibles entre plataformas. Puedes copiar manualmente los archivos de guardado desde el directorio AppData de tu PC a la carpeta de guardado correspondiente en el almacenamiento interno de tu dispositivo Android."
+  },
+  {
+    question: "¿Está previsto un lanzamiento en Steam o consolas?",
+    answer: "Actualmente, las plataformas de distribución oficiales son itch.io y Patreon. No hay listados activos ni planes confirmados para versiones de Steam o consolas, ya que el juego sigue en desarrollo activo por episodios."
+  },
+  {
+    question: "¿Qué debo hacer si mi juego se cierra inesperadamente después de una actualización?",
+    answer: "Asegúrate de haber extraído limpiamente los nuevos archivos del juego en un directorio nuevo en lugar de sobrescribir una carpeta antigua. Si los problemas persisten, borra la caché del juego o consulta los foros oficiales de la comunidad en Discord y Reddit para conocer los pasos de solución de problemas específicos de cada plataforma."
+  }
+]} />
+
+<Callout type="tip" title="Soporte de la comunidad">
+Para obtener actualizaciones del desarrollo en tiempo real, participar en debates de la comunidad y recibir ayuda con la resolución de problemas, considera unirte al servidor oficial de Discord o participar en el subreddit r/ripples.
+</Callout>
+
+</Section>

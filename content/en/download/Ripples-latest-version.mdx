@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ripples latest version: Episode 9 Download & Route Guide",
+  description: "Get the Ripples latest version (Episode 9) download instructions, installation steps, character route choices for Jack and Darci, and update logs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/38bdf8?text=Ripples+Latest+Version",
+  date: "2026-06-20",
+  author: "Ripples Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ripples latest version**: Episode 9 is the current active release, launched on April 26, 2026, by the creator Jestur.
+- **Official platforms**: Secure your download exclusively via itch.io or Patreon to ensure clean, verified, and safe game files.
+- **Branching paths**: The narrative centers on Jack and Darci, where critical choices shape the suspenseful sci-fi plot and character relationships.
+- **Supported systems**: Play seamlessly across Windows, macOS, Linux, and Android with full save state compatibility between updates.
+</Callout>
+
+<Section icon={Sparkles} title="Ripples Latest Version Overview">
+
+With the release of the Ripples latest version, players can dive deeper into the intricate sci-fi narrative crafted by Jestur. Episode 9, launched on April 26, 2026, continues the complex story of Jack and Darci, introducing new branching paths, dialogue trees, and narrative consequences. As a story-rich visual novel, each update builds upon previous choices, making save file management and version tracking essential for a seamless experience.
+
+The game is developed using the Ren'Py engine, ensuring high compatibility across multiple desktop and mobile operating systems. Players transitioning from earlier builds will find significant optimization updates alongside the new story content.
+
+| Version | Release Date | Primary Content Focus | Engine Version |
+| :--- | :--- | :--- | :--- |
+| **Episode 9** | April 26, 2026 | Darci route expansion, sci-fi mystery climax, UI polish | Ren'Py 8.2+ |
+| **Episode 8** | Late 2025 | Jack backstory development, branching choice system overhaul | Ren'Py 8.1 |
+| **Episode 7** | Mid 2025 | Introduction of key suspense elements, initial Android build | Ren'Py 8.1 |
+
+<Callout type="info" title="Development Status">
+Ripples is currently in active development. The creator, Jestur, frequently posts progress reports, concept art, and early build access on Patreon, while public builds are hosted on itch.io.
+</Callout>
+
+The narrative structure of the game relies heavily on cumulative choices. In the latest episode, the developers have streamlined the internal variable tracking system, which reduces the likelihood of script errors when loading older save files. However, clean installations are still recommended for major version jumps.
+
+</Section>
+
+<Section icon={Shield} title="Official Download & Installation Steps">
+
+To maintain the security of your device and ensure the integrity of your save files, always obtain the Ripples latest version from official distribution channels. The creator hosts files on itch.io for public releases, while Patreon sponsors receive early access builds. Avoid downloading files from third-party mirrors, unverified APK hosting sites, or external file-sharing forums, as these files may be modified or contain malicious software.
+
+| Platform | File Format | Average File Size | Installation Method |
+| :--- | :--- | :--- | :--- |
+| **Windows** | ZIP archive | 1.8 GB | Extract and run executable |
+| **macOS** | DMG / ZIP | 1.9 GB | Drag to Applications, bypass Gatekeeper |
+| **Linux** | TAR.GZ | 1.8 GB | Extract and execute shell script |
+| **Android** | APK | 1.2 GB | Direct package installation |
+
+<Steps>
+  <Step num="1" title="Visit the Official Portal">
+    Navigate to the official itch.io page for Ripples by Jestur or access the download links provided through your Patreon membership portal.
+  </Step>
+  <Step num="2" title="Select Your Platform Build">
+    Choose the appropriate package for your operating system. Ensure you have at least 3 GB of free storage space to accommodate both the downloaded archive and the extracted game assets.
+  </Step>
+  <Step num="3" title="Extract and Initialize">
+    For desktop versions, extract the compressed directory to a dedicated folder. Do not run the game directly from within the ZIP archive, as this will prevent save files from being written properly.
+  </Step>
+  <Step num="4" title="Configure Permissions">
+    On macOS and Android, you may need to grant execution permissions. For Android, enable installation from unknown sources in your security settings before launching the installer.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Save File Security">
+Before installing a new version over an older build, manually back up your save directory. On Windows, saves are typically stored in the AppData/Roaming directory under the RenPy local folder.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Branching Choices & Character Routes">
+
+The core gameplay of the game revolves around decision-making. The choices you make as Jack influence his relationship with Darci and dictate which narrative path the sci-fi mystery follows. The latest version introduces complex multi-variable checks, meaning decisions made in early episodes will actively lock or unlock dialogue options in Episode 9.
+
+<CardGrid cols={3}>
+  <Card title="Jack's Perspective">
+    Focuses on the analytical investigation of the sci-fi phenomena. This route prioritizes logic, environmental exploration, and cautious decision-making.
+  </Card>
+  <Card title="Darci's Connection">
+    Emphasizes building trust and emotional resonance with Darci. Choices on this path unlock deeper character lore and unique cooperative puzzle sequences.
+  </Card>
+  <Card title="The Suspense Route">
+    A high-risk path where Jack takes aggressive actions to uncover the truth behind the central mystery, leading to volatile story branches and abrupt endings.
+  </Card>
+</CardGrid>
+
+To help you navigate the critical decision points in the latest release, refer to the branching guide table below. These choices represent pivotal junctions that dictate character alignment and narrative trajectory.
+
+| Episode | Scene Context | Player Choice | Direct Narrative Consequence |
+| :--- | :--- | :--- | :--- |
+| **Episode 9** | The Lab Encounter | Trust Darci's Plan | Increases trust variable; unlocks collaborative escape scene |
+| **Episode 9** | The Lab Encounter | Proceed Independently | Decreases trust; Jack must solve the security grid alone |
+| **Episode 8** | Apartment Search | Investigate the Safe | Unlocks hidden encrypted drive data useful in Episode 9 |
+| **Episode 8** | Apartment Search | Exit Immediately | Avoids suspicion but locks out background lore files |
+
+<Callout type="tip" title="Save Management Strategy">
+Utilize the Ren'Py engine's robust save slot system. Create a master save point at the beginning of each episode, and use separate slots for experimental choices to avoid having to replay the entire story from the beginning.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Android Version Setup & Optimization">
+
+The Android port of the game allows players to experience the visual novel on mobile devices. Due to the high-resolution assets and extensive script files, proper optimization is necessary to prevent crashes, especially on devices with limited RAM. 
+
+<Checklist
+  id="android-preinstall"
+  title="Android Pre-Installation Checklist:"
+  items={[
+    "Verify at least 2.5 GB of internal storage is available",
+    "Enable Installation from Unknown Sources in system security",
+    "Ensure your device has at least 3 GB of system RAM",
+    "Close background applications to free up memory before launching"
+  ]}
+/>
+
+When updating to the latest Android package, players often encounter issues with save migration. The table below outlines the most common technical hurdles and the corresponding steps to resolve them.
+
+| Issue | Root Cause | Recommended Solution |
+| :--- | :--- | :--- |
+| **App Not Installed** | Signature conflict with previous version | Uninstall older build, then install the new APK |
+| **Black Screen on Launch** | Insufficient memory or corrupted assets | Clear application cache and restart the device |
+| **Missing Save Files** | Scoped storage directory changes | Manually copy save files to the new directory structure |
+| **Audio Desynchronization** | Hardware acceleration conflict | Toggle the performance settings in the game menu |
+
+<Callout type="success" title="Manual Save Migration">
+To manually transfer saves on Android, use a file manager to locate the save directory. Copy the contents of `/Android/data/com.jestur.ripples/files/saves` to a secure backup folder before performing a clean installation of a new update.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Community Resources & FAQ">
+
+The community surrounding the game is highly active, offering resources such as detailed fan-made walkthroughs, character relationship charts, and technical troubleshooting support. Engaging with these platforms can greatly enhance your gameplay experience and help you solve difficult narrative puzzles.
+
+- **Official Discord**: The primary hub for real-time discussions, bug reporting, and direct interaction with Jestur.
+- **Reddit Community (r/ripples)**: A platform for sharing fan theories, art, and detailed route guides.
+- **Patreon Portal**: The best place to support the project financially and gain access to early development builds and behind-the-scenes content.
+
+<FAQ items={[
+  {
+    question: "How do I update to the Ripples latest version without losing my progress?",
+    answer: "To update safely, download the latest release and overwrite the existing game directory (on PC) or install the new APK over the existing one (on Android). Your save files are stored in a separate user profile directory, which remains unaffected during standard updates. However, manual backups of the save folder are always recommended."
+  },
+  {
+    question: "Is there a difference in content between the PC and Android versions?",
+    answer: "No, the story content, character dialogue, routes, and choices are identical across all supported platforms. The only differences lie in the user interface layout, touch-screen controls, and asset compression settings optimized for mobile performance."
+  },
+  {
+    question: "Can I jump directly into Episode 9 without playing previous episodes?",
+    answer: "While the game technically allows you to start from newer episodes with default choices pre-selected, it is highly discouraged. Ripples is a narrative-driven experience where character development and plot continuity depend heavily on the specific decisions you make throughout the journey."
+  },
+  {
+    question: "What should I do if the game crashes during transitions in the latest version?",
+    answer: "Crashes during scene transitions are typically caused by memory limitations or corrupted asset loads. Try reducing the image cache size in the preferences menu, updating your graphics card drivers (on PC), or clearing the application cache (on Android)."
+  }
+]} />
+
+<Callout type="info" title="Community Engagement">
+When participating in the Discord server or Reddit community, remember to use spoiler tags when discussing critical plot points in Episode 9, as many community members prefer to experience the story developments firsthand.
+</Callout>
+
+</Section>

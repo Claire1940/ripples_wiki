@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ripples 0.9.22: Detonado, Escolhas e Guia de Instalação",
+  description: "Explore a atualização mais recente do Ripples 0.9.22 com nosso guia de instalação passo a passo, detonados de escolhas, rotas de personagens e dicas de plataforma.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0b1329/38bdf8?text=Ripples+0.9.22+Guide",
+  date: "2026-06-20",
+  author: "Equipe da Wiki de Ripples",
+  keywords: "Ripples, Ripples 0.9.22, guia, detonado, escolhas, instalação, visual novel"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ripples 0.9.22** traz otimizações essenciais de plataforma, correções de bugs e melhorias de compatibilidade para a visual novel de ficção científica em andamento.
+- **Downloads oficiais** são hospedados exclusivamente em plataformas verificadas como itch.io e Patreon para Windows, macOS, Linux e Android.
+- **Caminhos narrativos** dependem de decisões críticas tomadas durante as interações entre o protagonista principal, Jack, e a companheira Darci.
+- **A configuração no Android** requer instalação manual do pacote e gerenciamento cuidadoso do diretório para proteger os arquivos de salvamento existentes.
+</Callout>
+
+<Section icon={Map} title="Visão Geral da Versão Ripples 0.9.22">
+
+Ripples 0.9.22 representa uma atualização crucial de estabilidade e compatibilidade para a aclamada visual novel de ficção científica desenvolvida por Jestur. Após o grande lançamento do Episódio 9, esta atualização técnica foca em refinar o desempenho do motor, gerenciar a memória e resolver bugs específicos de plataformas em sistemas de desktop e dispositivos móveis. Sendo uma narrativa episódica e baseada em escolhas, manter uma execução estável é vital para preservar as decisões do jogador e os sinalizadores de diálogo ao longo de múltiplos atos da história.
+
+O desenvolvimento de Ripples continua a expandir o universo profundo e futurista centrado nas interações entre Jack e Darci. Esta versão garante que os jogadores experimentem transições suaves, carregamento otimizado de recursos e migrações confiáveis de estados de salvamento enquanto navegam pelas histórias ramificadas.
+
+| Plataforma | Fonte Oficial | Formato de Arquivo | Ação Recomendada |
+|---|---|---|---|
+| Windows | itch.io / Patreon | Arquivo .ZIP | Extrair para uma pasta dedicada e executar o executável |
+| macOS | itch.io / Patreon | .ZIP / .APP | Extrair e configurar as permissões de segurança |
+| Linux | itch.io / Patreon | .TAR.GZ | Extrair e executar via comando no terminal |
+| Android | itch.io / Patreon | Instalador .APK | Ativar fontes desconhecidas e executar o pacote |
+
+<CardGrid cols={3}>
+  <Card title="Estabilidade no Desktop">
+    - **Execução nativa** nas plataformas Windows, macOS e Linux.
+    - Recursos de imagem em resolução completa e áudio não compactado.
+    - Controles de navegação fluidos com teclado e mouse.
+  </Card>
+  <Card title="Otimização Móvel">
+    - **Ajustes de motor** para interfaces de tela de toque.
+    - Pacotes de recursos compactados para reduzir o consumo de armazenamento.
+    - Melhor consumo de bateria e desempenho térmico.
+  </Card>
+  <Card title="Acesso para Apoiadores">
+    - **Versões de desenvolvimento** disponíveis via Patreon.
+    - Canais de suporte direto para resolução de problemas.
+    - Atualizações de progresso dos bastidores diretamente de Jestur.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Evite Fontes Não Oficiais">
+Sempre baixe os arquivos do jogo a partir das páginas oficiais do itch.io ou Patreon. Espelhos não oficiais, pacotes modificados ou APKs alterados representam riscos de segurança e podem conter sistemas de salvamento corrompidos que quebram a progressão dos sinalizadores da história.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Instalação Passo a Passo">
+
+A instalação adequada do Ripples 0.9.22 garante que os recursos do jogo sejam carregados corretamente e que o progresso existente na história seja preservado. Como o jogo é distribuído como um pacote independente, em vez de plataformas automatizadas, os jogadores devem gerenciar os arquivos manualmente. Isso é particularmente importante para usuários de Android e jogadores de desktop que estão migrando salvamentos de episódios anteriores.
+
+O jogo é construído no motor Ren'Py, que armazena as configurações do usuário e os arquivos de salvamento em caminhos de diretório específicos de cada plataforma. Compreender esses locais evita a perda acidental de dados durante as atualizações de versão.
+
+<Steps>
+  <Step num="1" title="Baixe o Pacote">
+    Visite a página oficial do itch.io ou o Patreon de Jestur. Selecione o arquivo compactado adequado correspondente ao seu sistema operacional. Certifique-se de que o download seja concluído totalmente antes de tentar abrir o pacote.
+  </Step>
+  <Step num="2" title="Prepare o Diretório">
+    Para sistemas de desktop, crie um diretório limpo longe das pastas do sistema para evitar problemas de permissão. Para dispositivos Android, certifique-se de ter pelo menos 6 GB de espaço de armazenamento interno livre antes de começar.
+  </Step>
+  <Step num="3" title="Extraia ou Instale">
+    No Windows, extraia o arquivo .ZIP usando um software de extração padrão. No Android, localize o arquivo .APK baixado usando um gerenciador de arquivos e toque nele para iniciar o instalador do pacote.
+  </Step>
+  <Step num="4" title="Configure as Permissões de Segurança">
+    No macOS, você pode precisar contornar o Gatekeeper clicando com o botão direito no aplicativo e selecionando Abrir. No Android, permita a instalação de Fontes Desconhecidas nas suas configurações de segurança, se solicitado.
+  </Step>
+  <Step num="5" title="Verifique a Migração do Estado de Salvamento">
+    Inicie o jogo. O motor deve detectar automaticamente os arquivos de salvamento existentes de locais de diretório anteriores. Verifique seu progresso carregando um ponto de salvamento recente a partir do menu principal.
+  </Step>
+</Steps>
+
+| Requisito do Sistema | Especificação Mínima | Especificação Recomendada |
+|---|---|---|
+| Processador | Dual-Core 2.0 GHz | Quad-Core 2.5 GHz ou superior |
+| Memória | 4 GB de RAM | 8 GB de RAM |
+| Gráficos | Compatível com DirectX 9 | DirectX 11 / OpenGL ES 3.0 |
+| Armazenamento | 6 GB de espaço disponível | 10 GB de espaço disponível (SSD preferencial) |
+| SO | Windows 7 / Android 5.0 | Windows 10/11 / Android 11.0+ |
+
+<Callout type="tip" title="Faça Backup dos seus Salvamentos">
+Antes de atualizar para a versão 0.9.22, faça o backup manual do seu diretório de salvamento. No Windows, os salvamentos geralmente são encontrados na pasta AppData/Roaming/RenPy, enquanto no Android eles residem no diretório de armazenamento interno Android/data.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Detonado e Mecânicas de Decisão">
+
+A jogabilidade principal de Ripples gira em torno de decisões de diálogo que alteram relacionamentos, desbloqueiam cenas específicas e direcionam a narrativa de ficção científica para múltiplos finais distintos. O histórico de interação entre Jack e Darci forma a espinha dorsal emocional e estrutural da história. Decisões tomadas em episódios anteriores continuam a influenciar as reações dos personagens e as escolhas nos capítulos mais recentes.
+
+O motor narrativo rastreia as decisões usando variáveis ocultas. Algumas escolhas geram feedback imediato, enquanto outras silenciosamente bloqueiam ou desbloqueiam ramificações da história vários capítulos depois.
+
+| Fase Narrativa | Ponto de Decisão Crítico | Consequência Imediata | Impacto de Rota a Longo Prazo |
+|---|---|---|---|
+| Investigação Inicial | Investigar a anomalia sozinho | Aumenta os sinalizadores de autossuficiência | Desbloqueia caminhos de dedução independentes |
+| Investigação Inicial | Fazer parceria com Darci | Aumenta a confiança e afinidade com Darci | Requisito essencial para a rota principal de Darci |
+| Encontro no Meio da História | Compartilhar banco de dados confidencial | Ganha aprovação imediata da facção | Restringe o acesso a alianças alternativas |
+| Encontro no Meio da História | Reter acesso ao banco de dados | Mantém o status neutro | Preserva múltiplas possibilidades de final |
+| Conflito no Final do Episódio | Apoiar o plano de Darci | Consolida o status de parceria | Ativa ramificações narrativas de alta confiança |
+| Conflito no Final do Episódio | Propor estratégia alternativa | Testa a coesão da equipe | Leva a diversos resultados táticos |
+
+<Callout type="info" title="Gerenciamento de Sinalizadores de Diálogo">
+Ripples não apresenta um estado tradicional de fim de jogo (game-over). Em vez disso, escolher opções abaixo do ideal altera o tom dos relacionamentos dos personagens e muda como os eventos futuros se desenrolam, incentivando múltiplas jogadas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rotas de Personagens e Marcos de Progressão">
+
+Desbloquear toda a profundidade da narrativa de Ripples requer explorar diferentes rotas de personagens. Cada rota oferece uma perspectiva única sobre o mistério central de ficção científica, detalhando elementos de construção de mundo que permanecem ocultos em caminhos alternativos. Focar em interações específicas de personagens é o método principal para direcionar o fluxo da história.
+
+O papel de Jack como a perspectiva central permite que os jogadores definam sua personalidade através de ações, variando de altamente analítico e reservado a colaborativo e empático.
+
+| Personagem | Foco Principal | Estratégia de Interação Chave | Disponibilidade da Rota |
+|---|---|---|---|
+| Darci | Confiança e cooperação | Priorizar escolhas colaborativas e diálogo aberto | Disponível e altamente desenvolvida |
+| Jack | Analítico e independente | Focar na coleta de dados objetivos e autossuficiência | Caminho da perspectiva central |
+| Elenco de Apoio | Lore auxiliar e contexto | Concluir conversas opcionais em áreas comuns | Melhora a compreensão do pano de fundo |
+
+<Checklist
+  id="route-milestones"
+  title="Marcos de Conclusão de Rota:"
+  items={[
+    "Estabelecer uma confiança inicial com Darci durante as investigações iniciais",
+    "Coletar todas as pistas ambientais durante as sequências de exploração",
+    "Manter escolhas de diálogo consistentes e alinhadas com a rota escolhida",
+    "Transferir com sucesso os arquivos de salvamento entre as instalações dos episódios",
+    "Explorar caminhos de decisão alternativos usando múltiplos slots de salvamento"
+  ]}
+/>
+
+<Callout type="success" title="Exploração Incentivada">
+Use o recurso de pular texto lido embutido no motor Ren'Py para navegar rapidamente pelos diálogos já visualizados. Isso permite que você explore de maneira eficiente ramificações de escolha alternativas sem repetir segmentos idênticos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Suporte e Perguntas Frequentes (FAQ)">
+
+Problemas técnicos durante a instalação ou migrações de atualização geralmente podem ser resolvidos verificando as estruturas de arquivos ou redefinindo os caches de configuração. A comunidade ativa no Reddit e o servidor oficial do Discord fornecem assistência regular para jogadores que enfrentam configurações de sistema exclusivas.
+
+Para atualizações diretas, relatórios de bugs e feedback da comunidade, os jogadores podem acessar os canais oficiais do desenvolvedor.
+
+<FAQ items={[
+  {
+    question: "Posso transferir meu progresso de versões anteriores para o Ripples 0.9.22?",
+    answer: "Sim. O motor Ren'Py armazena os dados de salvamento em um diretório centralizado. Quando você instala o Ripples 0.9.22, ele verifica automaticamente o seu sistema em busca de estados de salvamento existentes, permitindo que você retome seu progresso de forma contínua."
+  },
+  {
+    question: "Como resolvo o erro 'Aplicativo Não Instalado' em dispositivos Android?",
+    answer: "Este erro geralmente é causado por conflitos de assinatura com versões anteriores ou espaço de armazenamento insuficiente. Para resolver isso, faça o backup do seu diretório de salvamento, desinstale a versão antiga do jogo, libere pelo menos 6 GB de espaço e instale o novo APK."
+  },
+  {
+    question: "O Ripples 0.9.22 é um jogo completo ou um lançamento episódico?",
+    answer: "Ripples é uma visual novel de ficção científica episódica em andamento desenvolvida por Jestur. A versão 0.9.22 é um patch técnico lançado após o Episódio 9, focando em desempenho, compatibilidade e correções de bugs, em vez de adicionar novo conteúdo de história."
+  },
+  {
+    question: "O que devo fazer se o jogo travar ou exibir uma tela preta ao iniciar?",
+    answer: "No desktop, certifique-se de que seus drivers gráficos estejam atualizados e tente executar o jogo em modo de compatibilidade. No Android, limpe o cache do aplicativo nas configurações do seu sistema ou reinstale o pacote APK."
+  }
+]} />
+
+<Callout type="tip" title="Engajamento com a Comunidade">
+Participe do subreddit oficial r/ripples ou do Discord da comunidade para discutir teorias da história, compartilhar guias de escolha e receber suporte técnico imediato de outros jogadores e moderadores.
+</Callout>
+
+</Section>

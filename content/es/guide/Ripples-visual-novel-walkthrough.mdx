@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Download, Smartphone } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de la novela visual Ripples: Guía de elecciones y rutas",
+  description: "Domina todas las elecciones en la novela visual Ripples. Nuestra guía cubre las rutas de los personajes, las actualizaciones del Episodio 9 y consejos de instalación para Android.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0b0f19/fff?text=Ripples+Walkthrough+Guide",
+  date: "2026-06-20",
+  author: "Equipo de la Wiki de Ripples"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía de la novela visual Ripples**: Domina las ramificaciones de la historia, las decisiones críticas de los personajes y los puntos de inflexión narrativos hasta el lanzamiento del Episodio 9.
+- **Mecánicas de ruta**: Descubre cómo los puntos de relación con Jack, Darci y los personajes secundarios dan forma al misterio de ciencia ficción.
+- **Gestión de partidas guardadas**: Aprende a respaldar y transferir tus partidas de forma segura entre plataformas como Windows y Android.
+- **Actualizaciones oficiales**: Accede a las últimas versiones directamente a través de los canales oficiales de itch.io y Patreon para garantizar la integridad de los archivos.
+</Callout>
+
+<Section icon={Shield} title="Misterio de ciencia ficción y diseño narrativo">
+
+Ripples, desarrollado por Jestur, es una novela visual episódica de ciencia ficción que explora una narrativa apasionante llena de misterio, anomalías temporales y relaciones profundas entre personajes. La trama gira principalmente en torno al protagonista, Jack, y sus interacciones con Darci, una figura central cuyas elecciones alteran la línea temporal. A partir de la última actualización del 26 de abril de 2026, el juego ha alcanzado el Episodio 9, introduciendo caminos ramificados aún más complejos y un mayor peso narrativo a las decisiones anteriores.
+
+Los jugadores navegan por este mundo futurista tomando decisiones de diálogo que acumulan puntos o activan indicadores de historia específicos. Estos puntos determinan cómo reaccionan los personajes ante Jack, qué rutas permanecen abiertas y cómo se desarrolla el misterio general de ciencia ficción. Dado que el juego se encuentra actualmente en desarrollo activo, mantener una ruta de progresión limpia es esencial para experimentar el nuevo contenido sin problemas.
+
+<CardGrid cols={3}>
+  <Card title="Narrativa ramificada">
+    Cada episodio presenta coyunturas críticas donde las elecciones de Jack alteran permanentemente la trayectoria de la historia y las alianzas entre personajes.
+  </Card>
+  <Card title="Suspenso de ciencia ficción">
+    La trama entrelaza tecnología futurista, intriga corporativa y drama personal en un misterio cohesivo.
+  </Card>
+  <Card title="Métricas de relación">
+    Las opciones de diálogo otorgan puntos ocultos que determinan los niveles de confianza con Darci y otros personajes clave.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Información apta para todo público">
+Esta guía se adhiere estrictamente a un formato enciclopédico para el público en general. Nos enfocamos completamente en la estructura de la historia, las consecuencias de las elecciones, las rutas de los personajes y las pautas técnicas de instalación.
+</Callout>
+
+Para ayudarte a seguir el desarrollo del juego y ver cuánto ha progresado la historia, la siguiente tabla detalla el cronograma de lanzamientos y el enfoque narrativo principal de los episodios recientes.
+
+| Episodio | Fecha de lanzamiento | Enfoque narrativo principal |
+|---------|--------------|-------------------------|
+| Episodio 7 | 2025-05-12 | Introducción de las principales conspiraciones corporativas y primeras pruebas de confianza |
+| Episodio 8 | 2025-11-04 | Profundización en el pasado de Darci y cambios críticos en la línea temporal |
+| Episodio 9 | 2026-04-26 | Resolución de los finales en suspenso inmediatos y establecimiento de rutas para el final del juego |
+
+</Section>
+
+<Section icon={Target} title="Guía de la novela visual Ripples: Mecánicas de elección">
+
+Para completar con éxito una partida en este juego, debes comprender cómo funciona el motor de decisiones. A diferencia de las novelas visuales lineales, este juego utiliza un sistema de seguimiento dual: Puntos de Relación e Indicadores de Historia. Los Puntos de Relación dictan la calidez y apertura de los personajes durante los diálogos casuales, mientras que los Indicadores de Historia son interruptores binarios activados por acciones específicas que desbloquean o bloquean secuencias narrativas enteras.
+
+Usar una guía estructurada de la novela visual Ripples es la forma más confiable de asegurarte de no bloquear accidentalmente las ramas de la historia que prefieras. Tomar una decisión que favorezca a un personaje a menudo disminuye tu afinidad con otro, lo que requiere un enfoque equilibrado según la ruta que desees seguir.
+
+<Callout type="warning" title="Límites de puntos">
+Ciertas elecciones críticas en el Episodio 8 y el Episodio 9 están bloqueadas detrás de estrictos límites de puntos. Si tu puntuación de relación con Darci es demasiado baja, algunas opciones de diálogo aparecerán en gris, obligándote a tomar caminos alternativos.
+</Callout>
+
+La siguiente tabla destaca las elecciones más trascendentales de los episodios recientes, sus requisitos directos y sus impactos narrativos a largo plazo.
+
+| Episodio y escena | Opción de elección | Requisito | Resultado narrativo |
+|-----------------|---------------|-------------|-------------------|
+| Invest. Ep. 8 | Confiar en el plan de Darci | Confianza alta de Darci | Desbloquea una escena de investigación exclusiva y asegura su cooperación |
+| Invest. Ep. 8 | Proceder de forma independiente | Ninguno | Aumenta la autosuficiencia de Jack pero distancia a Darci |
+| Confrontación Ep. 9 | Intervenir de inmediato | Indicador de valor alto | Evita lesiones menores a los aliados y mejora la moral del equipo |
+| Confrontación Ep. 9 | Esperar refuerzos | Ninguno | Conduce a un resultado táctico más seguro pero tensa la confianza personal |
+| Revelación Ep. 9 | Compartir los datos descifrados | Clave de descifrado | Consolida la alianza con el grupo central de la resistencia |
+
+Al comprender estas matrices de elección, los jugadores pueden planificar sus partidas guardadas en consecuencia y explorar toda la amplitud de la historia sin necesidad de reiniciar todo el juego desde el Episodio 1.
+
+</Section>
+
+<Section icon={Map} title="Rutas de personajes y caminos de relación">
+
+La progresión en el juego está estrechamente ligada a cómo gestionas las relaciones de Jack. Aunque el misterio de ciencia ficción sigue siendo el pilar central de la trama, tus interacciones con Darci dictan cuánta información descubres sobre las anomalías del mundo. Construir un vínculo sólido con Darci requiere un apoyo constante durante situaciones de alta presión y mostrar un interés genuino en su historia personal.
+
+Para asegurar la ruta narrativa óptima y experimentar la historia al máximo, sigue estos pasos estratégicos durante tu partida:
+
+<Steps>
+  <Step num="1" title="Establecer confianza temprana">
+    En los episodios iniciales, prioriza las opciones de diálogo que muestren empatía hacia Darci. Evita los cuestionamientos escépticos o demasiado hostiles durante tus primeros encuentros.
+  </Step>
+  <Step num="2" title="Reunir pruebas clave">
+    Durante las fases de investigación de los Episodios 6 y 7, asegúrate de buscar minuciosamente en todas las áreas interactivas para obtener archivos de respaldo que desbloqueen futuras opciones de diálogo.
+  </Step>
+  <Step num="3" title="Alinearse con Darci en el Episodio 8">
+    Cuando la conspiración corporativa se profundice, respalda las decisiones de Darci durante las discusiones grupales para asegurar el indicador de su ruta antes de ingresar al contenido más reciente.
+  </Step>
+  <Step num="4" title="Ejecutar el clímax del Episodio 9">
+    Utiliza la confianza y las pruebas acumuladas para navegar con éxito las elecciones de alto riesgo introducidas en la actualización de abril de 2026.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Prioridad de la ruta de Darci">
+Si buscas la ruta narrativa más detallada, prioriza siempre las elecciones que enfaticen la transparencia y la defensa mutua. Ocultar secretos a Darci casi siempre conduce a una desviación prematura de su ruta.
+</Callout>
+
+Para ayudarte a gestionar tus interacciones con el elenco principal, utiliza la siguiente guía de perfiles y enfoques de ruta.
+
+| Personaje | Rol principal | Enfoque de elección clave | Alineación de estilo de juego ideal |
+|-----------|--------------|------------------|---------------------------|
+| Jack | Protagonista | Autorreflexión y liderazgo | Analítico, cauteloso, protector de los aliados |
+| Darci | Coprotagonista | Confianza, honestidad y secretos compartidos | Apoyo, muy comunicativa, investigativa |
+| Elenco secundario | Aliados y rivales | Cooperación profesional y precaución | Pragmático, orientado al rendimiento, neutral |
+
+</Section>
+
+<Section icon={Download} title="Configuración técnica y portabilidad de archivos de guardado">
+
+Dado que Ripples es una novela visual episódica en desarrollo activo, los jugadores deben actualizar con frecuencia sus clientes de juego para experimentar nuevos capítulos como el Episodio 9. El juego está desarrollado con el motor Ren'Py, lo que hace que la migración de archivos de guardado sea relativamente sencilla, siempre que se sigan las estructuras de archivos correctas. Las descargas oficiales se alojan en itch.io y cuentan con el apoyo del creador, Jestur, a través de Patreon.
+
+Al actualizar el juego en plataformas de escritorio o móviles, se recomienda encarecidamente realizar copias de seguridad manuales de tu directorio de guardado. Esto evita la corrupción accidental de datos al sobrescribir los archivos antiguos del juego con la última versión del Episodio 9.
+
+<Callout type="info" title="Compatibilidad de archivos de guardado">
+Las partidas guardadas del Episodio 8 son totalmente compatibles con el Episodio 9, siempre y cuando no modifiques la estructura interna de directorios del juego. Descarga siempre las actualizaciones oficiales para evitar la corrupción de archivos.
+</Callout>
+
+La siguiente tabla detalla las rutas de instalación oficiales y las ubicaciones de guardado para todos los sistemas operativos compatibles.
+
+| Sistema operativo | Método de instalación predeterminado | Ruta del directorio de archivos de guardado |
+|------------------|-----------------------------|--------------------------|
+| Windows | Extraer el ZIP oficial en una carpeta dedicada | `%APPDATA%/RenPy/Ripples/` |
+| macOS | Arrastrar el archivo APP oficial a Aplicaciones | `~/Library/RenPy/Ripples/` |
+| Linux | Ejecutar el script de shell ejecutable | `~/.renpy/Ripples/` |
+| Android | Instalar el paquete APK oficial | `/Android/data/com.jestur.ripples/` |
+
+Para garantizar una transición fluida al último episodio sin perder tu progreso, revisa la siguiente lista de verificación antes de instalar cualquier actualización.
+
+<Checklist
+  id="update-checklist"
+  title="Lista de verificación previa a la actualización:"
+  items={[
+    "Crea una copia de seguridad de tu carpeta de guardado de Ren'Py.",
+    "Descarga la versión oficial del Episodio 9 desde itch.io o Patreon.",
+    "Elimina por completo los archivos de juego de la versión anterior antes de extraer la nueva versión.",
+    "Inicia la nueva versión y verifica que tus ranuras de guardado se carguen correctamente.",
+    "Conserva una partida guardada maestra al final del Episodio 8 en caso de que necesites reiniciar la rama."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Smartphone} title="Instalación en Android y resolución de problemas">
+
+Jugar a Ripples en Android ofrece una forma muy portátil de disfrutar de la novela visual, pero los sistemas operativos móviles requieren permisos específicos para manejar correctamente los archivos de guardado y el almacenamiento. Dado que el juego se distribuye como un archivo APK, debes habilitar la instalación desde fuentes desconocidas en la configuración de tu dispositivo antes de proceder.
+
+Si encuentras problemas de rendimiento, como transiciones lentas o desincronización de audio, borrar la caché del juego o ajustar la velocidad de renderizado de texto en el menú de opciones del juego suele resolver el problema.
+
+<Callout type="warning" title="Permisos de almacenamiento en Android">
+En Android 11 y versiones más recientes, es posible que debas otorgar manualmente permisos de acceso al almacenamiento a la aplicación Ripples para permitirle leer y escribir archivos de guardado en tu directorio de almacenamiento compartido.
+</Callout>
+
+Si experimentas problemas durante la instalación o el juego en Android, consulta los pasos de resolución de problemas a continuación:
+
+1. **Error de aplicación no instalada**: Esto suele ocurrir si hay un conflicto de firmas. Asegúrate de haber desinstalado por completo cualquier versión no oficial o modificada del juego antes de instalar el APK oficial.
+2. **Archivos de guardado perdidos**: Si tu progreso no se transfiere, verifica que el nombre del paquete del nuevo APK coincida con el de la versión anterior. Si el nombre del paquete cambió, debes mover manualmente tus archivos utilizando un administrador de archivos móvil.
+3. **Pantalla negra al iniciar**: Esto suele deberse a RAM insuficiente o archivos corruptos. Intenta cerrar las aplicaciones en segundo plano o reinstalar el APK.
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<Callout type="tip" title="Ayuda de la comunidad">
+Para obtener asistencia en tiempo real, anuncios oficiales y discusiones de la comunidad, únete al servidor oficial de Discord de Ripples o visita el subreddit r/ripples.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar una guía confiable de la novela visual Ripples?",
+    answer: "Las guías más confiables se encuentran en las wikis oficiales de la comunidad y en guías creadas por jugadores en itch.io. Esta guía ofrece una descripción enciclopédica y apta para todo público de todas las elecciones clave y los requisitos de ruta hasta el Episodio 9."
+  },
+  {
+    question: "¿Cómo transfiero mis partidas guardadas de Windows a Android?",
+    answer: "Para transferir tus partidas guardadas, copia los archivos dentro de la carpeta 'saves' del directorio de tu PC (%APPDATA%/RenPy/Ripples/) y pégalos en el directorio de guardado correspondiente de Android (/Android/data/com.jestur.ripples/files/saves/) mediante un cable USB o almacenamiento en la nube."
+  },
+  {
+    question: "¿Está Ripples disponible en Steam o Epic Games Store?",
+    answer: "No, Ripples no está disponible actualmente en Steam ni en Epic Games Store. Las plataformas oficiales de distribución son itch.io y la página de Patreon del creador."
+  },
+  {
+    question: "¿Qué debo hacer si mis elecciones en el Episodio 8 no parecen afectar al Episodio 9?",
+    answer: "Asegúrate de estar cargando un archivo de guardado creado tras completar el Episodio 8 de forma natural, en lugar de utilizar una función de inicio rápido. Si los indicadores aún no se transfieren, verifica que los archivos del juego estén limpios y se hayan descargado de fuentes oficiales."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ripples download: Official Platforms & Installation Guide",
+  description: "Secure a safe Ripples download for PC, macOS, Linux, and Android. Follow our step-by-step installation guide for Episode 9.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ripples+Download+Guide",
+  date: "2026-06-20",
+  author: "Ripples Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Official Sources**: Secure your **Ripples download** exclusively via itch.io or the creator's Patreon page.
+- **Supported Platforms**: Play on Windows, macOS, Linux, and Android devices.
+- **Latest Version**: Episode 9 was officially released on April 26, 2026, featuring major story updates.
+- **Save Migration**: Keep your save files intact when updating by copying the save folder manually.
+- **Cost**: The base game is available under a "Name Your Price" model on itch.io, with Patreon offering early access.
+</Callout>
+
+<Section icon={Shield} title="Ripples Download: Official Platforms & Safety">
+
+Securing a safe **Ripples download** is the first step toward experiencing this immersive, story-rich sci-fi visual novel. Developed by Jestur, the game follows the intricate journeys of Jack and Darci as they navigate a sci-fi mystery filled with branching choices and multiple narrative routes. To protect your device from security threats and malware, always retrieve game files directly from official distribution channels.
+
+The developer hosts the game on itch.io and Patreon. Avoid third-party mirror sites, unauthorized APK repositories, or modified packages, as these often contain outdated builds or compromised files.
+
+<Callout type="success" title="Official Source Verification">
+Only download Ripples from official links provided by Jestur. The developer does not distribute the game on Steam, Epic Games Store, or mobile app stores.
+</Callout>
+
+| Platform | Access Type | Primary Benefit | Official Link Target |
+| | | | |
+| **itch.io** | Free / Name Your Price | Standard public builds, direct ZIP/APK files | Jestur on itch.io |
+| **Patreon** | Subscription | Early access to new episodes, development updates | Jestur Patreon |
+| **Discord** | Community Link | Build announcements, direct community support | Official Discord |
+
+<CardGrid cols={3}>
+  <Card title="Direct Support">
+    Downloading through official platforms ensures that the creator, Jestur, receives direct financial and community support to continue development.
+  </Card>
+  <Card title="File Integrity">
+    Official packages on itch.io are verified and free from malicious scripts, ensuring a secure installation on your system.
+  </Card>
+  <Card title="Latest Builds">
+    Get immediate access to Episode 9 and subsequent hotfixes directly from the developer's official pipelines.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="System Compatibility & Technical Specs">
+
+Before initiating your **Ripples download**, verify that your hardware and operating system meet the necessary specifications. Because Ripples is built on the Ren'Py engine, it features low CPU and GPU requirements but demands sufficient storage space due to high-definition visual assets.
+
+Episode 9 introduces a significant volume of new artwork, bringing the total image count to over 10,000 assets. Ensure your device has adequate storage capacity to prevent installation failures.
+
+<Callout type="info" title="Storage Recommendation">
+Keep at least 5 GB of free space on your system drive. This ensures smooth decompression of game files and prevents save data corruption during gameplay.
+</Callout>
+
+| Operating System | Minimum RAM | Required Storage | Executable Format |
+| | | | |
+| **Windows 10/11** | 2 GB RAM | 4.0 GB free space | .exe |
+| **macOS 10.12+** | 2 GB RAM | 4.5 GB free space | .app (Universal) |
+| **Linux (Ubuntu/Debian)** | 2 GB RAM | 4.0 GB free space | .sh script |
+| **Android 8.0+** | 3 GB RAM | 4.0 GB free space | .apk |
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Installation Instructions">
+
+The installation process varies depending on your platform. Because the game is distributed as a compressed archive on desktop platforms, you do not need a traditional installer to play. Simply extract the files and launch the executable.
+
+Follow these platform-specific steps to set up your game successfully after completing your **Ripples download**.
+
+<Callout type="warning" title="Anti-Virus False Positives">
+Some security software may flag newly released Ren'Py executables as unrecognized files. If this occurs, verify the file hash or add an exclusion rule for the game folder.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Download the Correct Package">
+    Visit the official itch.io page and select the package matching your operating system (Windows, macOS, Linux, or Android). Save the file to your local drive.
+  </Step>
+  <Step num="2" title="Extract the Desktop Archive">
+    For Windows, right-click the downloaded ZIP file and select "Extract All." For Linux, unpack the tar.xz archive to a directory of your choice.
+  </Step>
+  <Step num="3" title="Bypass macOS Gatekeeper (Mac Only)">
+    On macOS, drag the app to your Applications folder. If you encounter an "unidentified developer" warning, right-click the app icon and select "Open" to authorize execution.
+  </Step>
+  <Step num="4" title="Launch the Game">
+    Double-click `Ripples.exe` on Windows, run the `Ripples.sh` script on Linux, or tap the application icon on macOS to start your journey.
+  </Step>
+</Steps>
+
+| Platform | Common Error | Primary Cause | Quick Resolution |
+| | | | |
+| **Windows** | Script Error on Launch | Incomplete extraction of ZIP | Delete folder, re-extract using 7-Zip |
+| **macOS** | App is Damaged | Gatekeeper security block | Run `xattr -cr` command in Terminal |
+| **Linux** | Permission Denied | Missing execute permissions | Run `chmod +x Ripples.sh` in terminal |
+
+</Section>
+
+<Section icon={Map} title="Android Installation & Save File Migration">
+
+Playing Ripples on mobile requires installing the official Android application package (APK). Due to security updates in modern Android versions, manual installation and save data management require specific steps.
+
+To enjoy the story of Jack and Darci on the go, follow the standard sideloading protocol.
+
+<Callout type="tip" title="Android Sideloading Permission">
+You must enable "Install Unknown Apps" for your web browser or file manager in your Android system settings before opening the APK file.
+</Callout>
+
+| Feature | Desktop Version (PC/Mac) | Android Version (APK) |
+| | | |
+| **Visual Assets** | Full resolution, uncompressed | Slightly compressed for mobile |
+| **Interface** | Mouse and keyboard navigation | Touch-optimized gestures |
+| **Save Location** | System AppData directory | Internal storage (Android/data) |
+| **Performance** | High framerate animations | Dependent on device processor |
+
+### How to Migrate Save Files to Episode 9
+
+If you are upgrading from Episode 8 to Episode 9 on Android, your saves should transition automatically if you install the new APK over the existing installation. However, to prevent progress loss, we recommend manual backups.
+
+1. Open your device file manager and navigate to `Android/data/com.jestur.ripples/files/`.
+2. Locate the `saves` folder and copy it to a secure backup directory on your internal storage.
+3. Install the new Episode 9 APK.
+4. If your progress does not load, copy your backed-up `saves` folder back into the `Android/data/com.jestur.ripples/files/` directory.
+
+</Section>
+
+<Section icon={Trophy} title="Episode 9 Update & Narrative Progress">
+
+The release of Episode 9 on April 26, 2026, marks a major milestone in the development of Ripples. This update introduces critical narrative developments, resolving several outstanding mysteries while setting up future plotlines.
+
+To ensure your game is fully prepared for the latest content, verify your installation status and complete the narrative requirements.
+
+<Callout type="info" title="Narrative Requirements">
+Episode 9 content requires a completed save file from Episode 8. Starting a fresh game is possible, but we highly recommend playing through previous chapters to preserve your choices.
+</Callout>
+
+| Episode | Release Date | Primary Story Focus | Development Status |
+| | | | |
+| **Episode 7** | Mid 2025 | Introduction of key sci-fi elements | Fully Completed |
+| **Episode 8** | Late 2025 | Escalation of conflict, major choices | Fully Completed |
+| **Episode 9** | April 26, 2026 | Deep dive into Jack and Darci's bond | Current Stable Build |
+
+<Checklist
+  id="episode-9-readiness"
+  title="Episode 9 Readiness Checklist:"
+  items={[
+    "Verify game file integrity after download",
+    "Back up existing save files from previous episodes",
+    "Ensure your device has at least 4.5 GB of free space",
+    "Review your major choices from Episode 8 to prepare for the branching routes"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+Our community FAQ addresses common inquiries regarding the installation, updates, and technical performance of the game.
+
+<Callout type="tip" title="Community Support">
+If you encounter a unique technical issue not listed here, visit the official r/ripples subreddit or the Jestur Discord server for community-driven troubleshooting.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Is the Ripples download free to play?",
+    answer: "Yes, the standard public releases on itch.io are distributed under a 'Name Your Price' model, allowing players to download the game for free or contribute any amount to support Jestur."
+  },
+  {
+    question: "Can I transfer my save files from PC to Android?",
+    answer: "Yes. Save files are cross-compatible. Locate the 'saves' folder in your PC directory and copy the files into the 'Android/data/com.jestur.ripples/files/saves' folder on your mobile device."
+  },
+  {
+    question: "How do I update the game when a new episode is released?",
+    answer: "To update, perform a fresh Ripples download of the latest version. Extract the files to a new folder. Your save files are stored in a separate system directory and will load automatically."
+  },
+  {
+    question: "Why does my Mac say the game file is damaged?",
+    answer: "This is a standard macOS security message for apps downloaded outside the App Store. Open your Terminal and type 'xattr -cr /path/to/Ripples.app' to clear the Gatekeeper flag."
+  }
+]} />
+
+</Section>

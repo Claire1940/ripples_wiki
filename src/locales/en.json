@@ -10,7 +10,14 @@
       "twitterDescription": "Ripples Wiki covers episode updates, official downloads, walkthrough choices, character routes, and story guides."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "choices": "Choices",
+    "characters": "Characters",
+    "game": "Game",
+    "versions": "Versions",
+    "download": "Download"
+  },
   "common": {
     "home": "Home",
     "more": "More",

@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Download, Smartphone } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Detonado da Visual Novel Ripples: Guia de Escolhas e Rotas",
+  description: "Domine todas as escolhas na visual novel Ripples. Nosso detonado cobre rotas de personagens, atualizações do Episódio 9 e dicas de instalação no Android.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0b0f19/fff?text=Ripples+Walkthrough+Guide",
+  date: "2026-06-20",
+  author: "Equipe da Wiki de Ripples",
+  keywords: "Ripples visual novel, detonado, guia de escolhas, rotas de personagens, Episódio 9, instalação Android"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Detonado da visual novel Ripples**: Domine caminhos de história ramificados, decisões cruciais de personagens e pontos de virada narrativa até o lançamento mais recente do Episódio 9.
+- **Mecânicas de rota**: Descubra como os pontos de relacionamento com Jack, Darci e personagens secundários moldam o mistério de ficção científica.
+- **Gerenciamento de salvamento**: Aprenda a fazer backup e transferir seus arquivos de salvamento (saves) com segurança entre plataformas como Windows e Android.
+- **Atualizações oficiais**: Acesse as versões mais recentes diretamente pelos canais oficiais do itch.io e Patreon para garantir a integridade dos arquivos.
+</Callout>
+
+<Section icon={Shield} title="Mistério de Ficção Científica e Design Narrativo">
+
+Ripples, desenvolvido por Jestur, é uma visual novel episódica de ficção científica que explora uma narrativa envolvente repleta de mistério, anomalias temporais e relacionamentos profundos entre os personagens. O enredo gira principalmente em torno do protagonista Jack e suas interações com Darci, uma figura central cujas escolhas alteram a linha do tempo. A partir da última atualização em 26 de abril de 2026, o jogo atingiu o Episódio 9, introduzindo caminhos ramificados ainda mais complexos e peso narrativo às decisões anteriores.
+
+Os jogadores navegam por este mundo futurista fazendo escolhas de diálogo que acumulam pontos ou ativam sinalizadores (flags) de história específicos. Esses pontos determinam como os personagens reagem a Jack, quais rotas permanecem abertas e como o mistério geral de ficção científica se desenrola. Como o jogo está atualmente em desenvolvimento ativo, manter um caminho de progressão limpo é essencial para vivenciar os novos conteúdos perfeitamente.
+
+<CardGrid cols={3}>
+  <Card title="Narrativa Ramificada">
+    Cada episódio apresenta momentos cruciais onde as escolhas de Jack alteram permanentemente a trajetória da história e as alianças dos personagens.
+  </Card>
+  <Card title="Suspense de Ficção Científica">
+    O enredo tece tecnologia futurista, intriga corporativa e drama pessoal em um mistério coeso.
+  </Card>
+  <Card title="Métricas de Relacionamento">
+    As escolhas de diálogo concedem pontos ocultos que determinam os níveis de confiança com Darci e outros personagens-chave.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Informações Adequadas para Todas as Idades">
+Este detonado segue estritamente um formato enciclopédico voltado para o público geral. Focamos inteiramente na estrutura da história, consequências das escolhas, rotas de personagens e diretrizes técnicas de instalação.
+</Callout>
+
+Para ajudar você a acompanhar o desenvolvimento do jogo e ver o quanto a história progrediu, a tabela abaixo descreve o cronograma de lançamento e o foco principal dos episódios recentes.
+
+| Episódio | Data de Lançamento | Foco Narrativo Principal |
+|---------|--------------|-------------------------|
+| Episódio 7 | 12-05-2025 | Introdução de grandes conspirações corporativas e primeiros testes de confiança |
+| Episódio 8 | 04-11-2025 | Mergulho profundo no passado de Darci e mudanças críticas na linha do tempo |
+| Episódio 9 | 26-04-2026 | Resolução de ganchos imediatos e estabelecimento de rotas de fim de jogo |
+
+</Section>
+
+<Section icon={Target} title="Detonado da Visual Novel Ripples: Mecânicas de Escolha">
+
+Para concluir com sucesso uma partida neste jogo, você deve entender como o motor de decisões funciona. Ao contrário de visual novels lineares, este jogo utiliza um sistema duplo de rastreamento: Pontos de Relacionamento e Sinalizadores de História (Story Flags). Os Pontos de Relacionamento ditam a cordialidade e a abertura dos personagens durante diálogos casuais, enquanto os Sinalizadores de História são interruptores binários acionados por ações específicas que desbloqueiam ou bloqueiam sequências narrativas inteiras.
+
+Usar um detonado estruturado de Ripples é a maneira mais confiável de garantir que você não fique acidentalmente bloqueado de seus caminhos de história preferidos. Tomar uma decisão que favorece um personagem frequentemente diminui sua posição com outro, exigindo uma abordagem equilibrada dependendo da sua rota alvo.
+
+<Callout type="warning" title="Limites de Pontos">
+Certas escolhas críticas no Episódio 8 e no Episódio 9 estão bloqueadas por limites estritos de pontos. Se sua pontuação de relacionamento com Darci for muito baixa, opções de diálogo específicas ficarão cinzas, forçando você a seguir caminhos alternativos.
+</Callout>
+
+The following table highlights the most consequential choices from recent episodes, their direct requirements, and their long-term narrative impacts.
+
+| Episódio e Cena | Opção de Escolha | Requisito | Resultado Narrativo |
+|-----------------|---------------|-------------|-------------------|
+| Investigação do Ep. 8 | Confiar no plano da Darci | Alta Confiança da Darci | Desbloqueia cena de investigação exclusiva e garante a cooperação dela |
+| Investigação do Ep. 8 | Prosseguir de forma independente | Nenhum | Aumenta a autossuficiência de Jack, mas afasta Darci |
+| Confronto do Ep. 9 | Intervir imediatamente | Sinalizador de Alta Coragem | Evita ferimentos leves em aliados e aumenta o moral da equipe |
+| Confronto do Ep. 9 | Esperar por reforços | Nenhum | Leva a um resultado tático mais seguro, mas desgasta a confiança pessoal |
+| Revelação do Ep. 9 | Compartilhar os dados descriptografados | Chave de Descriptografia | Consolida a aliança com o grupo principal de resistência |
+
+Ao compreender essas matrizes de escolha, os jogadores podem planejar seus salvamentos de acordo e explorar toda a extensão da história sem a necessidade de reiniciar o jogo inteiro a partir do Episódio 1.
+
+</Section>
+
+<Section icon={Map} title="Rotas de Personagens e Caminhos de Relacionamento">
+
+A progressão no jogo está fortemente ligada a como você gerencia os relacionamentos de Jack. Embora o mistério de ficção científica continue sendo o pilar central do enredo, suas interações com Darci ditam quanta informação você descobre sobre as anomalias do mundo. Construir um forte vínculo com Darci exige apoio consistente durante situações de alta pressão e demonstração de interesse genuíno na história pessoal dela.
+
+Para garantir o caminho narrativo ideal e vivenciar a história em sua totalidade, siga estes passos estratégicos durante sua jogada:
+
+<Steps>
+  <Step num="1" title="Estabelecer Confiança Inicial">
+    Nos episódios iniciais, priorize escolhas de diálogo que demonstrem empatia com Darci. Evite questionamentos céticos ou excessivamente hostis durante seus primeiros encontros.
+  </Step>
+  <Step num="2" title="Coletar Evidências Cruciais">
+    Durante as fases de investigação dos Episódios 6 e 7, certifique-se de vasculhar minuciosamente todas as áreas interativas para obter arquivos de histórico que desbloqueiam escolhas de diálogo futuras.
+  </Step>
+  <Step num="3" title="Alinhar-se com Darci no Episódio 8">
+    Quando a conspiração corporativa se aprofundar, apoie as decisões de Darci durante as discussões em grupo para garantir o sinalizador de rota dela antes de entrar no conteúdo mais recente.
+  </Step>
+  <Step num="4" title="Executar o Clímax do Episódio 9">
+    Use sua confiança e evidências acumuladas para navegar com sucesso pelas escolhas de alto risco introduzidas na atualização de abril de 2026.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Prioridade na Rota da Darci">
+Se você busca o caminho narrativo mais detalhado, sempre priorize escolhas que enfatizem a transparência e a defesa mútua. Guardar segredos de Darci quase sempre leva a um desvio prematuro da rota.
+</Callout>
+
+Para ajudar você a gerenciar suas interações com o elenco principal, use o guia de perfil e foco de rota abaixo.
+
+| Personagem | Papel Principal | Foco da Escolha Principal | Alinhamento de Estilo de Jogo Ideal |
+|-----------|--------------|------------------|---------------------------|
+| Jack | Protagonista | Autorreflexão e liderança | Analítico, cauteloso, protetor com aliados |
+| Darci | Co-protagonista | Confiança, honestidade e segredos compartilhados | Solidária, altamente comunicativa, investigativa |
+| Elenco Secundário | Aliados e Rivais | Cooperação profissional e cautela | Pragmático, focado em desempenho, neutro |
+
+</Section>
+
+<Section icon={Download} title="Configuração Técnica e Portabilidade de Arquivos de Salvamento">
+
+Como Ripples é uma visual novel episódica em desenvolvimento ativo, os jogadores devem atualizar frequentemente seus clientes de jogo para experimentar novos capítulos como o Episódio 9. O jogo é construído na engine Ren'Py, o que torna a migração de arquivos de salvamento relativamente simples, desde que você siga as estruturas de arquivos corretas. Os downloads oficiais são hospedados no itch.io e apoiados via Patreon pelo criador, Jestur.
+
+Ao atualizar o jogo em plataformas desktop ou dispositivos móveis, é altamente recomendável realizar backups manuais do seu diretório de salvamento. Isso evita a corrupção acidental de dados ao substituir arquivos de jogo antigos pela versão mais recente do Episódio 9.
+
+<Callout type="info" title="Compatibilidade de Arquivos de Salvamento">
+Os salvamentos do Episódio 8 são totalmente compatíveis com o Episódio 9, desde que você não modifique a estrutura de diretórios internos do jogo. Sempre baixe atualizações oficiais para evitar a corrupção de arquivos.
+</Callout>
+
+A tabela abaixo descreve os caminhos oficiais de instalação e locais de salvamento para todos os sistemas operacionais suportados.
+
+| Sistema Operacional | Método de Instalação Padrão | Caminho do Diretório do Arquivo de Salvamento |
+|------------------|-----------------------------|--------------------------|
+| Windows | Extrair o ZIP oficial em uma pasta dedicada | `%APPDATA%/RenPy/Ripples/` |
+| macOS | Arrastar o arquivo APP oficial para Aplicativos | `~/Library/RenPy/Ripples/` |
+| Linux | Executar o script de shell executável | `~/.renpy/Ripples/` |
+| Android | Instalar o pacote APK oficial | `/Android/data/com.jestur.ripples/` |
+
+Para garantir uma transição perfeita para o episódio mais recente sem perder seu progresso, siga a lista de verificação abaixo antes de instalar qualquer atualização.
+
+<Checklist
+  id="update-checklist"
+  title="Lista de Verificação Pré-Atualização:"
+  items={[
+    "Crie uma cópia de backup da sua pasta de salvamento do Ren'Py.",
+    "Baixe a versão oficial do Episódio 9 no itch.io ou Patreon.",
+    "Remova completamente os arquivos de jogo da versão anterior antes de extrair a nova versão.",
+    "Inicie a nova versão e verifique se os seus slots de salvamento carregam corretamente.",
+    "Mantenha um salvamento mestre no final do Episódio 8 caso precise reiniciar a ramificação."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Smartphone} title="Instalação no Android e Resolução de Problemas">
+
+Jogar Ripples no Android oferece uma maneira altamente portátil de aproveitar a visual novel, mas os sistemas operacionais móveis exigem permissões específicas para gerenciar arquivos de salvamento e armazenamento adequadamente. Como o jogo é distribuído como um arquivo APK, você deve ativar a instalação de fontes desconhecidas nas configurações do seu dispositivo antes de prosseguir.
+
+Se você encontrar problemas de desempenho, como transições lentas ou dessincronização de áudio, limpar o cache do jogo ou ajustar a velocidade de renderização de texto no menu de opções do jogo geralmente resolve o problema.
+
+<Callout type="warning" title="Permissões de Armazenamento no Android">
+No Android 11 e mais recentes, pode ser necessário conceder manualmente permissões de acesso ao armazenamento para o aplicativo Ripples, permitindo que ele leia e grave arquivos de salvamento no seu diretório de armazenamento compartilhado.
+</Callout>
+
+Se você tiver problemas durante a instalação ou ao jogar no Android, consulte as etapas de resolução de problemas abaixo:
+
+1. **Erro de Aplicativo Não Instalado**: Isso geralmente ocorre se houver um conflito de assinatura. Certifique-se de ter desinstalado completamente qualquer versão não oficial ou modificada do jogo antes de instalar o APK oficial.
+2. **Arquivos de Salvamento Ausentes**: Se o seu progresso não for transferido, verifique se o nome do pacote do novo APK corresponde ao da versão anterior. Se o nome do pacote mudou, você deve mover seus arquivos manualmente usando um gerenciador de arquivos móvel.
+3. **Tela Preta ao Iniciar**: Isso geralmente é causado por RAM insuficiente ou recursos corrompidos. Tente fechar os aplicativos em segundo plano ou reinstalar o APK.
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<Callout type="tip" title="Ajuda da Comunidade">
+Para assistência em tempo real, anúncios oficiais e discussões da comunidade, junte-se ao servidor oficial do Discord de Ripples ou visite o subreddit r/ripples.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Onde posso encontrar um detonado confiável da visual novel Ripples?",
+    answer: "Os detonados mais confiáveis são hospedados em wikis oficiais da comunidade e guias criados por jogadores no itch.io. Este guia fornece uma visão geral enciclopédica e livre de conteúdo sensível (SFW) de todas as escolhas principais e requisitos de rotas até o Episódio 9."
+  },
+  {
+    question: "Como transfiro meus salvamentos do Windows para o Android?",
+    answer: "Para transferir seus salvamentos, copie os arquivos dentro da pasta 'saves' do diretório do seu PC (%APPDATA%/RenPy/Ripples/) e cole-os no diretório de salvamento correspondente do Android (/Android/data/com.jestur.ripples/files/saves/) usando um cabo USB ou armazenamento em nuvem."
+  },
+  {
+    question: "Ripples está disponível no Steam ou na Epic Games Store?",
+    answer: "Não, Ripples não está disponível no momento no Steam ou na Epic Games Store. As plataformas oficiais de distribuição são o itch.io e a página do Patreon do criador."
+  },
+  {
+    question: "O que devo fazer se minhas escolhas no Episódio 8 parecem não afetar o Episódio 9?",
+    answer: "Certifique-se de que está carregando um arquivo de salvamento que foi criado após concluir o Episódio 8 naturalmente, em vez de usar um recurso de início rápido. Se os sinalizadores ainda não forem transferidos, verifique se os arquivos do seu jogo estão limpos e foram baixados de fontes oficiais."
+  }
+]} />
+
+</Section>

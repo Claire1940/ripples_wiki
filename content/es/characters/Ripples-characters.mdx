@@ -1,0 +1,162 @@
+import { Users, Target, Heart, BookOpen, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Personajes de Ripples: Perfiles del Elenco y Guía de Rutas",
+  description: "Explora la novela visual de ciencia ficción Ripples. Conoce a Jack, Darci, las elecciones clave de los personajes, los requisitos de las rutas y las actualizaciones de la historia hasta el Episodio 9.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ripples+Characters+Guide",
+  date: "2026-06-20",
+  author: "Equipo de la Wiki de Ripples"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **personajes de Ripples** dictan cómo se desarrolla la narrativa ramificada de ciencia ficción a lo largo de los nueve episodios.
+- **Darci** sigue siendo la heroína central, cuyos puntos de relación influyen fuertemente en las rutas de la historia principal.
+- Las **elecciones ramificadas** requieren una gestión cuidadosa de las partidas guardadas para experimentar todas las variaciones narrativas.
+- Las **versiones oficiales** están disponibles en itch.io para las plataformas Windows, macOS, Linux y Android.
+</Callout>
+
+<Section icon={Users} title="Personajes de Ripples: Perfiles del Elenco Principal">
+
+La novela visual de ciencia ficción *Ripples*, creada por Jestur, presenta un elenco fascinante de **personajes de Ripples** cuyas vidas, secretos y relaciones se ven profundamente alterados por las elecciones del jugador. Ambientada en un trasfondo de misterio y tensión futurista, la historia depende de las interacciones entre los personajes para hacer avanzar la trama. Comprender las motivaciones y los roles de cada individuo es esencial para los jugadores que deseen desbloquear rutas narrativas específicas y evitar callejones sin salida.
+
+La narrativa gira principalmente en torno a Jack, el protagonista, y Darci, la heroína central. Sin embargo, el elenco de apoyo juega un papel igualmente vital en la formación del mundo y la introducción de caminos ramificados críticos.
+
+| Personaje | Rol | Atributo Clave | Primera Aparición |
+|---|---|---|---|
+| **Jack** | Protagonista | Analítico, adaptable | Episodio 1 |
+| **Darci** | Heroína Central | Misteriosa, central para la trama de ciencia ficción | Episodio 1 |
+| **Elenco de Apoyo** | Facilitadores de Rutas | Diversos, proveedores de trasfondo e historia | Varios Episodios |
+
+<CardGrid cols={3}>
+  <Card title="Jack (Protagonista)">
+    Como personaje del jugador, las decisiones de Jack forman las ondas (ripples) metafóricas que alteran la historia. Su naturaleza analítica le permite armar las piezas de los misterios de ciencia ficción que lo rodean.
+  </Card>
+  <Card title="Darci (Heroína Central)">
+    Darci es fundamental para la trama general. Su relación con Jack es el ancla emocional del juego, y su ruta contiene un profundo trasfondo sobre los elementos de ciencia ficción del mundo.
+  </Card>
+  <Card title="Elenco de Apoyo">
+    Estos personajes dan vida al mundo de Ripples. Interactuar con ellos desbloquea arcos argumentales secundarios y proporciona contexto a los eventos de la narrativa principal.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Dinámicas de los Personajes">
+Construir relaciones con diferentes personajes no se trata solo de romance; se trata de descubrir la verdad detrás de las anomalías de ciencia ficción en el juego. Equilibrar tu atención entre Darci y otros personajes es clave para experimentar una narrativa completa.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecánicas de Ruta y Puntos de Relación">
+
+En *Ripples*, las rutas de los personajes se rigen por un sistema invisible de puntos. Cada elección que tomas puede aumentar o disminuir tu afinidad con personajes específicos. Estos puntos actúan como llaves, desbloqueando opciones de diálogo exclusivas, escenas únicas y, eventualmente, finales de episodios específicos.
+
+Para navegar con éxito por estas rutas, los jugadores deben comprender cómo se acumulan los puntos de elección. La siguiente tabla detalla los requisitos principales de ruta para los personajes principales hasta el lanzamiento más reciente del Episodio 9.
+
+| Personaje | Punto de Elección Clave | Puntos de Relación Necesarios | Resultado |
+|---|---|---|---|
+| **Darci** | Elección de Confianza del Episodio 3 | Alto (7+ Puntos) | Desbloquea el arco de investigación de ciencia ficción exclusivo de Darci |
+| **Elenco de Apoyo** | Asistencia del Episodio 5 | Medio (4+ Puntos) | Desbloquea escenas secundarias del trasfondo de la historia |
+| **Ruta Neutral** | Independencia del Episodio 6 | Bajo (Menos de 3 Puntos) | Conduce al camino estándar de resolución del misterio |
+
+Cada decisión tiene un efecto en cascada. Una elección aparentemente menor en el Episodio 2 puede evitar que asegures la ruta de Darci en el Episodio 7. Por lo tanto, se recomienda encarecidamente mantener múltiples archivos de guardado en las principales bifurcaciones de decisión.
+
+| Episodio | Elección Mayor | Impacto en Darci | Impacto en el Elenco de Apoyo |
+|---|---|---|---|
+| **Episodio 2** | Ofrecer asistencia | +1 Punto | Neutral |
+| **Episodio 4** | Compartir el secreto | +2 Puntos | -1 Punto |
+| **Episodio 6** | Investigar juntos | +1 Punto | +1 Punto |
+
+<Callout type="success" title="Maximizar la Ruta de Darci">
+Para asegurar los mejores resultados posibles con Darci, prioriza siempre la comunicación transparente. Ocultar información o elegir investigar a solas disminuirá invariablemente sus puntos de confianza, bloqueando tu acceso a sus opciones de ruta avanzada en el Episodio 9.
+</Callout>
+
+</Section>
+
+<Section icon={Heart} title="Guía Paso a Paso para Asegurar Rutas">
+
+Asegurar la ruta de un personaje específico requiere tomar decisiones coherentes a lo largo de múltiples episodios. Sigue estos pasos para asegurarte de bloquear con éxito el camino del personaje deseado sin provocar un final de juego anticipado o una resolución neutral.
+
+<Steps>
+  <Step num="1" title="Establecer Confianza Temprana">
+    Durante los Episodios 1 al 3, concéntrate en establecer una base sólida de confianza. Acepta siempre ayudar a los personajes cuando se te solicite y evita las opciones de diálogo despectivas. Esto asegura que cumplas con el umbral mínimo de puntos para las bifurcaciones de mitad del juego.
+  </Step>
+  <Step num="2" title="Crear Guardados en las Bifurcaciones">
+    Al comienzo del Episodio 5, crea un archivo de guardado dedicado. Este episodio sirve como una bifurcación narrativa importante donde la historia comienza a dividirse significativamente según tus puntos de relación acumulados.
+  </Step>
+  <Step num="3" title="Comprometerse con un Solo Camino">
+    En los Episodios 7 y 8, evita intentar complacer a todos. Dividir tus elecciones por igual entre diferentes personajes te dejará con puntos insuficientes para cualquier ruta individual, lo que te bloqueará por defecto en la Ruta Neutral en el Episodio 9.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Elecciones Irreversibles">
+Una vez que ingresas al Episodio 9, tu ruta queda bloqueada. El juego verifica tus variables persistentes al cargar el episodio, y ninguna elección de diálogo dentro del Episodio 9 podrá alterar la ruta de personaje que hayas establecido.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Progresión de la Historia y Hitos de los Episodios">
+
+El lanzamiento del Episodio 9 el 26 de abril de 2026 marcó un hito importante para *Ripples*. Esta actualización cerró varios arcos de personajes que llevaban mucho tiempo desarrollándose, al tiempo que preparaba las etapas finales del misterio de ciencia ficción. Hacer un seguimiento de tu progreso a través de cada episodio es vital para una experiencia narrativa fluida.
+
+La siguiente lista de verificación ayuda a los jugadores a realizar un seguimiento de su progreso y asegurarse de haber completado todas las interacciones necesarias con los personajes antes de avanzar.
+
+<Checklist
+  id="ripples-progression"
+  title="Hitos Narrativos Esenciales:"
+  items={[
+    "Completar la secuencia de confianza del Episodio 3 con Darci",
+    "Descubrir el archivo oculto en el Episodio 5",
+    "Asegurar un estado de alta afinidad con el personaje elegido para el Episodio 7",
+    "Desbloquear la escena de ruta exclusiva en el Episodio 8",
+    "Transferir con éxito tu archivo de guardado a la actualización del Episodio 9"
+  ]}
+/>
+
+Dado que *Ripples* se encuentra en desarrollo activo por parte de Jestur, la compatibilidad de los archivos de guardado es una consideración importante. Al actualizar el juego en Windows, macOS, Linux o Android, asegúrate de copiar tu carpeta de guardados a una ubicación segura para evitar la pérdida de datos.
+
+| Episodio | Fecha de Lanzamiento | Enfoque Narrativo Principal |
+|---|---|---|
+| **Episodio 7** | Finales de 2025 | División de rutas y revelaciones iniciales de ciencia ficción |
+| **Episodio 8** | Principios de 2026 | Interacciones profundas de personajes y escalada del misterio |
+| **Episodio 9** | 26 de abril de 2026 | Clímax de la ruta y preparación para futuros capítulos |
+
+<Callout type="tip" title="Migración de Guardados en Android">
+Si estás jugando la versión de Android de Ripples, usa un administrador de archivos para localizar el directorio de guardado del juego en el almacenamiento interno antes de actualizar. Copiar la carpeta 'saves' a tu escritorio o almacenamiento en la nube es la forma más segura de preservar tu progreso entre versiones.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas Frecuentes">
+
+Navegar por las complejas bifurcaciones narrativas de una novela visual de ciencia ficción puede ser todo un desafío. A continuación se presentan las respuestas a las preguntas más comunes sobre el elenco y las mecánicas de ruta.
+
+<Callout type="info" title="Soporte de la Comunidad">
+Para recibir asistencia en tiempo real, participar en discusiones sobre personajes y ver diagramas de flujo detallados creados por fans, considera unirte al Discord oficial de Ripples o visitar el subreddit r/ripples.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Puedo tener un romance con múltiples personajes de Ripples en una sola partida?",
+    answer: "No. La lógica de ramificación del juego está diseñada para recompensar el compromiso. Intentar equilibrar los puntos entre múltiples personajes resultará en una ruta neutral sin finales exclusivos para ningún personaje."
+  },
+  {
+    question: "¿Cuál es la consecuencia de no asegurar suficientes puntos con Darci?",
+    answer: "Si tus puntos de confianza con Darci caen por debajo del umbral requerido para el Episodio 7, ciertos detalles del trasfondo de ciencia ficción permanecerán ocultos y quedarás bloqueado en la ruta neutral del misterio."
+  },
+  {
+    question: "¿Cómo transfiero mis archivos de guardado a la última actualización del Episodio 9?",
+    answer: "Para los usuarios de PC, el juego detecta automáticamente las partidas guardadas de versiones anteriores si se instala en el mismo directorio. Para los usuarios de Android, respalda manualmente y reemplaza la carpeta 'saves' dentro del directorio del juego."
+  },
+  {
+    question: "¿Hay personajes que se puedan perder en Ripples?",
+    answer: "Sí. Ciertos personajes de apoyo solo aparecerán o interactuarán con Jack si se toman decisiones específicas en episodios anteriores, lo que hace que la exploración exhaustiva y las múltiples partidas sean muy gratificantes."
+  }
+]} />
+
+</Section>

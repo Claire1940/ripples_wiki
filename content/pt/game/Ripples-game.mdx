@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jogo Ripples: Detonado do Episódio 9 e Guia de Escolhas",
+  description: "Explore o detonado oficial do jogo Ripples. Aprenda as principais consequências das escolhas, rotas de personagem para Darci e dicas de instalação no Android para o Episódio 9.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/38bdf8?text=Ripples+Game+Walkthrough",
+  date: "2026-06-20",
+  author: "Equipe da Wiki de Ripples"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Narrativa Principal**: O **jogo Ripples** é uma visual novel de ficção científica onde as escolhas importam, seguindo Jack e Darci através de uma história de suspense com ramificações.
+- **Último Lançamento**: O Episódio 9 foi lançado em 26 de abril de 2026, introduzindo resoluções narrativas vitais e novos caminhos de ramificação.
+- **Plataformas Oficiais**: Suportado oficialmente em dispositivos Windows, macOS, Linux e Android.
+- **Foco Principal**: Tomar decisões informadas é crítico, pois as escolhas bloqueiam ou desbloqueiam diretamente rotas de personagens e finais específicos.
+- **Recurso SFW**: Este guia oferece uma visão geral enciclopédica e para todas as idades das mecânicas do jogo, enredo e configuração técnica.
+</Callout>
+
+<Section icon={Sparkles} title="Visão Geral do Jogo Ripples e Plataformas Oficiais">
+
+O **jogo Ripples**, criado pelo desenvolvedor independente Jestur, é uma visual novel de ficção científica rica em história. A narrativa centra-se no protagonista, Jack, e em suas interações com Darci, ambientada em um cenário de mistério e suspense de ficção científica. Os jogadores navegam pela história tomando decisões críticas que alteram os relacionamentos dos personagens, desbloqueiam cenas exclusivas e levam a múltiplos finais distintos.
+
+Como o jogo depende muito de sua estrutura narrativa, manter um histórico de salvamento limpo é essencial para explorar todos os caminhos disponíveis. O desenvolvedor atualiza ativamente o projeto por meio de lançamentos episódicos, sendo o Episódio 9 a atualização principal mais recente.
+
+| Atributo | Detalhes |
+| --- | --- |
+| Desenvolvedor | Jestur |
+| Gênero | Visual Novel de Ficção Científica, Mistério |
+| Versão Atual | Episódio 9 (Lançado em 26 de abril de 2026) |
+| Plataformas | Windows, macOS, Linux, Android |
+| Distribuição | itch.io, Patreon |
+| Recursos de Arte | Mais de 10.000 imagens de alta qualidade |
+
+Para garantir uma experiência segura, os jogadores devem obter os arquivos do jogo apenas por meio dos canais oficiais de distribuição.
+
+<Callout type="success" title="Canais Oficiais de Distribuição">
+Sempre baixe o jogo diretamente do criador. Você pode acessar o lançamento oficial na [página do itch.io de Ripples](https://jestur.itch.io/) ou apoiar o desenvolvimento contínuo de futuros episódios através do [Patreon do Jestur](https://www.patreon.com/jestur). Evite sites espelho de terceiros para proteger seu dispositivo contra arquivos modificados ou inseguros.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Detonado do Episódio 9 e Principais Escolhas">
+
+Navegar pelos caminhos ramificados do **jogo Ripples** requer uma compreensão clara de como as decisões iniciais influenciam os cenários do final do jogo. O Episódio 9 introduz vários cenários de alto risco onde Jack deve fazer escolhas cruciais em relação à sua confiança em Darci e como ele lida com informações confidenciais.
+
+A estrutura de visual novel utiliza flags condicionais. Quando você toma uma decisão, o jogo registra uma variável específica que determina quais árvores de diálogo e cenas de fundo são renderizadas nos capítulos subsequentes.
+
+| Episódio | Cenário Chave | Opção de Escolha | Impacto Narrativo |
+| --- | --- | --- | --- |
+| Episódio 7 | Investigação | Confiar em Darci | Fortalece o relacionamento, desbloqueia cenas de investigação conjunta |
+| Episódio 7 | Investigação | Guardar Segredos | Aumenta a suspeita, bloqueia a rota cooperativa de Darci |
+| Episódio 8 | Confronto | Intervir | Evita ferimentos leves, altera a reputação local |
+| Episódio 8 | Confronto | Esperar para Ver | Desbloqueia diálogos alternativos, revela motivações de personagens secundários |
+| Episódio 9 | Resolução | Compartilhar Dados | Leva ao ramo de final cooperativo de ficção científica |
+| Episódio 9 | Resolução | Criptografar Arquivos | Garante o caminho solo de Jack, altera os parâmetros da cena final |
+
+Para experimentar todo o conteúdo, os jogadores são encorajados a utilizar múltiplos slots de salvamento antes dos principais pontos de decisão.
+
+<Callout type="warning" title="Compatibilidade de Arquivos de Salvamento">
+Ao atualizar do Episódio 8 para o Episódio 9, certifique-se de que seus arquivos de salvamento anteriores estejam colocados no diretório correto. Mudanças estruturais importantes em novos episódios às vezes podem causar pequenos erros de diálogo se arquivos de salvamento mais antigos ou corrompidos forem carregados.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotas de Personagens e Mecânicas de Relacionamento">
+
+O núcleo emocional e temático do **jogo Ripples** reside nas interações entre os personagens. O relacionamento de Jack com Darci serve como a principal âncora narrativa, mas personagens secundários também moldam como o mistério de ficção científica se desenrola.
+
+O jogo rastreia pontos de relacionamento ocultos com base em suas escolhas de conversa. Acumular esses pontos é necessário para superar pontos de verificação narrativos específicos.
+
+<CardGrid cols={3}>
+  <Card title="Jack (Protagonista)">
+    - **Função**: Personagem jogável principal
+    - **Foco Principal**: Resolver o mistério central de ficção científica enquanto equilibra alianças pessoais
+    - **Impacto da Escolha Principal**: Determina a direção ética da história
+  </Card>
+  <Card title="Darci">
+    - **Função**: Companheira principal e foco de narrativa fundamental
+    - **Foco Principal**: Seus níveis de confiança ditam a disponibilidade de rotas cooperativas
+    - **Impacto da Escolha Principal**: Desbloqueia os principais finais ramificados no Episódio 9
+  </Card>
+  <Card title="Elenco de Apoio">
+    - **Função**: Fornecem contexto, lore e perspectivas alternativas
+    - **Foco Principal**: Oferecem pistas críticas durante as fases de investigação
+    - **Impacto da Escolha Principal**: Podem alterar detalhes de fundo e elementos de construção de mundo
+  </Card>
+</CardGrid>
+
+Para garantir com sucesso a rota de Darci, os jogadores devem escolher consistentemente opções cooperativas durante os pontos críticos da trama.
+
+| Alvo da Rota | Flag Requerida | Ponto de Escolha Crítico | Resultado Esperado |
+| --- | --- | --- | --- |
+| Rota de Darci | Pontuação de Confiança >= 5 | Cena do Laboratório do Episódio 7 | Desbloqueia diálogos de parceria exclusivos |
+| Rota Solo | Pontuação de Confiança < 5 | Cena do Escritório do Episódio 8 | Jack age de forma independente, levando a finais focados em sobrevivência |
+| Rota de Mistério | Dados Compartilhados | Cena do Terminal do Episódio 9 | Revela uma lore mais profunda sobre a anomalia de ficção científica |
+
+<Callout type="tip" title="Verificando o Status da Rota">
+Preste muita atenção às reações dos personagens durante conversas importantes. Se um personagem parecer distante ou hesitante, isso geralmente indica que suas escolhas anteriores direcionaram a história para uma rota neutra ou solo.
+```
+Verificação de Pontuação de Relacionamento:
+[Escolha: Apoiar Darci] -> +1 Confiança
+[Escolha: Trabalhar Sozinho] -> Caminho Neutro / Solo Ativado
+```
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guia de Instalação no Android e Configuração Técnica">
+
+A versão móvel do **jogo Ripples** permite que os jogadores aproveitem a visual novel em dispositivos Android. Como o jogo é distribuído como um arquivo APK via itch.io, os jogadores devem instalar e configurar manualmente o aplicativo em seus dispositivos.
+
+Siga estes passos estruturados para instalar o jogo com segurança e gerenciar seus arquivos de salvamento sem perder o progresso.
+
+<Steps>
+  <Step num="1" title="Baixe o APK Oficial">
+    Visite a página oficial do itch.io usando o navegador de internet do seu dispositivo Android. Baixe o arquivo APK oficial do Episódio 9 para Android. Evite baixar de fóruns não autorizados ou sites de compartilhamento de arquivos de terceiros.
+  </Step>
+  <Step num="2" title="Habilitar Fontes Desconhecidas">
+    Abra o menu de configurações do seu dispositivo Android. Navegue até Segurança ou Aplicativos e habilite a opção de instalar aplicativos de "Fontes Desconhecidas". Esta permissão é necessária para instalar aplicativos fora da loja de aplicativos padrão.
+  </Step>
+  <Step num="3" title="Instalar o Aplicativo">
+    Localize o arquivo APK baixado usando um aplicativo gerenciador de arquivos. Toque no arquivo e selecione "Instalar". Aguarde a conclusão do processo de instalação, o que pode levar alguns momentos devido ao grande volume de imagens em alta resolução.
+  </Step>
+  <Step num="4" title="Transferir Arquivos de Salvamento (Opcional)">
+    Se você estiver atualizando de um episódio mais antigo, localize seus arquivos de salvamento anteriores. Copie-os da pasta antiga do jogo e cole-os no diretório de salvamento recém-criado do Episódio 9 para continuar seu progresso.
+  </Step>
+</Steps>
+
+| Plataforma | Versão Mínima do SO | Armazenamento Recomendado | Formato do Arquivo |
+| --- | --- | --- | --- |
+| Android | Android 8.0 (Oreo) | 3 GB de espaço livre | APK |
+| Windows | Windows 7 ou superior | 4 GB de espaço livre | ZIP / EXE |
+| macOS | macOS 10.12 ou superior | 4 GB de espaço livre | APP / DMG |
+| Linux | Ubuntu 18.04 ou equivalente | 4 GB de espaço livre | Tarball / Executável |
+
+<Callout type="info" title="Locais de Salvamento Padrão">
+No Android, os arquivos de salvamento são normalmente armazenados no diretório de armazenamento interno em `Android/data/com.jestur.ripples/files/saves`. Para usuários do Windows, os salvamentos estão localizados na pasta `game/saves` dentro do diretório principal ou dentro da pasta local `AppData/Roaming`.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos da História e Histórico de Lançamento">
+
+Acompanhar seu progresso no **jogo Ripples** garante que você não perca cenas ocultas ou perspectivas alternativas de personagens. A estrutura episódica significa que cada atualização expande a construção do mundo, adicionando camadas ao mistério geral de ficção científica.
+
+Abaixo está uma lista de verificação de marcos essenciais para alcançar até o final do Episódio 9.
+
+<Checklist
+  id="ripples-milestones"
+  title="Lista de Verificação de Conclusão do Episódio 9:"
+  items={[
+    "Concluir todos os capítulos narrativos do Episódio 1 ao Episódio 9",
+    "Desbloquear a rota de confiança de Darci selecionando escolhas de diálogo cooperativas",
+    "Descobrir os segredos por trás da anomalia central de ficção científica no Episódio 8",
+    "Fazer backup e migrar com sucesso seus arquivos de salvamento para a versão mais recente",
+    "Explorar os caminhos solo alternativos para ver diferentes desfechos de personagens"
+  ]}
+/>
+
+A linha do tempo de desenvolvimento destaca as atualizações consistentes fornecidas por Jestur, garantindo uma experiência polida para os jogadores que acompanham o projeto ao longo do tempo.
+
+| Versão de Lançamento | Data de Lançamento | Principais Adições |
+| --- | --- | --- |
+| Episódio 7 | Meados de 2025 | Introduziu a sequência de investigação do laboratório e as primeiras escolhas de confiança de Darci |
+| Episódio 8 | Final de 2025 | Adicionou cenas de confronto no escritório de alto risco e indicadores de caminhos ramificados |
+| Episódio 9 | 26 de abril de 2026 | Entregou resoluções narrativas importantes, otimizou a build de Android, adicionou nova arte |
+
+<Callout type="success" title="Comunidade e Suporte">
+Para discutir teorias, compartilhar estratégias de detonado ou relatar bugs técnicos, junte-se ao servidor [Oficial do Discord](https://discord.com/) linkado na página do jogo no itch.io, ou participe de discussões na comunidade do Reddit [r/ripples](https://www.reddit.com/r/ripples/).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Onde posso baixar o jogo oficial Ripples com segurança?",
+    answer: "Você deve baixar o jogo Ripples apenas da página oficial do itch.io hospedada pelo desenvolvedor, Jestur. Isso garante que você receba arquivos limpos e seguros para Windows, macOS, Linux e Android."
+  },
+  {
+    question: "Como faço para atualizar o jogo para o Episódio 9 sem perder meu progresso de salvamento?",
+    answer: "Para manter seu progresso, não exclua a pasta antiga do jogo imediatamente. Instale a nova versão do Episódio 9 e copie seus arquivos de salvamento do diretório antigo 'saves' para a nova pasta 'saves' do Episódio 9."
+  },
+  {
+    question: "Existem códigos promocionais ou códigos de trapaça oficiais para o jogo Ripples?",
+    answer: "Não, o jogo Ripples é uma visual novel focada em narrativa e não possui um sistema de código promocional ou de resgate no jogo. A progressão é baseada inteiramente nas escolhas da história."
+  },
+  {
+    question: "O que devo fazer se a versão de Android travar durante a instalação?",
+    answer: "Certifique-se de que seu dispositivo tenha pelo menos 3 GB de espaço de armazenamento livre e que você tenha ativado 'Instalar de Fontes Desconhecidas' em suas configurações de segurança. Limpar o cache do navegador antes de baixar o APK também pode ajudar."
+  }
+]} />
+
+<Callout type="tip" title="Apoie o Desenvolvedor">
+Se você gosta do enredo e quer ajudar a acelerar o lançamento do Episódio 10, considere apoiar Jestur no Patreon. Os apoiadores frequentemente recebem acesso antecipado a atualizações de desenvolvimento, arte conceitual e visões dos bastidores.
+</Callout>
+
+</Section>

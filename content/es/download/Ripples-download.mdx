@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Descargar Ripples: Plataformas oficiales y guía de instalación",
+  description: "Consigue una descarga segura de Ripples para PC, macOS, Linux y Android. Sigue nuestra guía de instalación paso a paso para el Episodio 9.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ripples+Download+Guide",
+  date: "2026-06-20",
+  author: "Equipo de la Wiki de Ripples"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Fuentes oficiales**: Consigue tu **descarga de Ripples** exclusivamente a través de itch.io o de la página de Patreon del creador.
+- **Plataformas compatibles**: Juega en dispositivos Windows, macOS, Linux y Android.
+- **Última versión**: El Episodio 9 se lanzó oficialmente el 26 de abril de 2026, con importantes actualizaciones de la historia.
+- **Migración de partidas**: Mantén tus archivos de guardado intactos al actualizar copiando la carpeta de guardado manualmente.
+- **Coste**: El juego base está disponible bajo el modelo "Pon tu precio" en itch.io, mientras que Patreon ofrece acceso anticipado.
+</Callout>
+
+<Section icon={Shield} title="Descarga de Ripples: Plataformas oficiales y seguridad">
+
+Asegurar una **descarga de Ripples** segura es el primer paso para experimentar esta inmersiva novela visual de ciencia ficción rica en narrativa. Desarrollado por Jestur, el juego sigue los complejos viajes de Jack y Darci mientras navegan por un misterio de ciencia ficción lleno de opciones ramificadas y múltiples rutas narrativas. Para proteger tu dispositivo de amenazas de seguridad y malware, obtén siempre los archivos del juego directamente de los canales de distribución oficiales.
+
+El desarrollador aloja el juego en itch.io y Patreon. Evita los sitios espejo de terceros, los repositorios de APK no autorizados o los paquetes modificados, ya que a menudo contienen versiones desactualizadas o archivos comprometidos.
+
+<Callout type="success" title="Verificación de fuentes oficiales">
+Descarga Ripples únicamente desde los enlaces oficiales proporcionados por Jestur. El desarrollador no distribuye el juego en Steam, Epic Games Store ni en tiendas de aplicaciones móviles.
+</Callout>
+
+| Plataforma | Tipo de acceso | Beneficio principal | Destino del enlace oficial |
+| | | | |
+| **itch.io** | Gratis / Pon tu precio | Versiones públicas estándar, archivos directos ZIP/APK | Jestur en itch.io |
+| **Patreon** | Suscripción | Acceso anticipado a nuevos episodios, actualizaciones de desarrollo | Patreon de Jestur |
+| **Discord** | Enlace de la comunidad | Anuncios de versiones, soporte comunitario directo | Discord oficial |
+
+<CardGrid cols={3}>
+  <Card title="Soporte directo">
+    Descargar a través de plataformas oficiales garantiza que el creador, Jestur, reciba apoyo financiero y comunitario directo para continuar con el desarrollo.
+  </Card>
+  <Card title="Integridad del archivo">
+    Los paquetes oficiales en itch.io están verificados y libres de scripts maliciosos, garantizando una instalación segura en tu sistema.
+  </Card>
+  <Card title="Últimas versiones">
+    Obtén acceso inmediato al Episodio 9 y a las correcciones posteriores directamente desde los canales oficiales del desarrollador.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Compatibilidad del sistema y especificaciones técnicas">
+
+Antes de iniciar tu **descarga de Ripples**, verifica que tu hardware y sistema operativo cumplan con las especificaciones necesarias. Debido a que Ripples está desarrollado con el motor Ren'Py, presenta requisitos bajos de CPU y GPU, pero exige suficiente espacio de almacenamiento debido a los recursos visuales de alta definición.
+
+El Episodio 9 introduce un volumen significativo de nuevas ilustraciones, elevando el recuento total de imágenes a más de 10,000 recursos. Asegúrate de que tu dispositivo tenga la capacidad de almacenamiento adecuada para evitar fallos de instalación.
+
+<Callout type="info" title="Recomendación de almacenamiento">
+Mantén al menos 5 GB de espacio libre en tu unidad de sistema. Esto garantiza una descompresión fluida de los archivos del juego y evita la corrupción de los datos de guardado durante la partida.
+</Callout>
+
+| Sistema operativo | RAM mínima | Almacenamiento requerido | Formato ejecutable |
+| | | | |
+| **Windows 10/11** | 2 GB de RAM | 4.0 GB de espacio libre | .exe |
+| **macOS 10.12+** | 2 GB de RAM | 4.5 GB de espacio libre | .app (Universal) |
+| **Linux (Ubuntu/Debian)** | 2 GB de RAM | 4.0 GB de espacio libre | Script .sh |
+| **Android 8.0+** | 3 GB de RAM | 4.0 GB de espacio libre | .apk |
+
+</Section>
+
+<Section icon={Target} title="Instrucciones de instalación paso a paso">
+
+El proceso de instalación varía según tu plataforma. Debido a que el juego se distribuye como un archivo comprimido en plataformas de escritorio, no necesitas un instalador tradicional para jugar. Simplemente extrae los archivos e inicia el ejecutable.
+
+Sigue estos pasos específicos para cada plataforma para configurar tu juego con éxito después de completar tu **descarga de Ripples**.
+
+<Callout type="warning" title="Falsos positivos de antivirus">
+Algunos programas de seguridad pueden marcar los ejecutables de Ren'Py recién lanzados como archivos no reconocidos. Si esto ocurre, verifica el hash del archivo o añade una regla de exclusión para la carpeta del juego.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Descarga el paquete correcto">
+    Visita la página oficial de itch.io y selecciona el paquete correspondiente a tu sistema operativo (Windows, macOS, Linux o Android). Guarda el archivo en tu unidad local.
+  </Step>
+  <Step num="2" title="Extrae el archivo de escritorio">
+    Para Windows, haz clic derecho en el archivo ZIP descargado y selecciona "Extraer todo". Para Linux, descomprime el archivo tar.xz en el directorio de tu elección.
+  </Step>
+  <Step num="3" title="Omitir Gatekeeper de macOS (Solo Mac)">
+    En macOS, arrastra la aplicación a tu carpeta de Aplicaciones. Si encuentras una advertencia de "desarrollador no identificado", haz clic derecho en el icono de la aplicación y selecciona "Abrir" para autorizar la ejecución.
+  </Step>
+  <Step num="4" title="Inicia el juego">
+    Haz doble clic en `Ripples.exe` en Windows, ejecuta el script `Ripples.sh` en Linux o toca el icono de la aplicación en macOS para comenzar tu viaje.
+  </Step>
+</Steps>
+
+| Plataforma | Error común | Causa principal | Resolución rápida |
+| | | | |
+| **Windows** | Error de script al iniciar | Extracción incompleta del ZIP | Elimina la carpeta, vuelve a extraer usando 7-Zip |
+| **macOS** | La aplicación está dañada | Bloqueo de seguridad de Gatekeeper | Ejecuta el comando `xattr -cr` en la Terminal |
+| **Linux** | Permiso denegado | Faltan permisos de ejecución | Ejecuta `chmod +x Ripples.sh` en la terminal |
+
+</Section>
+
+<Section icon={Map} title="Instalación en Android y migración de archivos de guardado">
+
+Jugar a Ripples en dispositivos móviles requiere instalar el paquete de aplicación oficial de Android (APK). Debido a las actualizaciones de seguridad en las versiones modernas de Android, la instalación manual y la gestión de los datos de guardado requieren pasos específicos.
+
+Para disfrutar de la historia de Jack and Darci en cualquier lugar, sigue el protocolo estándar de sideloading.
+
+<Callout type="tip" title="Permiso de instalación de origen desconocido en Android">
+Debes habilitar "Instalar aplicaciones desconocidas" para tu navegador web o administrador de archivos en los ajustes del sistema de Android antes de abrir el archivo APK.
+</Callout>
+
+| Característica | Versión de escritorio (PC/Mac) | Versión de Android (APK) |
+| | | |
+| **Recursos visuales** | Resolución completa, sin comprimir | Ligeramente comprimidos para móviles |
+| **Interfaz** | Navegación con teclado y ratón | Gestos optimizados para pantallas táctiles |
+| **Ubicación de guardado** | Directorio AppData del sistema | Almacenamiento interno (Android/data) |
+| **Rendimiento** | Animaciones de alta tasa de fotogramas | Dependiente del procesador del dispositivo |
+
+### Cómo migrar archivos de guardado al Episodio 9
+
+Si estás actualizando del Episodio 8 al Episodio 9 en Android, tus partidas guardadas deberían transferirse automáticamente si instalas la nueva APK sobre la instalación existente. Sin embargo, para evitar la pérdida de progreso, recomendamos realizar copias de seguridad manuales.
+
+1. Abre el administrador de archivos de tu dispositivo y navega a `Android/data/com.jestur.ripples/files/`.
+2. Localiza la carpeta `saves` y cópiala en un directorio de copia de seguridad seguro en tu almacenamiento interno.
+3. Instala la nueva APK del Episodio 9.
+4. Si tu progreso no se carga, vuelve a copiar la carpeta `saves` de la que hiciste copia de seguridad en el directorio `Android/data/com.jestur.ripples/files/`.
+
+</Section>
+
+<Section icon={Trophy} title="Actualización del Episodio 9 y progreso narrativo">
+
+El lanzamiento del Episodio 9 el 26 de abril de 2026 marca un hito importante en el desarrollo de Ripples. Esta actualización introduce desarrollos narrativos críticos, resolviendo varios misterios pendientes mientras prepara futuras tramas.
+
+Para asegurarte de que tu juego esté completamente preparado para el contenido más reciente, verifica el estado de tu instalación y completa los requisitos narrativos.
+
+<Callout type="info" title="Requisitos narrativos">
+El contenido del Episodio 9 requiere una partida guardada completada del Episodio 8. Es posible comenzar una nueva partida, pero recomendamos encarecidamente jugar los capítulos anteriores para conservar tus elecciones.
+</Callout>
+
+| Episodio | Fecha de lanzamiento | Enfoque principal de la historia | Estado del desarrollo |
+| | | | |
+| **Episodio 7** | Mediados de 2025 | Introducción de elementos clave de ciencia ficción | Completado |
+| **Episodio 8** | Finales de 2025 | Escalada del conflicto, elecciones importantes | Completado |
+| **Episodio 9** | 26 de abril de 2026 | Inmersión profunda en el vínculo de Jack y Darci | Versión estable actual |
+
+<Checklist
+  id="episode-9-readiness"
+  title="Lista de verificación de preparación para el Episodio 9:"
+  items={[
+    "Verificar la integridad del archivo del juego después de la descarga",
+    "Realizar una copia de seguridad de las partidas guardadas de episodios anteriores",
+    "Asegurarse de que el dispositivo tenga al menos 4.5 GB de espacio libre",
+    "Revisar tus elecciones importantes del Episodio 8 para prepararte para las rutas ramificadas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+Nuestras preguntas frecuentes de la comunidad abordan las dudas comunes sobre la instalación, actualizaciones y rendimiento técnico del juego.
+
+<Callout type="tip" title="Soporte de la comunidad">
+Si encuentras un problema técnico único que no figure aquí, visita el subreddit oficial r/ripples o el servidor de Discord de Jestur para obtener soluciones de la comunidad.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿La descarga de Ripples es gratuita?",
+    answer: "Sí, las versiones públicas estándar en itch.io se distribuyen bajo el modelo 'Pon tu precio', lo que permite a los jugadores descargar el juego gratis o contribuir con cualquier cantidad para apoyar a Jestur."
+  },
+  {
+    question: "¿Puedo transferir mis archivos de guardado de PC a Android?",
+    answer: "Sí. Las partidas guardadas son compatibles entre plataformas. Localiza la carpeta 'saves' en el directorio de tu PC y copia los archivos en la carpeta 'Android/data/com.jestur.ripples/files/saves' de tu dispositivo móvil."
+  },
+  {
+    question: "¿Cómo actualizo el juego cuando se lanza un nuevo episodio?",
+    answer: "Para actualizar, realiza una nueva descarga de Ripples de la última versión. Extrae los archivos en una nueva carpeta. Tus archivos de guardado se almacenan en un directorio del sistema independiente y se cargarán automáticamente."
+  },
+  {
+    question: "¿Por qué mi Mac dice que el archivo del juego está dañado?",
+    answer: "Este es un mensaje de seguridad estándar de macOS para aplicaciones descargadas fuera de la App Store. Abre tu Terminal y escribe 'xattr -cr /ruta/a/Ripples.app' para borrar la marca de Gatekeeper."
+  }
+]} />
+
+</Section>
