@@ -1,0 +1,698 @@
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "Ripples-cast",
+        "file": "Ripples-cast"
+      },
+      {
+        "slug": "Ripples-characters",
+        "file": "Ripples-characters"
+      },
+      {
+        "slug": "Ripples-daphne",
+        "file": "Ripples-daphne"
+      },
+      {
+        "slug": "Ripples-krystal",
+        "file": "Ripples-krystal"
+      },
+      {
+        "slug": "Ripples-luna",
+        "file": "Ripples-luna"
+      }
+    ],
+    "choices": [
+      {
+        "slug": "Ripples-best-choices",
+        "file": "Ripples-best-choices"
+      },
+      {
+        "slug": "Ripples-better-daphne-or-krystal",
+        "file": "Ripples-better-daphne-or-krystal"
+      },
+      {
+        "slug": "Ripples-ending-choices",
+        "file": "Ripples-ending-choices"
+      },
+      {
+        "slug": "Ripples-luna-scene",
+        "file": "Ripples-luna-scene"
+      },
+      {
+        "slug": "Ripples-yellow-mask",
+        "file": "Ripples-yellow-mask"
+      }
+    ],
+    "download": [
+      {
+        "slug": "Ripples-download-for-pc",
+        "file": "Ripples-download-for-pc"
+      },
+      {
+        "slug": "Ripples-download",
+        "file": "Ripples-download"
+      },
+      {
+        "slug": "Ripples-game-latest-version",
+        "file": "Ripples-game-latest-version"
+      },
+      {
+        "slug": "Ripples-itch-io",
+        "file": "Ripples-itch-io"
+      },
+      {
+        "slug": "Ripples-itch",
+        "file": "Ripples-itch"
+      },
+      {
+        "slug": "Ripples-latest-version",
+        "file": "Ripples-latest-version"
+      }
+    ],
+    "game": [
+      {
+        "slug": "Ripples-episode-guide",
+        "file": "Ripples-episode-guide"
+      },
+      {
+        "slug": "Ripples-game",
+        "file": "Ripples-game"
+      },
+      {
+        "slug": "Ripples-is-still-good-in-2026",
+        "file": "Ripples-is-still-good-in-2026"
+      },
+      {
+        "slug": "Ripples-online-game",
+        "file": "Ripples-online-game"
+      },
+      {
+        "slug": "Ripples-play-wait-or-pass",
+        "file": "Ripples-play-wait-or-pass"
+      },
+      {
+        "slug": "Ripples-review",
+        "file": "Ripples-review"
+      },
+      {
+        "slug": "Ripples-video-game",
+        "file": "Ripples-video-game"
+      },
+      {
+        "slug": "Ripples-visual-novel",
+        "file": "Ripples-visual-novel"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Ripples-ep-10-release-date",
+        "file": "Ripples-ep-10-release-date"
+      },
+      {
+        "slug": "Ripples-ep-10",
+        "file": "Ripples-ep-10"
+      },
+      {
+        "slug": "Ripples-game-walkthrough",
+        "file": "Ripples-game-walkthrough"
+      },
+      {
+        "slug": "Ripples-guide",
+        "file": "Ripples-guide"
+      },
+      {
+        "slug": "Ripples-visual-novel-walkthrough",
+        "file": "Ripples-visual-novel-walkthrough"
+      },
+      {
+        "slug": "Ripples-walkthrough-ep9",
+        "file": "Ripples-walkthrough-ep9"
+      },
+      {
+        "slug": "Ripples-walkthrough-guide-episode-9",
+        "file": "Ripples-walkthrough-guide-episode-9"
+      },
+      {
+        "slug": "Ripples-walkthrough-guide",
+        "file": "Ripples-walkthrough-guide"
+      },
+      {
+        "slug": "Ripples-walkthrough",
+        "file": "Ripples-walkthrough"
+      }
+    ],
+    "versions": [
+      {
+        "slug": "Ripples-0-8-walkthrough",
+        "file": "Ripples-0.8-walkthrough"
+      },
+      {
+        "slug": "Ripples-0-9-version",
+        "file": "Ripples-0.9-version"
+      },
+      {
+        "slug": "Ripples-0-9-22",
+        "file": "Ripples-0.9.22"
+      },
+      {
+        "slug": "Ripples-release-date",
+        "file": "Ripples-release-date"
+      },
+      {
+        "slug": "Ripples-update",
+        "file": "Ripples-update"
+      },
+      {
+        "slug": "Ripples-v0-9-22",
+        "file": "Ripples-v0.9.22"
+      },
+      {
+        "slug": "Ripples-when-was-released",
+        "file": "Ripples-when-was-released"
+      }
+    ]
+  },
+  "es": {
+    "characters": [
+      {
+        "slug": "Ripples-cast",
+        "file": "Ripples-cast"
+      },
+      {
+        "slug": "Ripples-characters",
+        "file": "Ripples-characters"
+      },
+      {
+        "slug": "Ripples-daphne",
+        "file": "Ripples-daphne"
+      },
+      {
+        "slug": "Ripples-krystal",
+        "file": "Ripples-krystal"
+      },
+      {
+        "slug": "Ripples-luna",
+        "file": "Ripples-luna"
+      }
+    ],
+    "choices": [
+      {
+        "slug": "Ripples-best-choices",
+        "file": "Ripples-best-choices"
+      },
+      {
+        "slug": "Ripples-better-daphne-or-krystal",
+        "file": "Ripples-better-daphne-or-krystal"
+      },
+      {
+        "slug": "Ripples-ending-choices",
+        "file": "Ripples-ending-choices"
+      },
+      {
+        "slug": "Ripples-luna-scene",
+        "file": "Ripples-luna-scene"
+      },
+      {
+        "slug": "Ripples-yellow-mask",
+        "file": "Ripples-yellow-mask"
+      }
+    ],
+    "download": [
+      {
+        "slug": "Ripples-download-for-pc",
+        "file": "Ripples-download-for-pc"
+      },
+      {
+        "slug": "Ripples-download",
+        "file": "Ripples-download"
+      },
+      {
+        "slug": "Ripples-game-latest-version",
+        "file": "Ripples-game-latest-version"
+      },
+      {
+        "slug": "Ripples-itch-io",
+        "file": "Ripples-itch-io"
+      },
+      {
+        "slug": "Ripples-itch",
+        "file": "Ripples-itch"
+      },
+      {
+        "slug": "Ripples-latest-version",
+        "file": "Ripples-latest-version"
+      }
+    ],
+    "game": [
+      {
+        "slug": "Ripples-episode-guide",
+        "file": "Ripples-episode-guide"
+      },
+      {
+        "slug": "Ripples-game",
+        "file": "Ripples-game"
+      },
+      {
+        "slug": "Ripples-is-still-good-in-2026",
+        "file": "Ripples-is-still-good-in-2026"
+      },
+      {
+        "slug": "Ripples-online-game",
+        "file": "Ripples-online-game"
+      },
+      {
+        "slug": "Ripples-play-wait-or-pass",
+        "file": "Ripples-play-wait-or-pass"
+      },
+      {
+        "slug": "Ripples-review",
+        "file": "Ripples-review"
+      },
+      {
+        "slug": "Ripples-video-game",
+        "file": "Ripples-video-game"
+      },
+      {
+        "slug": "Ripples-visual-novel",
+        "file": "Ripples-visual-novel"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Ripples-ep-10-release-date",
+        "file": "Ripples-ep-10-release-date"
+      },
+      {
+        "slug": "Ripples-ep-10",
+        "file": "Ripples-ep-10"
+      },
+      {
+        "slug": "Ripples-game-walkthrough",
+        "file": "Ripples-game-walkthrough"
+      },
+      {
+        "slug": "Ripples-guide",
+        "file": "Ripples-guide"
+      },
+      {
+        "slug": "Ripples-visual-novel-walkthrough",
+        "file": "Ripples-visual-novel-walkthrough"
+      },
+      {
+        "slug": "Ripples-walkthrough-ep9",
+        "file": "Ripples-walkthrough-ep9"
+      },
+      {
+        "slug": "Ripples-walkthrough-guide-episode-9",
+        "file": "Ripples-walkthrough-guide-episode-9"
+      },
+      {
+        "slug": "Ripples-walkthrough-guide",
+        "file": "Ripples-walkthrough-guide"
+      },
+      {
+        "slug": "Ripples-walkthrough",
+        "file": "Ripples-walkthrough"
+      }
+    ],
+    "versions": [
+      {
+        "slug": "Ripples-0-8-walkthrough",
+        "file": "Ripples-0.8-walkthrough"
+      },
+      {
+        "slug": "Ripples-0-9-version",
+        "file": "Ripples-0.9-version"
+      },
+      {
+        "slug": "Ripples-0-9-22",
+        "file": "Ripples-0.9.22"
+      },
+      {
+        "slug": "Ripples-release-date",
+        "file": "Ripples-release-date"
+      },
+      {
+        "slug": "Ripples-update",
+        "file": "Ripples-update"
+      },
+      {
+        "slug": "Ripples-v0-9-22",
+        "file": "Ripples-v0.9.22"
+      },
+      {
+        "slug": "Ripples-when-was-released",
+        "file": "Ripples-when-was-released"
+      }
+    ]
+  },
+  "pt": {
+    "characters": [
+      {
+        "slug": "Ripples-cast",
+        "file": "Ripples-cast"
+      },
+      {
+        "slug": "Ripples-characters",
+        "file": "Ripples-characters"
+      },
+      {
+        "slug": "Ripples-daphne",
+        "file": "Ripples-daphne"
+      },
+      {
+        "slug": "Ripples-krystal",
+        "file": "Ripples-krystal"
+      },
+      {
+        "slug": "Ripples-luna",
+        "file": "Ripples-luna"
+      }
+    ],
+    "choices": [
+      {
+        "slug": "Ripples-best-choices",
+        "file": "Ripples-best-choices"
+      },
+      {
+        "slug": "Ripples-better-daphne-or-krystal",
+        "file": "Ripples-better-daphne-or-krystal"
+      },
+      {
+        "slug": "Ripples-ending-choices",
+        "file": "Ripples-ending-choices"
+      },
+      {
+        "slug": "Ripples-luna-scene",
+        "file": "Ripples-luna-scene"
+      },
+      {
+        "slug": "Ripples-yellow-mask",
+        "file": "Ripples-yellow-mask"
+      }
+    ],
+    "download": [
+      {
+        "slug": "Ripples-download-for-pc",
+        "file": "Ripples-download-for-pc"
+      },
+      {
+        "slug": "Ripples-download",
+        "file": "Ripples-download"
+      },
+      {
+        "slug": "Ripples-game-latest-version",
+        "file": "Ripples-game-latest-version"
+      },
+      {
+        "slug": "Ripples-itch-io",
+        "file": "Ripples-itch-io"
+      },
+      {
+        "slug": "Ripples-itch",
+        "file": "Ripples-itch"
+      },
+      {
+        "slug": "Ripples-latest-version",
+        "file": "Ripples-latest-version"
+      }
+    ],
+    "game": [
+      {
+        "slug": "Ripples-episode-guide",
+        "file": "Ripples-episode-guide"
+      },
+      {
+        "slug": "Ripples-game",
+        "file": "Ripples-game"
+      },
+      {
+        "slug": "Ripples-is-still-good-in-2026",
+        "file": "Ripples-is-still-good-in-2026"
+      },
+      {
+        "slug": "Ripples-online-game",
+        "file": "Ripples-online-game"
+      },
+      {
+        "slug": "Ripples-play-wait-or-pass",
+        "file": "Ripples-play-wait-or-pass"
+      },
+      {
+        "slug": "Ripples-review",
+        "file": "Ripples-review"
+      },
+      {
+        "slug": "Ripples-video-game",
+        "file": "Ripples-video-game"
+      },
+      {
+        "slug": "Ripples-visual-novel",
+        "file": "Ripples-visual-novel"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Ripples-ep-10-release-date",
+        "file": "Ripples-ep-10-release-date"
+      },
+      {
+        "slug": "Ripples-ep-10",
+        "file": "Ripples-ep-10"
+      },
+      {
+        "slug": "Ripples-game-walkthrough",
+        "file": "Ripples-game-walkthrough"
+      },
+      {
+        "slug": "Ripples-guide",
+        "file": "Ripples-guide"
+      },
+      {
+        "slug": "Ripples-visual-novel-walkthrough",
+        "file": "Ripples-visual-novel-walkthrough"
+      },
+      {
+        "slug": "Ripples-walkthrough-ep9",
+        "file": "Ripples-walkthrough-ep9"
+      },
+      {
+        "slug": "Ripples-walkthrough-guide-episode-9",
+        "file": "Ripples-walkthrough-guide-episode-9"
+      },
+      {
+        "slug": "Ripples-walkthrough-guide",
+        "file": "Ripples-walkthrough-guide"
+      },
+      {
+        "slug": "Ripples-walkthrough",
+        "file": "Ripples-walkthrough"
+      }
+    ],
+    "versions": [
+      {
+        "slug": "Ripples-0-8-walkthrough",
+        "file": "Ripples-0.8-walkthrough"
+      },
+      {
+        "slug": "Ripples-0-9-version",
+        "file": "Ripples-0.9-version"
+      },
+      {
+        "slug": "Ripples-0-9-22",
+        "file": "Ripples-0.9.22"
+      },
+      {
+        "slug": "Ripples-release-date",
+        "file": "Ripples-release-date"
+      },
+      {
+        "slug": "Ripples-update",
+        "file": "Ripples-update"
+      },
+      {
+        "slug": "Ripples-v0-9-22",
+        "file": "Ripples-v0.9.22"
+      },
+      {
+        "slug": "Ripples-when-was-released",
+        "file": "Ripples-when-was-released"
+      }
+    ]
+  },
+  "ru": {
+    "characters": [
+      {
+        "slug": "Ripples-cast",
+        "file": "Ripples-cast"
+      },
+      {
+        "slug": "Ripples-characters",
+        "file": "Ripples-characters"
+      },
+      {
+        "slug": "Ripples-daphne",
+        "file": "Ripples-daphne"
+      },
+      {
+        "slug": "Ripples-krystal",
+        "file": "Ripples-krystal"
+      },
+      {
+        "slug": "Ripples-luna",
+        "file": "Ripples-luna"
+      }
+    ],
+    "choices": [
+      {
+        "slug": "Ripples-best-choices",
+        "file": "Ripples-best-choices"
+      },
+      {
+        "slug": "Ripples-better-daphne-or-krystal",
+        "file": "Ripples-better-daphne-or-krystal"
+      },
+      {
+        "slug": "Ripples-ending-choices",
+        "file": "Ripples-ending-choices"
+      },
+      {
+        "slug": "Ripples-luna-scene",
+        "file": "Ripples-luna-scene"
+      },
+      {
+        "slug": "Ripples-yellow-mask",
+        "file": "Ripples-yellow-mask"
+      }
+    ],
+    "download": [
+      {
+        "slug": "Ripples-download-for-pc",
+        "file": "Ripples-download-for-pc"
+      },
+      {
+        "slug": "Ripples-download",
+        "file": "Ripples-download"
+      },
+      {
+        "slug": "Ripples-game-latest-version",
+        "file": "Ripples-game-latest-version"
+      },
+      {
+        "slug": "Ripples-itch-io",
+        "file": "Ripples-itch-io"
+      },
+      {
+        "slug": "Ripples-itch",
+        "file": "Ripples-itch"
+      },
+      {
+        "slug": "Ripples-latest-version",
+        "file": "Ripples-latest-version"
+      }
+    ],
+    "game": [
+      {
+        "slug": "Ripples-episode-guide",
+        "file": "Ripples-episode-guide"
+      },
+      {
+        "slug": "Ripples-game",
+        "file": "Ripples-game"
+      },
+      {
+        "slug": "Ripples-is-still-good-in-2026",
+        "file": "Ripples-is-still-good-in-2026"
+      },
+      {
+        "slug": "Ripples-online-game",
+        "file": "Ripples-online-game"
+      },
+      {
+        "slug": "Ripples-play-wait-or-pass",
+        "file": "Ripples-play-wait-or-pass"
+      },
+      {
+        "slug": "Ripples-review",
+        "file": "Ripples-review"
+      },
+      {
+        "slug": "Ripples-video-game",
+        "file": "Ripples-video-game"
+      },
+      {
+        "slug": "Ripples-visual-novel",
+        "file": "Ripples-visual-novel"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Ripples-ep-10-release-date",
+        "file": "Ripples-ep-10-release-date"
+      },
+      {
+        "slug": "Ripples-ep-10",
+        "file": "Ripples-ep-10"
+      },
+      {
+        "slug": "Ripples-game-walkthrough",
+        "file": "Ripples-game-walkthrough"
+      },
+      {
+        "slug": "Ripples-guide",
+        "file": "Ripples-guide"
+      },
+      {
+        "slug": "Ripples-visual-novel-walkthrough",
+        "file": "Ripples-visual-novel-walkthrough"
+      },
+      {
+        "slug": "Ripples-walkthrough-ep9",
+        "file": "Ripples-walkthrough-ep9"
+      },
+      {
+        "slug": "Ripples-walkthrough-guide-episode-9",
+        "file": "Ripples-walkthrough-guide-episode-9"
+      },
+      {
+        "slug": "Ripples-walkthrough-guide",
+        "file": "Ripples-walkthrough-guide"
+      },
+      {
+        "slug": "Ripples-walkthrough",
+        "file": "Ripples-walkthrough"
+      }
+    ],
+    "versions": [
+      {
+        "slug": "Ripples-0-8-walkthrough",
+        "file": "Ripples-0.8-walkthrough"
+      },
+      {
+        "slug": "Ripples-0-9-version",
+        "file": "Ripples-0.9-version"
+      },
+      {
+        "slug": "Ripples-0-9-22",
+        "file": "Ripples-0.9.22"
+      },
+      {
+        "slug": "Ripples-release-date",
+        "file": "Ripples-release-date"
+      },
+      {
+        "slug": "Ripples-update",
+        "file": "Ripples-update"
+      },
+      {
+        "slug": "Ripples-v0-9-22",
+        "file": "Ripples-v0.9.22"
+      },
+      {
+        "slug": "Ripples-when-was-released",
+        "file": "Ripples-when-was-released"
+      }
+    ]
+  }
+}
