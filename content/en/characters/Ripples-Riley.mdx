@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ripples Riley: Complete Walkthrough & Character Guide 2026",
+  description: "Master Ripples: A comprehensive guide covering Episode 9 updates, character routes, branching choices, and Android installation tips for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/67e8f9?text=Ripples+Walkthrough",
+  date: "2026-06-22",
+  author: "Ripples Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ripples Riley** and the core narrative follow the journey of Jack and Darci through complex sci-fi mysteries.
+- **Episode 9** is the latest update, introducing new branching paths and critical character developments.
+- **Branching choices** significantly impact story outcomes; keep multiple save files to explore every route.
+- **Official updates** and downloads are exclusively available via the [Jestur itch.io page](https://jestur.itch.io/ripples).
+- **Android players** should ensure sufficient storage space before installing the latest APK package.
+</Callout>
+
+<Section icon={Map} title="Understanding Ripples Gameplay">
+
+Ripples is a narrative-driven sci-fi visual novel that emphasizes player agency. Unlike traditional linear stories, your interactions with characters like Darci shape the trajectory of the plot. As of June 2026, the game has evolved through nine major episodes, each adding depth to the overarching mystery.
+
+**Video Highlights:**
+- Introduction to the core sci-fi setting and atmosphere.
+- Overview of the decision-making system.
+- Initial interaction guide for the early game chapters.
+
+<YouTubeEmbed videoId="p-3xPqQ3T7I" title="Ripples Episode 1 | Visual Novel Gameplay" />
+
+The game structure relies on a robust choice-based system. Players navigate a series of dialogues and actions that determine relationship status and plot progression.
+
+| Feature | Description | Importance |
+| :--- | :--- | :--- |
+| Branching Paths | Choices alter future scenes | High |
+| Relationship System | Impacts character availability | Medium |
+| Episode Updates | Regular narrative expansions | High |
+| Multi-Platform | PC, Mac, Linux, and Android | Essential |
+
+<Callout type="tip" title="Pro Tip">
+Always maintain a master save file before entering a dialogue-heavy sequence to avoid missing unique story branches.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navigating Branching Choices">
+
+Success in Ripples depends on identifying which choices lead to favorable outcomes. While some decisions are purely cosmetic, others lock you into specific narrative routes.
+
+<CardGrid cols={3}>
+  <Card title="Logical Choices">
+    - Focus on investigation
+    - Prioritize sci-fi lore
+    - Unlocks secret data
+  </Card>
+  <Card title="Emotional Paths">
+    - Deepen character bonds
+    - Focus on personal arcs
+    - Unlocks exclusive scenes
+  </Card>
+  <Card title="Neutral Strategy">
+    - Balanced relationship stats
+    - Keeps all doors open
+    - Slower narrative progress
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Choice Warning">
+Certain dialogue options are irreversible. Once a path is chosen, the game engine saves the state, making it impossible to revert without loading a previous save.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Android Installation Guide">
+
+Playing Ripples on Android requires specific steps to ensure the game runs smoothly. Since it is a visually rich title, performance depends on device hardware.
+
+<Steps>
+  <Step num="1" title="Official Download">
+    Visit the [official itch.io page](https://jestur.itch.io/ripples) to download the latest Android APK.
+  </Step>
+  <Step num="2" title="Permission Setup">
+    Enable "Install from Unknown Sources" in your device settings to allow the installation of the game package.
+  </Step>
+  <Step num="3" title="Storage Verification">
+    Ensure you have at least 2GB of free space to accommodate high-resolution assets and save data.
+  </Step>
+  <Step num="4" title="Initial Launch">
+    Open the app and grant necessary permissions to allow the game to store your progress locally.
+  </Step>
+</Steps>
+
+| Requirement | Specification |
+| :--- | :--- |
+| Android Version | 8.0 or higher recommended |
+| RAM | Minimum 4GB for stability |
+| Storage | 2GB+ available space |
+| Updates | Download via Patreon/itch.io |
+
+</Section>
+
+<Section icon={Trophy} title="Progression Milestones">
+
+To fully experience the game, players should aim for specific milestones across the nine episodes. 
+
+<Checklist
+  id="ripples-goals"
+  title="Essential Gameplay Goals:"
+  items={[
+    "Complete the Episode 9 prologue",
+    "Max out relationship level with Darci",
+    "Discover all branch-specific lore entries",
+    "Backup save data to a cloud drive"
+  ]}
+/>
+
+<Callout type="success" title="Success Strategy">
+Focusing on one character route per playthrough allows for a more cohesive narrative experience rather than trying to balance all interactions at once.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Ripples available on Steam or Roblox?",
+    answer: "No. Ripples is an independent project distributed primarily through itch.io and supported via Patreon. It is not available on Steam, Roblox, or Epic Games Store."
+  },
+  {
+    question: "Are there any redeemable codes for the game?",
+    answer: "Ripples does not utilize a code system. Any sites claiming to offer 'Ripples codes' are likely misleading; always stick to official links provided by Jestur."
+  },
+  {
+    question: "How often are new episodes released?",
+    answer: "The developer provides updates regularly. You can track the latest progress, including the release of Episode 9, via the official Discord or Patreon page."
+  },
+  {
+    question: "Can I play Ripples on iOS?",
+    answer: "Currently, Ripples supports Windows, macOS, Linux, and Android. iOS is not officially supported at this time."
+  }
+]} />
+
+</Section>

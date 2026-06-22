@@ -1,0 +1,137 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ripples Alice: Complete Story & Character Guide",
+  description: "Explore the narrative depth of Ripples Alice, covering character routes, key choices, and essential walkthrough tips for the latest episodes.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ripples+Alice+Guide",
+  date: "2026-06-22",
+  author: "Ripples Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ripples Alice** represents a central narrative arc within the sci-fi visual novel experience.
+- **Branching choices** significantly impact the relationship status with characters like Darci and Jack.
+- **Episode 9** is the latest update, introducing critical plot developments and new story paths.
+- **Save your progress** frequently to explore different outcomes without restarting the entire episode.
+</Callout>
+
+<Section icon={Map} title="Understanding the Narrative Structure">
+
+The story of Ripples is defined by its complex sci-fi setting and character-driven interactions. Players navigate the lives of Jack and Darci, where every decision ripples through the timeline, potentially altering the final outcome of each episode.
+
+**Key Narrative Elements:**
+| Element | Description | Impact |
+| :--- | :--- | :--- |
+| Branching Paths | Choices leading to unique dialogue | High |
+| Character Routes | Focused story arcs for specific NPCs | Medium |
+| Episode Updates | New content releases via itch.io | High |
+
+<Callout type="tip" title="Strategic Storytelling">
+When playing through new episodes, prioritize consistency in your character's personality traits. This often unlocks hidden dialogue options that are otherwise inaccessible.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Character Routes and Relationships">
+
+Character development is the core of the Ripples experience. Understanding the motivations of key figures like Darci is essential for navigating the story successfully.
+
+<CardGrid cols={3}>
+  <Card title="Jack (Protagonist)">
+    - Main perspective character
+    - Drive the overarching plot
+    - Determines moral alignment
+  </Card>
+  <Card title="Darci">
+    - Central character for relationship arcs
+    - Key source of sci-fi lore
+    - Requires specific choices to bond
+  </Card>
+  <Card title="Supporting Cast">
+    - Adds depth to the world
+    - Provides alternate perspectives
+    - Influences minor side-quests
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Relationship Building">
+Building a strong rapport with Darci early on simplifies later decision-making processes, as she becomes a reliable source of information during critical plot junctures.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gameplay Mechanics and Installation">
+
+Ripples is designed for accessibility across multiple platforms. Whether you are playing on a PC or an Android device, the core mechanics remain consistent.
+
+<Steps>
+  <Step num="1" title="Official Download">
+    Access the game via the [official itch.io page](https://itch.io) to ensure you have the latest version.
+  </Step>
+  <Step num="2" title="System Check">
+    Verify your device meets the requirements for Episode 9, especially regarding storage space for high-quality assets.
+  </Step>
+  <Step num="3" title="Save Management">
+    Use the in-game menu to create manual save files before making major narrative choices.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Installation Note">
+Always download updates directly from the official Jestur itch.io profile. Avoid third-party sites to ensure file integrity and security.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Milestones">
+
+Tracking your progress through the episodes helps in maintaining a clear understanding of the unfolding mystery.
+
+| Milestone | Requirement | Reward |
+| :--- | :--- | :--- |
+| Episode 7 Completion | Finish main questline | Lore Unlocked |
+| Episode 8 Choices | Influence character relations | New Dialogue |
+| Episode 9 Milestone | Finalize current arc | Story Progression |
+
+<Checklist
+  id="progression-tasks"
+  title="Progression Checklist:"
+  items={[
+    "Sync save files across devices",
+    "Unlock all primary character routes",
+    "Complete the Episode 9 main path",
+    "Review the latest changelog on Patreon"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Ripples Alice a separate game?",
+    answer: "No, Ripples Alice refers to specific character-centric narrative paths within the core Ripples game developed by Jestur."
+  },
+  {
+    question: "How often are new episodes released?",
+    answer: "Updates are released periodically. You can follow the official Discord or the Jestur Patreon page for the most accurate release schedules."
+  },
+  {
+    question: "Can I play Ripples on Android?",
+    answer: "Yes, Ripples supports Android. Ensure you download the official APK from the itch.io page for the best performance."
+  }
+]} />
+
+<Callout type="info" title="Community Resources">
+For further discussion and community-driven guides, the official [r/ripples](https://reddit.com) subreddit remains the most active hub for player theories and walkthrough support.
+</Callout>
+
+</Section>
