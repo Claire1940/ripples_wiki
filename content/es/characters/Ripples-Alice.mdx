@@ -1,0 +1,137 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ripples Alice: Guía completa de la historia y los personajes",
+  description: "Explora la profundidad narrativa de Ripples Alice, cubriendo las rutas de los personajes, las elecciones clave y los consejos esenciales de guía para los últimos episodios.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ripples+Alice+Guide",
+  date: "2026-06-22",
+  author: "Equipo de la Wiki de Ripples"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Ripples Alice** representa un arco narrativo central dentro de la experiencia de la novela visual de ciencia ficción.
+- **Las elecciones ramificadas** afectan significativamente el estado de la relación con personajes como Darci y Jack.
+- **El Episodio 9** es la última actualización, que introduce desarrollos críticos en la trama y nuevos caminos en la historia.
+- **Guarda tu progreso** con frecuencia para explorar diferentes resultados sin tener que reiniciar todo el episodio.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo la estructura narrativa">
+
+La historia de Ripples se define por su compleja ambientación de ciencia ficción e interacciones impulsadas por los personajes. Los jugadores navegan por las vidas de Jack y Darci, donde cada decisión tiene repercusiones en la línea temporal, alterando potencialmente el resultado final de cada episodio.
+
+**Elementos narrativos clave:**
+| Elemento | Descripción | Impacto |
+| :--- | :--- | :--- |
+| Caminos ramificados | Elecciones que conducen a diálogos únicos | Alto |
+| Rutas de personajes | Arcos de historia enfocados en PNJ específicos | Medio |
+| Actualizaciones de episodios | Lanzamientos de nuevo contenido a través de itch.io | Alto |
+
+<Callout type="tip" title="Narrativa estratégica">
+Al jugar los nuevos episodios, prioriza la consistencia en los rasgos de personalidad de tu personaje. Esto a menudo desbloquea opciones de diálogo ocultas que de otro modo serían inaccesibles.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rutas de personajes y relaciones">
+
+El desarrollo de los personajes es el núcleo de la experiencia de Ripples. Comprender las motivaciones de figuras clave como Darci es esencial para navegar la historia con éxito.
+
+<CardGrid cols={3}>
+  <Card title="Jack (Protagonista)">
+    - Personaje principal desde cuya perspectiva se juega
+    - Impulsa la trama general
+    - Determina la alineación moral
+  </Card>
+  <Card title="Darci">
+    - Personaje central para los arcos de relación
+    - Fuente clave de información sobre la ciencia ficción del juego
+    - Requiere elecciones específicas para estrechar lazos
+  </Card>
+  <Card title="Elenco secundario">
+    - Añade profundidad al mundo
+    - Proporciona perspectivas alternativas
+    - Influencia en misiones secundarias menores
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Construcción de relaciones">
+Construir una buena relación con Darci desde el principio simplifica los procesos de toma de decisiones posteriores, ya que se convierte en una fuente confiable de información durante las coyunturas críticas de la trama.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de juego e instalación">
+
+Ripples está diseñado para ser accesible en múltiples plataformas. Ya sea que juegues en una PC o en un dispositivo Android, las mecánicas principales siguen siendo las mismas.
+
+<Steps>
+  <Step num="1" title="Descarga oficial">
+    Accede al juego a través de la [página oficial de itch.io](https://itch.io) para asegurarte de tener la última versión.
+  </Step>
+  <Step num="2" title="Comprobación del sistema">
+    Verifica que tu dispositivo cumpla con los requisitos para el Episodio 9, especialmente en lo que respecta al espacio de almacenamiento para recursos de alta calidad.
+  </Step>
+  <Step num="3" title="Gestión de partidas guardadas">
+    Usa el menú del juego para crear archivos de guardado manual antes de tomar decisiones narrativas importantes.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Nota de instalación">
+Descarga siempre las actualizaciones directamente desde el perfil oficial de Jestur en itch.io. Evita los sitios de terceros para garantizar la integridad y seguridad de los archivos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de progresión">
+
+Seguir tu progreso a lo largo de los episodios te ayudará a mantener una comprensión clara del misterio que se va desarrollando.
+
+| Hito | Requisito | Recompensa |
+| :--- | :--- | :--- |
+| Finalización del Episodio 7 | Terminar la línea de misiones principal | Lore desbloqueado |
+| Elecciones del Episodio 8 | Influir en las relaciones de los personajes | Nuevos diálogos |
+| Hito del Episodio 9 | Finalizar el arco actual | Progresión de la historia |
+
+<Checklist
+  id="progression-tasks"
+  title="Lista de verificación de progresión:"
+  items={[
+    "Sincronizar archivos de guardado entre dispositivos",
+    "Desbloquear todas las rutas principales de los personajes",
+    "Completar la ruta principal del Episodio 9",
+    "Revisar el registro de cambios más reciente en Patreon"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Ripples Alice un juego independiente?",
+    answer: "No, Ripples Alice se refiere a rutas narrativas específicas centradas en personajes dentro del juego principal Ripples desarrollado por Jestur."
+  },
+  {
+    question: "¿Con qué frecuencia se lanzan nuevos episodios?",
+    answer: "Las actualizaciones se lanzan periódicamente. Puedes seguir el Discord oficial o la página de Patreon de Jestur para conocer los calendarios de lanzamiento más precisos."
+  },
+  {
+    question: "¿Puedo jugar a Ripples en Android?",
+    answer: "Sí, Ripples es compatible con Android. Asegúrate de descargar el APK oficial desde la página de itch.io para obtener el mejor rendimiento."
+  }
+]} />
+
+<Callout type="info" title="Recursos de la comunidad">
+Para más debates y guías creadas por la comunidad, el subreddit oficial [r/ripples](https://reddit.com) sigue siendo el centro más activo para las teorías de los jugadores y el soporte con guías de juego.
+</Callout>
+
+</Section>
