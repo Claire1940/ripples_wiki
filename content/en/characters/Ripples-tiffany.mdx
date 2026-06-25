@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Ripples Tiffany: Character Guide & Yoga Interaction Walkthrough",
+  description: "Master the Tiffany route in Ripples. Explore yoga session choices, character progression across Episode 9, and technical fixes for Android users.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Ripples+Tiffany+Guide",
+  date: "2026-06-25",
+  author: "Ripples Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ripples Tiffany** is a central character featured prominently in the yoga sessions and early-to-mid episode narrative arcs.
+- **Yoga Interactions** serve as a primary method for building rapport, though some sequences remain linear regardless of early-game choices.
+- **Episode 9 Content** introduces significant updates to character models and background animations during Tiffany's scenes.
+- **Technical Fixes** are required for Android players experiencing "gray screens" or missing image files in the archive.rpa folder.
+- **Story Pathing** in Ripples often follows a "harem" structure, allowing players to interact with Tiffany alongside other leads like Skylar and Jessica.
+</Callout>
+
+<Section icon={Map} title="Character Profile: Understanding Ripples Tiffany">
+
+Tiffany represents a significant pillar of the *Ripples* narrative, often associated with the protagonist's domestic and fitness-oriented interactions. As a character, she provides a grounded contrast to the high-concept sci-fi and time-travel elements that drive the main plot. Players first encounter her in the early episodes, where her role establishes the "slice-of-life" pacing that balances the more intense mystery segments.
+
+In the 2026 version of the game, Tiffany's character model has undergone several iterations to improve animation fluidity. Her interactions are primarily centered around the yoga studio and shared living spaces, making her one of the most accessible characters for consistent dialogue progression.
+
+| Attribute | Detail | Significance |
+| :--- | :--- | :--- |
+| **First Appearance** | Episode 1 | Establishes early-game narrative tone |
+| **Primary Location** | Yoga Studio / Home | Main hub for character-specific events |
+| **Key Activity** | Yoga Sessions | Primary method for unlocking unique dialogue |
+| **Narrative Role** | Supporting Lead | Influences the protagonist's daily routine |
+| **Update Status** | Episode 9 Optimized | Enhanced textures and background depth |
+
+<Callout type="tip" title="Interaction Strategy">
+To maximize your time with Tiffany, prioritize visiting the yoga studio during morning cycles. While some events are scripted to occur automatically, consistent check-ins ensure you don't miss the subtle dialogue changes introduced in the latest patches.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Yoga Session Mechanics and Choice Impact">
+
+The yoga sessions involving **Ripples Tiffany** are among the most discussed segments in the community. These scenes are not merely cosmetic; they serve as a benchmark for the game's "Linear vs. Branching" design philosophy. Observations from the player base suggest that while *Ripples* offers various choices, certain milestones with Tiffany are inevitable to ensure story continuity.
+
+<CardGrid cols={2}>
+  <Card title="Linear Progression">
+    Many players have noted that even if they skip specific early interactions with Tiffany, the game eventually triggers the yoga sequences. This ensures that the time-travel narrative remains cohesive without breaking the logic of the protagonist's established relationships.
+  </Card>
+  <Card title="Interactive Elements">
+    During these sessions, players are often presented with choices regarding focus and dialogue tone. While these may not drastically alter the ending of Episode 9, they significantly impact the "Relationship Points" tracked in the game's internal variables.
+  </Card>
+</CardGrid>
+
+| Session Phase | Choice Type | Potential Outcome |
+| :--- | :--- | :--- |
+| **Introductory Yoga** | Observational | Unlocks early-game character lore |
+| **Advanced Poses** | Participation | Increases rapport and triggers unique animations |
+| **Post-Session Chat** | Supportive vs. Casual | Influences Tiffany's dialogue in subsequent episodes |
+| **Episode 4 Hike** | Collaborative | Builds trust during the "Piggyback" sequence |
+
+<Callout type="warning" title="Linearity Notice">
+If you are looking for a game where every single choice creates a completely different universe, note that *Ripples* uses a "Fixed Point" narrative. Tiffany’s presence in the yoga sessions is often a fixed event required to move the plot toward the Episode 9 climax.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Technical Guide: Fixing Android Image Issues">
+
+A common hurdle for players following the **Ripples Tiffany** route on mobile devices is the "Gray Screen" or "Missing Images" bug. This typically occurs when the game's asset files, specifically the `archive.rpa`, are not correctly mapped by the Android OS. Following the Episode 9 update, a specific file structure is required to ensure Tiffany's high-definition renders load correctly.
+
+<Steps>
+  <Step num="1" title="Download the Correct Assets">
+    Ensure you have the latest .apk and the separate .rpa files provided by the developer on itch.io or Patreon. The mobile version often requires manual file placement.
+  </Step>
+  <Step num="2" title="Locate the Game Folder">
+    Use a file manager (like ZArchiver) to find the `Android/data/com.jestur.ripples/files/game` directory. This is where the core assets must reside.
+  </Step>
+  <Step num="3" title="Replace the Archive File">
+    Delete any existing `archive.rpa` in the game folder and copy the new version into its place. Ensure the file name is exactly `archive.rpa` with no extra extensions.
+  </Step>
+  <Step num="4" title="Verify File Permissions">
+    Go to your phone's App Settings, find Ripples, and ensure "Files and Media" access is granted. Without this, the game cannot read the textures for Tiffany's scenes.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Resolved Issues">
+Users who follow these steps correctly report that the gray screens are replaced with the intended 3D animations. If you still encounter issues, try clearing the app cache before restarting the game.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Episode 9 Progression and Character Comparison">
+
+Episode 9 brought significant changes to how Tiffany interacts with the broader cast, including characters like Skylar, Jessica, and Riley. The narrative has shifted toward a more integrated "harem" approach, where the protagonist manages multiple relationships simultaneously. Tiffany’s role in this episode focuses on stability and emotional support as the sci-fi stakes escalate.
+
+| Character | Interaction Style | Episode 9 Focus |
+| :--- | :--- | :--- |
+| **Tiffany** | Consistent/Stable | Yoga, domestic life, and emotional grounding |
+| **Skylar** | High-Volume Content | Major narrative branches and frequent scenes |
+| **Jessica** | Recent Upgrade | Significant visual overhaul and new dialogue paths |
+| **Riley** | High-Intensity | Unpredictable plot twists and mystery-driven scenes |
+| **Jenny** | Protect/Save | Central to the "Rescue" subplot and emotional stakes |
+
+<Callout type="info" title="Harem Dynamics">
+Unlike some visual novels that force a single-choice path early on, *Ripples* allows players to pursue Tiffany alongside other characters. However, pay attention to the choice in Episode 3 between Jessica and Skylar, as this can affect which secondary characters appear in certain group scenes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Completion Checklist for Tiffany's Route">
+
+To ensure you have experienced all available content related to **Ripples Tiffany** through the current 2026 build, refer to the following milestones.
+
+<Checklist
+  id="tiffany-milestones"
+  title="Tiffany Content Checklist:"
+  items={[
+    "Complete all Episode 1-4 yoga introductory sessions",
+    "Trigger the Episode 4 outdoor background animation sequence",
+    "Unlock the Episode 9 high-definition yoga studio renders",
+    "Participate in the shared household dialogue cycles",
+    "View the 'Battlefield' hint render in the Portal Room (Riley/Tiffany context)",
+    "Successfully install the Android .rpa patch for visual parity"
+  ]}
+/>
+
+<Callout type="tip" title="Save Management">
+Always create a dedicated save file before the start of each new Episode. This allows you to revisit Tiffany's scenes if a future update introduces retrospective choice impacts.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I focus exclusively on Tiffany in Ripples?",
+    answer: "While you can prioritize Tiffany's scenes, Ripples is designed as a multi-character narrative. You will naturally interact with other characters like Skylar and Jessica as the time-travel plot progresses."
+  },
+  {
+    question: "Why are Tiffany's yoga scenes showing a gray screen on my phone?",
+    answer: "This is a common technical issue on Android. It usually means the game cannot find the archive.rpa file. Ensure the file is placed in the correct game directory and that the app has file access permissions."
+  },
+  {
+    question: "Are there any missable scenes with Tiffany in Episode 9?",
+    answer: "Most of Tiffany's core scenes are part of the main progression. However, skipping the morning yoga sessions can lead to missing specific dialogue variations and rapport-building opportunities."
+  },
+  {
+    question: "How does the time-travel plot affect Tiffany's relationship?",
+    answer: "The time-travel elements create a 'linear' feel where certain outcomes are fixed. Even if you make different choices, Tiffany's role as a grounding presence for the protagonist remains a constant throughout the current episodes."
+  }
+]} />
+
+</Section>
